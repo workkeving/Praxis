@@ -13,7 +13,7 @@ type Modo = Sala | 'repaso' | 'simulacro';
 // === DEBUG ===
 // Forzar caso inicial específico al entrar a Urgencias (para testear layout).
 // Poner en null para volver a comportamiento aleatorio normal.
-const CASO_DEBUG_URGENCIAS: number | null = 4; // Hombre 25 años, LAST por lidocaína
+const CASO_DEBUG_URGENCIAS: number | null = null; // Hombre 25 años, LAST por lidocaína
 
 function eligePool(modo: Modo, casosPendientes: number[]): Pregunta[] {
   if (modo === 'repaso') {
