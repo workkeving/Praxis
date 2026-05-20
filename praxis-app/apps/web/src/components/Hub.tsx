@@ -15,25 +15,27 @@ interface SalaInfo {
   descripcion: string;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 const SALAS: SalaInfo[] = [
   {
     id: 'urgencias',
     nombre: 'Urgencias',
-    fondo: '/assets/fondos/fondo_urgencias.png',
+    fondo: `${BASE}assets/fondos/fondo_urgencias.png`,
     modo: 'urgencias',
     descripcion: 'Casos agudos, trauma, toxicología',
   },
   {
     id: 'consultorio',
     nombre: 'Consultorio',
-    fondo: '/assets/fondos/fondo_consultorio.png',
+    fondo: `${BASE}assets/fondos/fondo_consultorio.png`,
     modo: 'consulta',
     descripcion: 'Ambulatorio, gineco, psiquiatría, derma',
   },
   {
     id: 'hospitalizacion',
     nombre: 'Hospitalización',
-    fondo: '/assets/fondos/fondo_hospitalizacion.png',
+    fondo: `${BASE}assets/fondos/fondo_hospitalizacion.png`,
     modo: 'consulta',
     descripcion: 'Casos hospitalizados, UCI, complejos',
   },
@@ -61,7 +63,7 @@ export function Hub({ onSelectModo, onOpenExpediente }: Props) {
         {/* Header con logo, nivel y racha */}
         <div className="mb-6 flex items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-3">
-            <img src="/assets/ui/logo.png" alt="Praxis" className="h-10 w-10 shrink-0 object-contain" />
+            <img src={`${BASE}assets/ui/logo.png`} alt="Praxis" className="h-10 w-10 shrink-0 object-contain" />
             <div className="min-w-0">
               <div className="text-[10px] uppercase tracking-wider text-praxis-300">Nivel</div>
               <div className="truncate font-display text-base font-bold text-warm-50">{nivel.nombre}</div>

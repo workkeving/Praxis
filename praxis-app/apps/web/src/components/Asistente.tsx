@@ -2,11 +2,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export type Expresion = 'idle' | 'acierto' | 'error' | 'explicando';
 
+const BASE = import.meta.env.BASE_URL;
+
 const SRC: Record<Expresion, string> = {
-  idle: '/assets/personaje/asistente_idle.png',
-  acierto: '/assets/personaje/asistente_acierto.png',
-  error: '/assets/personaje/asistente_error.png',
-  explicando: '/assets/personaje/asistente_explicando.png',
+  idle: `${BASE}assets/personaje/asistente_idle.png`,
+  acierto: `${BASE}assets/personaje/asistente_acierto.png`,
+  error: `${BASE}assets/personaje/asistente_error.png`,
+  explicando: `${BASE}assets/personaje/asistente_explicando.png`,
 };
 
 interface Props {

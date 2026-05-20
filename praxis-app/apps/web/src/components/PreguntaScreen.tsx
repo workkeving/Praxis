@@ -16,10 +16,12 @@ interface Props {
   cronometro?: boolean;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 function fondoFor(sala: string): string {
-  if (sala === 'urgencias') return '/assets/fondos/fondo_urgencias.png';
-  if (sala === 'hospitalizacion') return '/assets/fondos/fondo_hospitalizacion.png';
-  return '/assets/fondos/fondo_consultorio.png';
+  if (sala === 'urgencias') return `${BASE}assets/fondos/fondo_urgencias.png`;
+  if (sala === 'hospitalizacion') return `${BASE}assets/fondos/fondo_hospitalizacion.png`;
+  return `${BASE}assets/fondos/fondo_consultorio.png`;
 }
 
 export function PreguntaScreen({ pregunta, onClose, onNext }: Props) {
