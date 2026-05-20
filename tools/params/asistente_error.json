@@ -1,0 +1,7 @@
+{
+  "prompt": "2D anime manga illustration of the same young female medical assistant from the reference image: short dark hair, white medical lab coat over blue scrubs, stethoscope around neck. Pose and expression: gently concerned but supportive, soft worried smile, slightly tilted head, one hand near her cheek or holding her chin thoughtfully. Empathetic, NOT judgmental or sad. Looking at the viewer with kind warm eyes. Style: clean line art, soft cel-shading. Solid neutral medium gray background. Three-quarter body composition centered vertically. Portrait 9:16 mobile aspect ratio. High quality anime illustration.",
+  "outputPath": "K:/01. Personal Projects/07. Praxis/assets/personaje/asistente_error.png",
+  "aspectRatio": "9:16",
+  "referenceImages": ["K:/01. Personal Projects/07. Praxis/Documents/Art References/Asistente.png", "K:/01. Personal Projects/07. Praxis/assets/personaje/asistente_idle.png"],
+  "temperature": 0.7
+}

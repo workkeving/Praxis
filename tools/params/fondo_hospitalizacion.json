@@ -1,0 +1,7 @@
+{
+  "prompt": "2D anime manga illustration, hospital inpatient room interior, portrait vertical composition for a mobile visual novel. View showing: an empty hospital bed against the side wall, IV drip stand next to it, window with soft natural light filtering in through partly-drawn blinds, side table with a glass of water and a clipboard, calm ambient lighting. No people visible. Atmosphere: quiet, peaceful, slightly somber. Style: clean anime background art with sharp linework, gentle cel-shading, painterly anime style similar to the reference images. Color palette with muted blues, soft whites, warm beige accents. Portrait 9:16 mobile aspect ratio. High detail anime background.",
+  "outputPath": "K:/01. Personal Projects/07. Praxis/assets/fondos/fondo_hospitalizacion.png",
+  "aspectRatio": "9:16",
+  "referenceImages": ["K:/01. Personal Projects/07. Praxis/Documents/Art References/Mesto_1_1.webp", "K:/01. Personal Projects/07. Praxis/Documents/Art References/Mesto_3_1.webp", "K:/01. Personal Projects/07. Praxis/Documents/Art References/Mesto_4_5.webp"],
+  "temperature": 0.7
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply h-full w-full;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply font-body bg-praxis-900 text-warm-50;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  button {
+    @apply select-none;
+  }
+}
+
+@layer components {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .option-card {
+    @apply w-full text-left px-4 py-3 rounded-2xl border-2 border-warm-50/15 bg-warm-50/5 text-warm-50 font-medium transition-all duration-200 active:scale-[0.98];
+  }
+  .option-card:not(:disabled):hover {
+    @apply border-warm-50/30 bg-warm-50/10;
+  }
+  .option-card.correct {
+    @apply border-green-400 bg-green-400/20 text-green-50;
+  }
+  .option-card.wrong {
+    @apply border-urgent-500 bg-urgent-500/15 text-warm-50 animate-shake;
+  }
+}

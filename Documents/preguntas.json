@@ -1,0 +1,3987 @@
+{
+  "metadata": {
+    "proyecto": "PRAXIS",
+    "fuente": "Examen UdeA - proporcionado por Kevin",
+    "total_preguntas": 68,
+    "version": "2.1-final",
+    "fecha_proceso": "2026-05-20",
+    "nota_critica": "Las explicaciones fueron generadas por Claude y DEBEN ser revisadas por personal médico antes de publicar. Las respuestas correctas se determinaron por criterio clínico estándar y guías vigentes (AHA 2020, ESC, OPS, Minsalud). Preguntas marcadas con revisar=true tienen incertidumbre clínica.",
+    "estilo": "Asistente sin emojis, tono cálido pero profesional. Narración conversacional, explicación TL;DR con sección 'por qué las otras no' y cierre adaptativo según acierto/error.",
+    "estructura_pregunta": {
+      "id": "número entero único",
+      "especialidad": "categoría clínica",
+      "sala": "urgencias | consultorio | hospitalizacion",
+      "dificultad": "1-3",
+      "llegada": "Frase corta de gancho (pantalla 1)",
+      "narracion_caso": "Narración conversacional del caso por la asistente (pantalla 2)",
+      "ficha_clinica": "Resumen estructurado para tablet lateral",
+      "pregunta": "La pregunta clínica",
+      "opciones": "4 opciones a/b/c/d",
+      "correcta": "letra correcta",
+      "reaccion_acierto": "Frase breve cuando acierta",
+      "reaccion_error": "Frase breve cuando falla",
+      "explicacion": "TL;DR + tratamiento + por qué otras no",
+      "cierre_acierto": "Mensaje motivador si acertó",
+      "cierre_error": "Mensaje empático/pedagógico si falló",
+      "palabras_clave": "Términos para enlace a Wikipedia ES",
+      "revisar": "true si requiere validación médica"
+    }
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "especialidad": "otorrinolaringologia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, vino una mamá preocupada con su hijo de 10 años. Lleva un año con la nariz tapada.",
+      "narracion_caso": "Niño de 10 años. Desde hace un año tiene rinorrea, obstrucción nasal, picazón y estornudos en salvas todos los días. No duerme bien y no se concentra en el colegio. Al examen: hipertrofia bilateral de cornetes inferiores con obstrucción al flujo de aire.",
+      "ficha_clinica": {
+        "paciente": "Niño, 10 años",
+        "tiempo_evolucion": "1 año",
+        "sintomas": "Rinorrea, obstrucción, prurito, estornudos diarios",
+        "examen": "Hipertrofia bilateral de cornetes inferiores"
+      },
+      "pregunta": "¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Esteroide tópico en spray nasal cada 24 horas"
+        },
+        {
+          "letra": "b",
+          "texto": "Antihistamínico oral de primera generación en la noche"
+        },
+        {
+          "letra": "c",
+          "texto": "Antihistamínico oral de segunda generación en la noche"
+        },
+        {
+          "letra": "d",
+          "texto": "Montelukast oral 5 mg cada 24 horas"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Exacto, doctor. Ese era.",
+      "reaccion_error": "No, mire bien la severidad del cuadro.",
+      "explicacion": {
+        "tldr": "Es una rinitis alérgica persistente moderada-severa (síntomas diarios que afectan sueño y escolaridad) con hipertrofia de cornetes.",
+        "tratamiento": "Según ARIA, el corticoide intranasal es la primera línea. Reduce obstrucción, prurito, estornudos y rinorrea, y mejora la hipertrofia de cornetes.",
+        "por_que_otras_no": {
+          "b": "Los antihistamínicos de primera generación son sedantes, contraproducente en un escolar.",
+          "c": "Los antihistamínicos orales tienen menos eficacia sobre la obstrucción nasal que los corticoides tópicos.",
+          "d": "Montelukast es segunda línea, no de elección inicial."
+        }
+      },
+      "cierre_acierto": "Perfecto. Identificar la severidad y elegir bien el tratamiento es lo que hace la diferencia.",
+      "cierre_error": "Tranquilo. La clave aquí es reconocer que es persistente moderada-severa, no leve.",
+      "palabras_clave": [
+        {
+          "termino": "rinitis alérgica",
+          "wiki": "Rinitis_alérgica"
+        },
+        {
+          "termino": "hipertrofia de cornetes",
+          "wiki": "Cornete_nasal"
+        },
+        {
+          "termino": "corticoide intranasal",
+          "wiki": "Corticosteroide"
+        }
+      ],
+      "marcada_en_pdf": "a",
+      "revisar": false
+    },
+    {
+      "id": 2,
+      "especialidad": "dermatologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, adolescente con un cuadro raro. Empezó carbamazepina hace tres semanas y ahora tiene placas dolorosas y fiebre.",
+      "narracion_caso": "Adolescente de 13 años con migraña, le iniciaron carbamazepina. Tres semanas después comenzó con malestar, fiebre, ardor ocular y mialgias. Después aparecieron disfagia y placas eritematosas-parduzcas pruriginosas y dolorosas.",
+      "ficha_clinica": {
+        "paciente": "Adolescente, 13 años",
+        "antecedente": "Carbamazepina iniciada hace 3 semanas",
+        "sintomas": "Fiebre, ardor ocular, disfagia, mialgias",
+        "piel": "Placas eritematosas-parduzcas dolorosas"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Eritema fijo pigmentario"
+        },
+        {
+          "letra": "b",
+          "texto": "Eritema multiforme mayor"
+        },
+        {
+          "letra": "c",
+          "texto": "Erupción por medicamentos con eosinofilia y síntomas sistémicos DRESS"
+        },
+        {
+          "letra": "d",
+          "texto": "Síndrome de Stevens Johnson"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí, ese cuadro mucocutáneo grave tras carbamazepina es clásico.",
+      "reaccion_error": "Mire la combinación de latencia, mucosa y dolor.",
+      "explicacion": {
+        "tldr": "Stevens-Johnson clásico tras carbamazepina: latencia de 2-4 semanas, pródromo con fiebre, compromiso mucoso (ocular, disfagia) y lesiones cutáneas dolorosas.",
+        "tratamiento": "Suspender el fármaco causal de inmediato, manejo de soporte hospitalario tipo quemado, evaluar transferencia a unidad especializada.",
+        "por_que_otras_no": {
+          "a": "El eritema fijo pigmentario es localizado, sin compromiso mucoso ni sistémico.",
+          "b": "El eritema multiforme mayor suele ser postinfeccioso (HSV) con lesiones en diana clásicas.",
+          "c": "DRESS tiene latencia más larga (4-8 semanas) y predominan eosinofilia y compromiso hepático, no el dolor mucoso."
+        }
+      },
+      "cierre_acierto": "Excelente. La carbamazepina es uno de los fármacos clásicos del SJS, esto te puede salvar una vida.",
+      "cierre_error": "Sin problema. SJS vs DRESS confunden a muchos, lo importante es que ahora distinguís la latencia y el patrón mucoso.",
+      "palabras_clave": [
+        {
+          "termino": "Stevens-Johnson",
+          "wiki": "Síndrome_de_Stevens-Johnson"
+        },
+        {
+          "termino": "carbamazepina",
+          "wiki": "Carbamazepina"
+        },
+        {
+          "termino": "DRESS",
+          "wiki": "Síndrome_DRESS"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Diferencial fino SJS vs DRESS. El caso menciona prurito (más DRESS) pero latencia y disfagia favorecen SJS."
+    },
+    {
+      "id": 3,
+      "especialidad": "neumologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, vuelve el niño asmático. Ya está con montelukast pero sigue tosiendo de noche.",
+      "narracion_caso": "Niño de 10 años con asma, en tratamiento con montelukast 5 mg y salbutamol de rescate. Última crisis hace 6 meses requirió observación y esteroides orales. Ahora tiene 1-2 despertares nocturnos por semana por tos.",
+      "ficha_clinica": {
+        "paciente": "Niño, 10 años",
+        "diagnostico": "Asma",
+        "tratamiento_actual": "Montelukast + salbutamol",
+        "control": "Parcialmente controlada (despertares nocturnos)"
+      },
+      "pregunta": "¿Cuál es la mejor opción terapéutica para adicionar?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Beclometasona bronquial 100 mcg cada 12 horas"
+        },
+        {
+          "letra": "b",
+          "texto": "Desloratadina 5 mg vía oral cada noche"
+        },
+        {
+          "letra": "c",
+          "texto": "Beclometasona bronquial 250 mcg cada noche"
+        },
+        {
+          "letra": "d",
+          "texto": "Bromuro de tiotropio bronquial 5 mcg cada 24 horas"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Bien. Escalón terapéutico apropiado.",
+      "reaccion_error": "Pensá en la guía GINA pediátrica.",
+      "explicacion": {
+        "tldr": "Asma parcialmente controlada en niño con monoterapia con montelukast. Hay que escalar a corticoide inhalado en dosis baja.",
+        "tratamiento": "Según GINA, beclometasona 100 mcg cada 12 horas es dosis pediátrica baja apropiada y el régimen dos veces al día es preferible.",
+        "por_que_otras_no": {
+          "b": "La desloratadina no controla asma, es antihistamínico.",
+          "c": "250 mcg es dosis alta para esta edad; en escalada se empieza con dosis baja.",
+          "d": "El tiotropio no se usa de primera línea en pediatría."
+        }
+      },
+      "cierre_acierto": "Bien hecho. Escalonar correctamente evita exacerbaciones futuras.",
+      "cierre_error": "Tranquilo. La regla en pediatría es empezar bajo y escalar si no se controla.",
+      "palabras_clave": [
+        {
+          "termino": "asma",
+          "wiki": "Asma"
+        },
+        {
+          "termino": "beclometasona",
+          "wiki": "Beclometasona"
+        },
+        {
+          "termino": "GINA",
+          "wiki": "Iniciativa_Global_para_el_Asma"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 4,
+      "especialidad": "toxicologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, código en sala de sutura. Venga rápido.",
+      "narracion_caso": "Hombre de 25 años. Le estaban suturando heridas en cuero cabelludo y muslo. Le infiltraron lidocaína y empezó a quejarse de sabor metálico y un pitido en los oídos. Después convulsionó. Lo intubamos pero acaba de perder el pulso. Monitor muestra actividad eléctrica sin pulso.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 25 años",
+        "ubicacion": "Sala de sutura",
+        "exposicion": "Lidocaína infiltrativa",
+        "evolucion": "Sabor metálico → tinnitus → convulsión → AESP"
+      },
+      "pregunta": "¿Cuál es la acción inmediata más indicada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Administrar 1 mg de adrenalina intravenoso"
+        },
+        {
+          "letra": "b",
+          "texto": "Iniciar compresiones torácicas"
+        },
+        {
+          "letra": "c",
+          "texto": "Utilizar emulsión lipídica intravenosa"
+        },
+        {
+          "letra": "d",
+          "texto": "Verificar el ritmo de paro con el desfibrilador"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí, exactamente. Vamos por el Intralipid.",
+      "reaccion_error": "No era esa. Pero tranquilo, este caso es de los que aprendes para siempre.",
+      "explicacion": {
+        "tldr": "Es LAST (Toxicidad Sistémica por Anestésicos Locales). El sabor metálico + tinnitus + convulsión tras infiltración con lidocaína es el cuadro clásico.",
+        "tratamiento": "Antídoto específico: emulsión lipídica al 20% (Intralipid). Bolo de 1.5 mL/kg + infusión continua. La grasa secuestra el anestésico circulante.",
+        "por_que_otras_no": {
+          "a": "En LAST la adrenalina en dosis altas (1 mg) empeora el pronóstico. ASRA recomienda menos de 1 mcg/kg.",
+          "b": "Las compresiones son estándar en cualquier paro pero no rescatan la cardiotoxicidad específica del LAST.",
+          "d": "AESP no se desfibrila, es ritmo no desfibrilable."
+        }
+      },
+      "cierre_acierto": "Estos son los casos que separan a un buen médico. Lo hiciste perfecto, doctor.",
+      "cierre_error": "Tranquilo, doctor. El LAST es uno de esos diagnósticos que duele aprender pero que nunca se olvida.",
+      "palabras_clave": [
+        {
+          "termino": "LAST",
+          "wiki": "Toxicidad_sistémica_por_anestésicos_locales"
+        },
+        {
+          "termino": "lidocaína",
+          "wiki": "Lidocaína"
+        },
+        {
+          "termino": "emulsión lipídica",
+          "wiki": "Emulsión_lipídica_intravenosa"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 5,
+      "especialidad": "toxicologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, llegó un paro. Lo encontraron al lado de jeringas y ampollas de meperidina.",
+      "narracion_caso": "Hombre de 30 años, en paro cardiorrespiratorio. Al lado había jeringas y ampollas de meperidina. Viene con ventilación con bolsa-mascarilla y compresiones torácicas desde el traslado.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 30 años",
+        "antecedente": "Posible sobredosis de meperidina",
+        "estado": "Paro cardiorrespiratorio",
+        "manejo_actual": "RCP en curso"
+      },
+      "pregunta": "¿Cuál es la conducta inicial en urgencias?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Canalizar una vena periférica calibre 18 y administrar naloxona 0,4 mg"
+        },
+        {
+          "letra": "b",
+          "texto": "Continuar con maniobras de reanimación avanzada"
+        },
+        {
+          "letra": "c",
+          "texto": "Descartar otras causas de paro cardiorrespiratorio"
+        },
+        {
+          "letra": "d",
+          "texto": "Administrar atropina 1 mg y adrenalina 1 mg IV"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí, primero lo esencial. Salvar la vida.",
+      "reaccion_error": "Recordá la prioridad ABCDE en paro.",
+      "explicacion": {
+        "tldr": "En paro cardíaco confirmado, la prioridad absoluta es la reanimación cardiopulmonar avanzada (RCP de calidad, adrenalina cada 3-5 min, identificación del ritmo).",
+        "tratamiento": "Continuar RCP de calidad, oxigenación, adrenalina 1 mg IV cada 3-5 min, identificación de ritmo. Naloxona se puede considerar post-paro, no como primera medida.",
+        "por_que_otras_no": {
+          "a": "La naloxona no está indicada como primera medida en paro cardíaco confirmado por opioides según AHA 2020. Se usa solo en paro respiratorio aislado.",
+          "c": "Las 'H y T' son parte del ALS pero no preceden a continuar las maniobras de RCP.",
+          "d": "La atropina ya no se recomienda de rutina en paro cardíaco desde 2010."
+        }
+      },
+      "cierre_acierto": "Muy bien. En paro siempre lo primero es lo primero: RCP de calidad.",
+      "cierre_error": "Tranquilo. La regla en paro es nunca interrumpir las maniobras por buscar antídotos.",
+      "palabras_clave": [
+        {
+          "termino": "naloxona",
+          "wiki": "Naloxona"
+        },
+        {
+          "termino": "meperidina",
+          "wiki": "Petidina"
+        },
+        {
+          "termino": "reanimación cardiopulmonar",
+          "wiki": "Reanimación_cardiopulmonar"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 6,
+      "especialidad": "cirugia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, herida por arma de fuego en cuello. Adolescente, estable pero con enfisema bilateral.",
+      "narracion_caso": "Adolescente de 16 años, herida por proyectil hace 30 minutos. Orificio de entrada en zona II derecha, salida en zona III izquierda. Enfisema subcutáneo bilateral, leve disfonía y disfagia. PA 110/70, FC 95. Sin sangrado activo, sin soplos, pulsos distales conservados. No hay hematemesis, melenas, estridor ni heridas soplantes.",
+      "ficha_clinica": {
+        "paciente": "Adolescente, 16 años",
+        "trauma": "Herida cervical por PAF transfixiante",
+        "signos_duros": "AUSENTES",
+        "signos_blandos": "Enfisema bilateral, disfonía, disfagia"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Embolización por radiología intervencionista"
+        },
+        {
+          "letra": "b",
+          "texto": "Exploración cervical"
+        },
+        {
+          "letra": "c",
+          "texto": "Observación"
+        },
+        {
+          "letra": "d",
+          "texto": "Realización de tomografía contrastada de cuello"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Sin signos duros, la angio-TC es el estudio inicial.",
+      "reaccion_error": "Buscá los signos duros antes de llevarlo a cirugía.",
+      "explicacion": {
+        "tldr": "Trauma penetrante de cuello con violación del platisma pero SIN signos duros (hemorragia activa, hematoma expansivo, soplo, shock, déficit). El paciente tiene signos blandos (disfonía, disfagia, enfisema).",
+        "tratamiento": "Manejo moderno: 'no zone approach' con angio-TC multidetector como estudio inicial. Permite evaluar simultáneamente vasos, vía aérea y tracto digestivo.",
+        "por_que_otras_no": {
+          "a": "La embolización es para sangrados activos identificados, no para tamizaje.",
+          "b": "La exploración quirúrgica solo se indica con signos duros.",
+          "c": "La observación es insuficiente cuando hay signos blandos."
+        }
+      },
+      "cierre_acierto": "Muy bien. Saber cuándo NO operar es tan importante como saber cuándo operar.",
+      "cierre_error": "Tranquilo, el algoritmo de cuello penetrante es uno de los más cambiados en la última década.",
+      "palabras_clave": [
+        {
+          "termino": "trauma cervical",
+          "wiki": "Traumatismo_cervical"
+        },
+        {
+          "termino": "angiotomografía",
+          "wiki": "Angiotomografía"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 7,
+      "especialidad": "cirugia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, paciente con dolor inguinal raro. Ya lo han operado dos veces de hernia.",
+      "narracion_caso": "Hombre de 40 años. Dos meses con dolor inguinal derecho 'como una cortada', irradiado al testículo y al muslo. Tiene zonas con anestesia y otras con hiperestesia. Empeora con la actividad sexual y mejora con la flexión de la cadera. Antecedente: dos correcciones de hernia inguinal por vía anterior.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 40 años",
+        "antecedente": "Dos hernioplastias inguinales anteriores",
+        "dolor": "Tipo cortada, irradiado a testículo y muslo",
+        "sensorial": "Mixto: anestesia + hiperestesia"
+      },
+      "pregunta": "¿Cuál es la primera línea de tratamiento?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Etoricoxib"
+        },
+        {
+          "letra": "b",
+          "texto": "Gabapentin"
+        },
+        {
+          "letra": "c",
+          "texto": "Intervencionismo analgésico"
+        },
+        {
+          "letra": "d",
+          "texto": "Tramadol"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí, dolor neuropático, manejo farmacológico de primera línea.",
+      "reaccion_error": "Identificá primero el TIPO de dolor.",
+      "explicacion": {
+        "tldr": "Dolor neuropático post-herniorrafia (atrapamiento del nervio ilioinguinal o iliohipogástrico): dolor lancinante, alteraciones sensitivas mixtas, irradiación característica.",
+        "tratamiento": "Primera línea del dolor neuropático localizado: gabapentina o pregabalina (anticonvulsivantes moduladores).",
+        "por_que_otras_no": {
+          "a": "Los AINEs como etoricoxib son poco efectivos en dolor neuropático puro.",
+          "c": "El intervencionismo (bloqueo nervioso) es segunda línea si falla farmacoterapia.",
+          "d": "El tramadol como opioide débil es menos efectivo y tiene perfil de efectos adversos peor."
+        }
+      },
+      "cierre_acierto": "Excelente. Reconocer el dolor neuropático cambia completamente el tratamiento.",
+      "cierre_error": "Tranquilo. La regla es: dolor lancinante + alteración sensorial = pensá en neuropático.",
+      "palabras_clave": [
+        {
+          "termino": "dolor neuropático",
+          "wiki": "Dolor_neuropático"
+        },
+        {
+          "termino": "gabapentina",
+          "wiki": "Gabapentina"
+        },
+        {
+          "termino": "nervio ilioinguinal",
+          "wiki": "Nervio_ilioinguinal"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 8,
+      "especialidad": "gastroenterologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre de 38 años con sangrado en heces y pérdida de peso desde hace 6 meses.",
+      "narracion_caso": "Hombre de 38 años, lleva 6 meses con sangrado escaso en deposiciones, diarrea intermitente y dolor cólico que no mejora con flatos. Le han dado antiparasitarios sin mejoría. Bajó 3 kg en 6 meses. Examen abdominal normal, hemorroides externas, ampolla rectal sin masas, guante sin sangre.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 38 años",
+        "tiempo": "6 meses",
+        "sintomas": "Sangrado, diarrea intermitente, dolor cólico, pérdida 3 kg",
+        "examen": "Hemorroides externas, tacto sin sangre"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Ordenar baños de asiento"
+        },
+        {
+          "letra": "b",
+          "texto": "Ordenar cambios en la dieta"
+        },
+        {
+          "letra": "c",
+          "texto": "Ordenar tratamiento antibiótico"
+        },
+        {
+          "letra": "d",
+          "texto": "Solicitar colonoscopia total"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Banderas rojas claras, hay que estudiar.",
+      "reaccion_error": "Las hemorroides no explican la pérdida de peso ni el dolor.",
+      "explicacion": {
+        "tldr": "Múltiples banderas rojas: sangrado persistente, cambio del hábito intestinal, pérdida de peso involuntaria, dolor abdominal crónico. Las hemorroides externas pueden sangrar pero NO explican todo el cuadro.",
+        "tratamiento": "Colonoscopia total para descartar enfermedad inflamatoria intestinal, neoplasia colorrectal y otras patologías estructurales.",
+        "por_que_otras_no": {
+          "a": "Los baños de asiento son sintomáticos para hemorroides, no estudian el cuadro.",
+          "b": "El cambio de dieta no aborda las banderas rojas.",
+          "c": "Los antibióticos sin diagnóstico fueron lo que ya falló."
+        }
+      },
+      "cierre_acierto": "Muy bien. Atribuir todo a hemorroides sin estudiar es de los errores más caros.",
+      "cierre_error": "Recordá: ante banderas rojas, siempre estudiar. Nunca asumir lo más fácil.",
+      "palabras_clave": [
+        {
+          "termino": "colonoscopia",
+          "wiki": "Colonoscopia"
+        },
+        {
+          "termino": "cáncer colorrectal",
+          "wiki": "Cáncer_colorrectal"
+        },
+        {
+          "termino": "enfermedad inflamatoria intestinal",
+          "wiki": "Enfermedad_inflamatoria_intestinal"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 9,
+      "especialidad": "cirugia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, paciente con apendicitis quiere manejo conservador en vez de cirugía.",
+      "narracion_caso": "Hombre de 68 años, 24 horas con apendicitis. TC: apendicitis aguda inicial, apendicolito en la luz, estriación de la grasa pericólica, sin absceso ni plastrón. Ya estaba programado para cirugía pero pide tratamiento solo con antibióticos.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 68 años",
+        "diagnostico": "Apendicitis aguda inicial",
+        "imagen_clave": "APENDICOLITO presente",
+        "complicaciones": "Sin absceso ni plastrón"
+      },
+      "pregunta": "¿Cuál es el motivo para NO aceptar el tratamiento no operatorio?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Edad"
+        },
+        {
+          "letra": "b",
+          "texto": "Evolución menor de 48 horas"
+        },
+        {
+          "letra": "c",
+          "texto": "Presencia de apendicolito"
+        },
+        {
+          "letra": "d",
+          "texto": "Ser el primer episodio"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Exacto. El apendicolito es el contraindicador clásico.",
+      "reaccion_error": "Mirá los criterios del estudio CODA.",
+      "explicacion": {
+        "tldr": "El manejo no operatorio de apendicitis aguda es opción válida en pacientes seleccionados (CODA, APPAC), pero el apendicolito es criterio de EXCLUSIÓN porque aumenta el riesgo de fracaso del tratamiento médico y de complicaciones.",
+        "tratamiento": "Apendicectomía laparoscópica como manejo definitivo.",
+        "por_que_otras_no": {
+          "a": "La edad por sí sola no contraindica el manejo conservador.",
+          "b": "Evolución <48h favorece manejo conservador, no lo contraindica.",
+          "d": "El primer episodio es indicación VÁLIDA del manejo conservador, no contraindicación."
+        }
+      },
+      "cierre_acierto": "Bien. El apendicolito es la línea roja que recordás de por vida.",
+      "cierre_error": "Sin estrés. El detalle del apendicolito es muy específico pero lo recordás para siempre.",
+      "palabras_clave": [
+        {
+          "termino": "apendicitis",
+          "wiki": "Apendicitis"
+        },
+        {
+          "termino": "apendicolito",
+          "wiki": "Apendicolito"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 10,
+      "especialidad": "ortopedia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, joven con fractura de antebrazo recién reducida que empeoró el dolor.",
+      "narracion_caso": "Hombre de 25 años, accidente de moto, fractura cerrada diafisaria de cúbito y radio derecho. Tras la reducción, dolor intenso que no cede con analgésicos. Parestesias en los dedos. El estiramiento pasivo de los dedos le aumenta el dolor. Mano pálida y fría, pulsos radiales presentes.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 25 años",
+        "lesion": "Fractura diafisaria cúbito-radio post-reducción",
+        "alarma": "Dolor desproporcionado + parestesias + estiramiento pasivo doloroso",
+        "vascular": "Mano pálida, pulsos presentes"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Iniciar tratamiento anticoagulante para prevenir trombosis"
+        },
+        {
+          "letra": "b",
+          "texto": "Medir presión intracompartimental seriada, dar más analgésicos y monitorizar 2 horas"
+        },
+        {
+          "letra": "c",
+          "texto": "Realizar fasciotomía de emergencia"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar angiografía para evaluar vascularización"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Tiempo es función, hay que descomprimir ya.",
+      "reaccion_error": "El cuadro clínico es claro, no hay tiempo para más estudios.",
+      "explicacion": {
+        "tldr": "Síndrome compartimental agudo clínicamente evidente. El signo MÁS sensible y precoz es el dolor con estiramiento pasivo (presente). Los pulsos pueden estar presentes hasta etapas tardías.",
+        "tratamiento": "Fasciotomía inmediata. El diagnóstico es CLÍNICO, no requiere confirmación por presiones cuando el cuadro es típico.",
+        "por_que_otras_no": {
+          "a": "La anticoagulación no resuelve el síndrome compartimental, lo empeora.",
+          "b": "Medir presiones no debe retrasar la cirugía cuando la clínica es clara. Cada hora perdida es necrosis.",
+          "d": "La angiografía no aporta cuando el problema es compartimental, no arterial primario."
+        }
+      },
+      "cierre_acierto": "Excelente decisión. Estos casos no perdonan demoras.",
+      "cierre_error": "Tranquilo. Las 5P son una guía pero el dolor desproporcionado y el estiramiento son lo más importante.",
+      "palabras_clave": [
+        {
+          "termino": "síndrome compartimental",
+          "wiki": "Síndrome_compartimental"
+        },
+        {
+          "termino": "fasciotomía",
+          "wiki": "Fasciotomía"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 11,
+      "especialidad": "ortopedia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, paciente con dedo inflamado tras una herida punzante de hace dos días.",
+      "narracion_caso": "Hombre de 45 años, lesión punzante en base del 4to dedo derecho hace 48 horas. Ahora dolor intenso a la extensión de la articulación interfalángica proximal, con edema y eritema en todo el dedo hasta la región medio palmar.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 45 años",
+        "antecedente": "Herida punzante hace 48h",
+        "examen": "Dolor a extensión, edema fusiforme, eritema en trayecto",
+        "alarma": "Compromiso de medio palmar"
+      },
+      "pregunta": "¿Diagnóstico y tratamiento inicial?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Absceso subcutáneo; drenaje quirúrgico y antibióticos orales"
+        },
+        {
+          "letra": "b",
+          "texto": "Celulitis; antibióticos tópicos y férula de inmovilización"
+        },
+        {
+          "letra": "c",
+          "texto": "Infección superficial; antibióticos orales y observación"
+        },
+        {
+          "letra": "d",
+          "texto": "Tenosinovitis infecciosa; antibióticos intravenosos y desbridamiento quirúrgico"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Los signos de Kanavel son inconfundibles.",
+      "reaccion_error": "El compromiso del trayecto tendinoso es lo que cambia todo.",
+      "explicacion": {
+        "tldr": "Tenosinovitis flexora aguda con los signos de Kanavel: dolor a la extensión pasiva, edema fusiforme ('dedo en salchicha'), posición en flexión, dolor a la palpación de la vaina tendinosa.",
+        "tratamiento": "Emergencia quirúrgica: antibiótico IV de amplio espectro (cubrir MRSA) + desbridamiento quirúrgico urgente. Sin esto hay necrosis tendinosa permanente.",
+        "por_que_otras_no": {
+          "a": "El absceso subcutáneo no compromete la vaina tendinosa ni el medio palmar.",
+          "b": "La celulitis no causa dolor a la extensión por compromiso tendinoso.",
+          "c": "La 'infección superficial' subestima un cuadro que pierde el dedo si no se opera."
+        }
+      },
+      "cierre_acierto": "Muy bien. Reconocer Kanavel salva dedos.",
+      "cierre_error": "Anotá los 4 signos de Kanavel, son de los que aparecen en examen y en la vida real.",
+      "palabras_clave": [
+        {
+          "termino": "tenosinovitis",
+          "wiki": "Tenosinovitis"
+        },
+        {
+          "termino": "signos de Kanavel",
+          "wiki": "Tenosinovitis_flexora_infecciosa"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 12,
+      "especialidad": "cirugia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, recién nacido con labio fisurado. Los papás quieren saber cuándo operarlo.",
+      "narracion_caso": "Recién nacido en casa. Al examen: fisura labiopalatina unilateral completa. Los padres preguntan cuál es el mejor momento para la cirugía estética y funcional.",
+      "ficha_clinica": {
+        "paciente": "Recién nacido",
+        "diagnostico": "Fisura labiopalatina unilateral completa",
+        "consulta": "Momento óptimo de reparación"
+      },
+      "pregunta": "¿Cuándo es el mejor momento para la reparación quirúrgica?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "A los 12 meses de edad"
+        },
+        {
+          "letra": "b",
+          "texto": "A los 3 meses de edad"
+        },
+        {
+          "letra": "c",
+          "texto": "A los 6 meses de edad"
+        },
+        {
+          "letra": "d",
+          "texto": "En ese momento"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí, la regla de los 10.",
+      "reaccion_error": "Recordá la regla clásica de los 10.",
+      "explicacion": {
+        "tldr": "Regla clásica de los 10: peso >10 lb, hemoglobina >10 g/dL, edad >10 semanas (~3 meses). La queiloplastia se realiza alrededor de los 3 meses.",
+        "tratamiento": "Queiloplastia a los 3 meses. La palatoplastia se realiza después (9-12 meses) antes del desarrollo del lenguaje.",
+        "por_que_otras_no": {
+          "a": "A los 12 meses ya se perdió la ventana óptima estética del labio.",
+          "c": "A los 6 meses también es tarde para el resultado óptimo.",
+          "d": "Operar al nacimiento está contraindicado por inmadurez fisiológica."
+        }
+      },
+      "cierre_acierto": "Perfecto. La regla de los 10 es un clásico que vale memorizar.",
+      "cierre_error": "Tranquilo. Anotá la regla de los 10, sale en muchos exámenes.",
+      "palabras_clave": [
+        {
+          "termino": "labio leporino",
+          "wiki": "Labio_leporino"
+        },
+        {
+          "termino": "queiloplastia",
+          "wiki": "Queiloplastia"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 13,
+      "especialidad": "cirugia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, deportista con fractura de mandíbula tras golpe directo.",
+      "narracion_caso": "Hombre de 30 años, golpe directo en mandíbula jugando fútbol. Dolor y dificultad para abrir la boca, trismus, maloclusión y equimosis en piso de boca. Radiografías: fractura del ángulo mandibular derecho, favorable, sin desplazamiento significativo.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 30 años",
+        "trauma": "Fractura ángulo mandibular derecho",
+        "estabilidad": "Favorable, sin desplazamiento",
+        "examen": "Trismus, maloclusión, equimosis"
+      },
+      "pregunta": "¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Administrar antibióticos y analgesia, con remisión para tratamiento quirúrgico diferido"
+        },
+        {
+          "letra": "b",
+          "texto": "Ordenar analgésico, dieta líquida y seguimiento con cirujano plástico"
+        },
+        {
+          "letra": "c",
+          "texto": "Ordenar tratamiento con analgesia y reposo mandibular"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar reducción cerrada con fijación intermaxilar inmediata"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Bien. Fractura abierta a cavidad oral, antibiótico obligatorio.",
+      "reaccion_error": "Recordá que las fracturas en zona dentada son abiertas.",
+      "explicacion": {
+        "tldr": "Las fracturas mandibulares en zona dentada (ángulo) se consideran ABIERTAS a la cavidad oral por la presencia de dientes y requieren antibiótico profiláctico.",
+        "tratamiento": "Antibiótico (amoxicilina/clavulanato o clindamicina) + analgesia + remisión para reducción abierta y fijación interna diferida 24-72h para disminuir edema.",
+        "por_que_otras_no": {
+          "b": "La dieta líquida es parte del manejo pero falta el antibiótico crítico.",
+          "c": "Reposo solo es insuficiente, no aborda el riesgo infeccioso.",
+          "d": "La fijación intermaxilar inmediata sin antibiótico ni planeamiento aumenta complicaciones."
+        }
+      },
+      "cierre_acierto": "Muy bien. Pensar en la fractura como 'abierta' cambia el manejo completo.",
+      "cierre_error": "Tranquilo. La regla 'fractura mandibular en zona dentada = abierta = antibiótico' la recordás de por vida.",
+      "palabras_clave": [
+        {
+          "termino": "fractura mandibular",
+          "wiki": "Fractura_de_mandíbula"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Variación entre escuelas: algunos consideran que 'd' es válida si es estable. Validar con maxilofacial colombiano."
+    },
+    {
+      "id": 14,
+      "especialidad": "ortopedia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, accidente de tránsito. Hombro caído sin fracturas en radiografía.",
+      "narracion_caso": "Hombre de 32 años, accidente de tránsito. Examen: hombro derecho caído, no puede abducir el brazo ni flexionar el codo, pérdida de sensibilidad táctil en cara lateral del brazo. Radiografía sin fracturas.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 32 años",
+        "hallazgos": "Hombro caído, abducción imposible, flexión codo imposible",
+        "sensorial": "Anestesia cara lateral del brazo (C5-C6)",
+        "radiografia": "Sin fracturas"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Cirugía exploratoria de emergencia"
+        },
+        {
+          "letra": "b",
+          "texto": "Evaluación quirúrgica diferida y electromiografía a las 3 semanas"
+        },
+        {
+          "letra": "c",
+          "texto": "Fisioterapia temprana y analgésicos"
+        },
+        {
+          "letra": "d",
+          "texto": "Inmovilización y electromiografía"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. EMG temprana sale falsamente normal.",
+      "reaccion_error": "Pensá cuándo aparecen los cambios de denervación.",
+      "explicacion": {
+        "tldr": "Lesión del plexo braquial (tronco superior C5-C6) por tracción cerrada. Manejo inicial conservador. La EMG debe esperar 3 semanas para detectar denervación.",
+        "tratamiento": "Observación inicial + EMG a las 3 semanas. Si no hay recuperación clínica + EMG lo confirma, se considera exploración quirúrgica diferida a 3-6 meses.",
+        "por_que_otras_no": {
+          "a": "La cirugía exploratoria de emergencia no está indicada en lesión cerrada por tracción.",
+          "c": "La fisioterapia temprana sola no es suficiente sin diagnóstico electrofisiológico.",
+          "d": "La EMG inmediata saldría falsamente normal porque la denervación tarda 2-3 semanas en aparecer."
+        }
+      },
+      "cierre_acierto": "Muy bien. El timing de la EMG es la clave.",
+      "cierre_error": "Tranquilo. Recordá: EMG nunca antes de 3 semanas en lesión nerviosa aguda.",
+      "palabras_clave": [
+        {
+          "termino": "plexo braquial",
+          "wiki": "Plexo_braquial"
+        },
+        {
+          "termino": "electromiografía",
+          "wiki": "Electromiografía"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 15,
+      "especialidad": "obstetricia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, embarazada del tercer trimestre con picazón intensa pero sin lesiones.",
+      "narracion_caso": "Mujer de 25 años, primigestante en tercer trimestre. Empezó con prurito intenso en palmas y plantas que luego se generalizó. Sin lesiones primarias en la piel.",
+      "ficha_clinica": {
+        "paciente": "Embarazada 25 años, primigestante",
+        "trimestre": "Tercero",
+        "sintoma_clave": "Prurito palmoplantar generalizado",
+        "examen": "Sin lesiones primarias"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Colestasis intrahepática del embarazo"
+        },
+        {
+          "letra": "b",
+          "texto": "Erupción atópica del embarazo"
+        },
+        {
+          "letra": "c",
+          "texto": "Penfigoide gestacional"
+        },
+        {
+          "letra": "d",
+          "texto": "Prurigo simple del embarazo"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Exacto. Tríada clásica.",
+      "reaccion_error": "Mirá la ausencia de lesiones primarias.",
+      "explicacion": {
+        "tldr": "Tríada clásica de colestasis intrahepática del embarazo: tercer trimestre + prurito palmoplantar + ausencia de lesiones primarias en piel.",
+        "tratamiento": "Confirmar con ácidos biliares séricos (>10 µmol/L). Tratamiento: ácido ursodesoxicólico + vigilancia fetal estrecha. Se asocia a parto pretérmino y muerte fetal.",
+        "por_que_otras_no": {
+          "b": "La erupción atópica presenta eccema y prurigo (lesiones primarias presentes).",
+          "c": "El penfigoide gestacional cursa con vesículas y ampollas autoinmunes.",
+          "d": "El prurigo simple presenta pápulas excoriadas (lesiones primarias)."
+        }
+      },
+      "cierre_acierto": "Muy bien. La CIE es uno de esos diagnósticos que no podés perder.",
+      "cierre_error": "Tranquila. La regla: prurito sin lesiones en tercer trimestre = pensá colestasis.",
+      "palabras_clave": [
+        {
+          "termino": "colestasis del embarazo",
+          "wiki": "Colestasis_intrahepática_del_embarazo"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 16,
+      "especialidad": "medicina_interna",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, esta es de bioestadística. Vamos a interpretar un ensayo clínico.",
+      "narracion_caso": "Ensayo clínico doble ciego aleatorizado, 1:1, evalúa tirzepatida vs placebo sobre muerte cardiovascular en pacientes con insuficiencia cardíaca. Encontró disminución de mortalidad CV con p=0.03.",
+      "ficha_clinica": {
+        "tipo_estudio": "ECA doble ciego placebo controlado",
+        "intervencion": "Tirzepatida vs placebo",
+        "outcome": "Muerte cardiovascular",
+        "resultado": "Reducción con p=0.03"
+      },
+      "pregunta": "¿Cuál es la interpretación correcta?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "El fármaco sí es efectivo porque el valor p es menor a 0.05"
+        },
+        {
+          "letra": "b",
+          "texto": "El valor p no prueba que el fármaco sea la causa de la reducción"
+        },
+        {
+          "letra": "c",
+          "texto": "Existe una probabilidad del 97% de que el fármaco sea efectivo"
+        },
+        {
+          "letra": "d",
+          "texto": "No existe evidencia en contra de la hipótesis nula"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. El valor p no es probabilidad de causalidad.",
+      "reaccion_error": "Repasá qué mide realmente el valor p.",
+      "explicacion": {
+        "tldr": "El valor p indica la probabilidad de obtener los resultados observados (o más extremos) ASUMIENDO que la hipótesis nula es verdadera. NO prueba causalidad ni mide probabilidad de efectividad.",
+        "tratamiento": "Para interpretar correctamente: p<0.05 sugiere asociación estadísticamente significativa, pero la causalidad requiere considerar diseño, sesgos, intervalo de confianza, magnitud del efecto, plausibilidad biológica.",
+        "por_que_otras_no": {
+          "a": "Es una sobre-interpretación común. 'Significativo' ≠ 'efectivo' ni 'causal'.",
+          "c": "Falacia frecuente: 1-p NO es la probabilidad de efectividad.",
+          "d": "Falso, p=0.03 sí da evidencia contra la hipótesis nula."
+        }
+      },
+      "cierre_acierto": "Excelente. Pocos médicos interpretan p correctamente.",
+      "cierre_error": "Tranquilo. La regla: significancia estadística no es lo mismo que causalidad.",
+      "palabras_clave": [
+        {
+          "termino": "valor p",
+          "wiki": "Valor_p"
+        },
+        {
+          "termino": "ensayo clínico",
+          "wiki": "Ensayo_clínico"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 17,
+      "especialidad": "ginecologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer joven con dolor pélvico y quiste de 8 cm.",
+      "narracion_caso": "Mujer de 32 años, dolor pélvico leve intermitente. Ecografía: quiste simple de 8 cm en ovario derecho, resto normal. Marcadores tumorales todos normales (CA125, CEA, AFP, LDH, βHCG).",
+      "ficha_clinica": {
+        "paciente": "Mujer, 32 años",
+        "hallazgo": "Quiste simple 8 cm ovario derecho",
+        "marcadores": "Todos normales",
+        "sintomas": "Dolor pélvico leve intermitente"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Cirugía electiva para resección"
+        },
+        {
+          "letra": "b",
+          "texto": "Cirugía inmediata"
+        },
+        {
+          "letra": "c",
+          "texto": "TC de abdomen y pelvis"
+        },
+        {
+          "letra": "d",
+          "texto": "Vigilancia con ecografía cada 3 meses"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Por tamaño y síntomas, mejor resecar.",
+      "reaccion_error": "Pensá en riesgo de torsión por el tamaño.",
+      "explicacion": {
+        "tldr": "Quiste simple sintomático grande (8 cm) en mujer premenopáusica con marcadores normales. Aunque benigno, el tamaño tiene baja probabilidad de resolución espontánea y riesgo de torsión ovárica.",
+        "tratamiento": "Cirugía electiva: laparoscopia con quistectomía preservando ovario.",
+        "por_que_otras_no": {
+          "b": "La cirugía inmediata solo se indica con sospecha de torsión actual o malignidad.",
+          "c": "La TC no aporta sobre ecografía + marcadores en quiste simple.",
+          "d": "La vigilancia no es razonable a este tamaño con síntomas."
+        }
+      },
+      "cierre_acierto": "Bien. Tamaño + síntomas marca la indicación quirúrgica electiva.",
+      "cierre_error": "Tranquila. Quiste >7 cm sintomático casi siempre va a cirugía.",
+      "palabras_clave": [
+        {
+          "termino": "quiste de ovario",
+          "wiki": "Quiste_ovárico"
+        },
+        {
+          "termino": "torsión ovárica",
+          "wiki": "Torsión_ovárica"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Decisión entre a y d puede variar según escuela."
+    },
+    {
+      "id": 18,
+      "especialidad": "ginecologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer de 48 años, asintomática, masa pélvica de 7 cm.",
+      "narracion_caso": "Mujer de 48 años, asintomática, en control cardiovascular. Examen: masa de 7 cm en hipogastrio. Ecografía: imagen sugestiva de endometrioma. CA125: 40 (normal <35), CEA normal.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 48 años, perimenopáusica",
+        "hallazgo": "Masa anexial 7 cm tipo endometrioma",
+        "ca125": "40 (ligeramente elevado)",
+        "sintomas": "Asintomática"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Cirugía para resección del quiste"
+        },
+        {
+          "letra": "b",
+          "texto": "Completar estudio con βHCG, AFP y LDH"
+        },
+        {
+          "letra": "c",
+          "texto": "TC de abdomen y pelvis"
+        },
+        {
+          "letra": "d",
+          "texto": "Vigilancia con ecografía cada 3 meses"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. En perimenopáusica con CA125 elevado, no vigilancia.",
+      "reaccion_error": "Considerá la edad y el CA125 juntos.",
+      "explicacion": {
+        "tldr": "Masa anexial en perimenopáusica con CA125 elevado. El riesgo de malignidad aumenta con la edad y los endometriomas en este grupo pueden ocultar carcinoma.",
+        "tratamiento": "Resección quirúrgica con estudio histopatológico.",
+        "por_que_otras_no": {
+          "b": "βHCG, AFP, LDH se usan en mujeres jóvenes para tumores germinales.",
+          "c": "La TC no aporta más que ecografía + CA125 en endometrioma.",
+          "d": "La vigilancia es para mujer joven con quiste pequeño asintomático."
+        }
+      },
+      "cierre_acierto": "Muy bien. Perimenopáusica + CA125 elevado siempre va a cirugía.",
+      "cierre_error": "Tranquila. La regla: edad >40 + masa anexial = umbral bajo para cirugía.",
+      "palabras_clave": [
+        {
+          "termino": "endometrioma",
+          "wiki": "Endometriosis"
+        },
+        {
+          "termino": "CA-125",
+          "wiki": "CA-125"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Manejo perimenopáusico tiene variaciones."
+    },
+    {
+      "id": 19,
+      "especialidad": "ginecologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer hipertensa y fumadora quiere anticoncepción de emergencia, fue hace 4 días.",
+      "narracion_caso": "Mujer de 38 años, separada, 2 hijos. Tuvo relación sin protección hace 4 días, no quiere embarazarse. Ciclos regulares, última menstruación 10 días antes. Antecedentes: HTA con losartán, fumadora 10 cig/día x 20 años. Examen: PA 150/95, peso 76 kg, talla 154 cm.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 38 años",
+        "tiempo_post_coito": "96 horas (4 días)",
+        "imc": "32 (obesidad)",
+        "factores_riesgo": "HTA mal controlada, tabaquismo, edad >35"
+      },
+      "pregunta": "¿Cuál es la mejor alternativa hormonal de emergencia?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Levonorgestrel"
+        },
+        {
+          "letra": "b",
+          "texto": "Levonorgestrel + etinil estradiol"
+        },
+        {
+          "letra": "c",
+          "texto": "Método Yuzpe"
+        },
+        {
+          "letra": "d",
+          "texto": "Ulipristal"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Ulipristal cubre la ventana de 120 h y mantiene eficacia en obesa.",
+      "reaccion_error": "Mirá las contraindicaciones de los métodos combinados.",
+      "explicacion": {
+        "tldr": "Ulipristal es el método más efectivo en la ventana 72-120h post-coito. Además mantiene eficacia en mujer con IMC alto. Los métodos con estrógeno están contraindicados por HTA mal controlada + tabaquismo + edad.",
+        "tratamiento": "Ulipristal acetato 30 mg dosis única vía oral.",
+        "por_que_otras_no": {
+          "a": "Levonorgestrel pierde eficacia después de 72h y en IMC >25.",
+          "b": "Contraindicado por riesgo trombótico (HTA + tabaco + edad).",
+          "c": "Yuzpe también está contraindicado por los mismos motivos."
+        }
+      },
+      "cierre_acierto": "Excelente. Tu paciente tiene todas las contraindicaciones para estrógenos.",
+      "cierre_error": "Tranquila. Recordá: fumadora >35 + HTA = no estrógenos jamás.",
+      "palabras_clave": [
+        {
+          "termino": "anticoncepción de emergencia",
+          "wiki": "Anticoncepción_de_emergencia"
+        },
+        {
+          "termino": "ulipristal",
+          "wiki": "Acetato_de_ulipristal"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 20,
+      "especialidad": "ginecologia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctora, mujer joven con sangrados abundantes y dolor pélvico hace 8 meses.",
+      "narracion_caso": "Mujer de 30 años, soltera, sin vida sexual el último año. Hace 8 meses con menstruaciones más frecuentes y abundantes, y aparición de dolor pélvico. Sin tratamiento.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 30 años",
+        "sintomas": "Sangrado uterino anormal + dolor pélvico",
+        "evolucion": "8 meses",
+        "actividad_sexual": "Ausente último año"
+      },
+      "pregunta": "¿Qué exámenes solicitar?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Biopsia endometrial, hemograma y TSH"
+        },
+        {
+          "letra": "b",
+          "texto": "Ecografía pélvica transabdominal, hemograma, ferritina"
+        },
+        {
+          "letra": "c",
+          "texto": "Ecografía pélvica transvaginal, hemograma, TSH"
+        },
+        {
+          "letra": "d",
+          "texto": "TAC simple de pelvis, TSH y hemograma"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí, el estudio básico estándar.",
+      "reaccion_error": "Pensá en qué evalúa mejor el útero y los ovarios.",
+      "explicacion": {
+        "tldr": "Sangrado uterino anormal en mujer en edad reproductiva. Estudio inicial: ecografía transvaginal (mejor resolución), hemograma (anemia), TSH (hipotiroidismo causa SUA).",
+        "tratamiento": "Estos tres estudios identifican la mayoría de causas. La ausencia de vida sexual no contraindica la transvaginal con consentimiento.",
+        "por_que_otras_no": {
+          "a": "La biopsia endometrial no es de primera línea en <40 años sin factores de riesgo.",
+          "b": "La transabdominal tiene menor resolución, se usa solo si no es posible la transvaginal.",
+          "d": "La TC no es de primera línea para SUA."
+        }
+      },
+      "cierre_acierto": "Bien. Ecografía + hemograma + TSH es el trío de oro.",
+      "cierre_error": "Tranquila. Memorizá el trío: TV-ECO + hemograma + TSH para todo SUA.",
+      "palabras_clave": [
+        {
+          "termino": "sangrado uterino anormal",
+          "wiki": "Sangrado_uterino_anormal"
+        },
+        {
+          "termino": "ecografía transvaginal",
+          "wiki": "Ecografía_transvaginal"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "En paciente sin vida sexual algunos optan por transabdominal."
+    },
+    {
+      "id": 21,
+      "especialidad": "medicina_interna",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer con dolor pélvico crónico de 2 años que afecta su calidad de vida.",
+      "narracion_caso": "Mujer de 39 años, 2 años con dolor pélvico crónico intermitente 6/10, parcialmente aliviado con analgésicos. Insomnio, cansancio persistente, llanto fácil, pensamientos negativos. Calidad de vida muy afectada.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 39 años",
+        "dolor": "Pélvico crónico 2 años, 6/10",
+        "componente_psicologico": "Insomnio, llanto, catastrofismo",
+        "calidad_vida": "Significativamente afectada"
+      },
+      "pregunta": "¿Cuál es la estrategia más adecuada para el manejo?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Reposo en cama, vitaminas y AINEs + acetaminofén"
+        },
+        {
+          "letra": "b",
+          "texto": "Gabapentina + ejercicio aeróbico + relajación + TCC para catastrofismo"
+        },
+        {
+          "letra": "c",
+          "texto": "Opioides a dosis bajas, evaluación psiquiátrica, contraindicación de ejercicio"
+        },
+        {
+          "letra": "d",
+          "texto": "TCC + educación sobre dolor + amitriptilina + ejercicio + relajación"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí, manejo multimodal del dolor crónico.",
+      "reaccion_error": "El dolor crónico necesita abordaje biopsicosocial.",
+      "explicacion": {
+        "tldr": "Dolor pélvico crónico con sensibilización central y comorbilidad ansioso-depresiva. Necesita enfoque biopsicosocial multimodal, no farmacoterapia aislada.",
+        "tratamiento": "Combinación de educación sobre dolor crónico, TCC, ejercicio según preferencia, técnicas de relajación, amitriptilina (modulador descendente).",
+        "por_que_otras_no": {
+          "a": "Reposo en cama empeora el dolor crónico, AINEs no son efectivos a largo plazo.",
+          "b": "Gabapentina sirve para dolor neuropático, no es la de elección aquí.",
+          "c": "Los opioides en dolor crónico no oncológico son problemáticos; contraindicar ejercicio es lo contrario de lo recomendado."
+        }
+      },
+      "cierre_acierto": "Excelente. El dolor crónico se trata con múltiples herramientas, no una pastilla.",
+      "cierre_error": "Tranquila. La regla: dolor crónico = biopsicosocial = nunca una sola cosa.",
+      "palabras_clave": [
+        {
+          "termino": "dolor crónico",
+          "wiki": "Dolor_crónico"
+        },
+        {
+          "termino": "terapia cognitivo-conductual",
+          "wiki": "Terapia_cognitivo-conductual"
+        },
+        {
+          "termino": "amitriptilina",
+          "wiki": "Amitriptilina"
+        }
+      ],
+      "marcada_en_pdf": "d",
+      "revisar": false
+    },
+    {
+      "id": 22,
+      "especialidad": "medicina_preventiva",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, paciente cardiovascular en prescripción de ejercicio. ¿Está bien dosificado?",
+      "narracion_caso": "Hombre de 44 años, sobrepeso, HTA y dislipidemia. Toma losartán y atorvastatina. Pesa 82 kg, talla 175 cm. Prescripción: caminata 40 min, 4 veces/semana a intensidad moderada (5 METs) entre 125-135 lpm. Además fortalecimiento muscular 2 veces/semana.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 44 años",
+        "factores_riesgo": "HTA, dislipidemia, sobrepeso",
+        "prescripcion": "40 min x 4 veces/sem x 5 METs",
+        "objetivo": "Reducir mortalidad CV"
+      },
+      "pregunta": "¿Cuál afirmación sobre el volumen de ejercicio es correcta?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "11,4 METs h/sem; es lo recomendado para reducir mortalidad CV"
+        },
+        {
+          "letra": "b",
+          "texto": "13,3 METs h/sem; es lo recomendado para reducir mortalidad CV"
+        },
+        {
+          "letra": "c",
+          "texto": "19,7 METs h/sem; mayor de lo recomendado"
+        },
+        {
+          "letra": "d",
+          "texto": "8,2 METs h/sem; menor de lo recomendado"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. 5 METs x 40 min x 4 = 13,3 (en horas).",
+      "reaccion_error": "Hagamos la cuenta: METs × minutos × frecuencia ÷ 60.",
+      "explicacion": {
+        "tldr": "Cálculo: 5 METs × 40 min × 4 sesiones = 800 METs·min/semana = 13,3 METs·h/semana. La OMS recomienda 7,5-15 METs·h/semana para reducir mortalidad CV.",
+        "tratamiento": "El paciente está en el rango recomendado por la OMS para prevención CV. Mantener el plan.",
+        "por_que_otras_no": {
+          "a": "11,4 no es el resultado correcto del cálculo.",
+          "c": "19,7 sería un exceso, no corresponde al cálculo.",
+          "d": "8,2 es subestimación; 13,3 es el valor real."
+        }
+      },
+      "cierre_acierto": "Excelente cálculo. Saber dosificar ejercicio es clave en prevención CV.",
+      "cierre_error": "Tranquilo. La fórmula: METs × min × frecuencia semanal ÷ 60 = METs·h/sem.",
+      "palabras_clave": [
+        {
+          "termino": "MET",
+          "wiki": "Equivalente_metabólico"
+        },
+        {
+          "termino": "prevención cardiovascular",
+          "wiki": "Prevención_cardiovascular"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 23,
+      "especialidad": "neurologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, hombre de 58 años con hemiplejía y afasia hace 4 horas. Toma apixabán.",
+      "narracion_caso": "Hombre de 58 años, hace 4 horas inició hemiplejía derecha, afasia y asimetría facial. HTA y FA, anticoagulado con apixabán (última dosis hace 12 horas). PA 182/104, FC 78, NIHSS 15. TC simple sin hemorragia ni cambios isquémicos agudos.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 58 años",
+        "tiempo": "4 horas de inicio",
+        "nihss": "15 (severo)",
+        "anticoagulacion": "Apixabán hace 12h",
+        "tac": "Sin hemorragia, sin signos agudos"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Indicar trombectomía mecánica"
+        },
+        {
+          "letra": "b",
+          "texto": "Proceder con trombólisis intravenosa"
+        },
+        {
+          "letra": "c",
+          "texto": "Solicitar angiotomografía de cráneo y cuello"
+        },
+        {
+          "letra": "d",
+          "texto": "Solicitar resonancia magnética con estudio de perfusión"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. NIHSS alto + sospecha de oclusión grande = angio-TC.",
+      "reaccion_error": "Pensá en la contraindicación de la trombólisis aquí.",
+      "explicacion": {
+        "tldr": "ACV isquémico severo (NIHSS 15) en paciente con anticoagulación con apixabán reciente (12h, dentro de 48h). La trombólisis IV está contraindicada. Hay que evaluar si es candidato a trombectomía.",
+        "tratamiento": "Angio-TC para identificar oclusión de gran vaso. Si está presente, trombectomía mecánica (no contraindicada por anticoagulación).",
+        "por_que_otras_no": {
+          "a": "Indicar trombectomía requiere antes confirmar oclusión de gran vaso con angio-TC.",
+          "b": "La trombólisis IV está contraindicada en pacientes con DOACs en las últimas 48h.",
+          "d": "La RM con perfusión es opción pero la angio-TC es más rápida y disponible."
+        }
+      },
+      "cierre_acierto": "Muy bien. Anticoagulación reciente cambia todo el algoritmo.",
+      "cierre_error": "Tranquilo. La regla: DOAC en últimas 48h = NO trombólisis IV, pero SÍ trombectomía.",
+      "palabras_clave": [
+        {
+          "termino": "accidente cerebrovascular",
+          "wiki": "Accidente_cerebrovascular"
+        },
+        {
+          "termino": "trombectomía mecánica",
+          "wiki": "Trombectomía_mecánica"
+        },
+        {
+          "termino": "apixabán",
+          "wiki": "Apixabán"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Manejo de ACV con DOAC reciente tiene matices según guías locales."
+    },
+    {
+      "id": 24,
+      "especialidad": "cardiologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctora, taquicardia supraventricular que no responde a adenosina ni metoprolol.",
+      "narracion_caso": "Mujer de 46 años, palpitaciones y taquicardia persistente sin dolor torácico ni disnea. PA 122/80, FC 160, FR 23, SatO2 94%. EKG: taquicardia por reentrada nodal AV. Maniobras vagales x2 sin éxito, adenosina + metoprolol IV sin respuesta.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 46 años, estable",
+        "ritmo": "TPSV por reentrada nodal AV",
+        "tratamiento_fallido": "Vagales x2, adenosina, metoprolol",
+        "estabilidad": "Hemodinámicamente estable"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Cardioversión eléctrica sincronizada con 50 joules"
+        },
+        {
+          "letra": "b",
+          "texto": "Reintentar maniobras vagales"
+        },
+        {
+          "letra": "c",
+          "texto": "Bolo IV de 150 mg de amiodarona"
+        },
+        {
+          "letra": "d",
+          "texto": "Bolo IV de 50 mg de diltiazem"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Estable pero refractaria, cardioversión sincronizada.",
+      "reaccion_error": "Ya falló todo lo farmacológico, pensá en el siguiente paso.",
+      "explicacion": {
+        "tldr": "TPSV refractaria a vagales, adenosina y betabloqueador en paciente estable. Aunque está estable, falló el manejo farmacológico, indicando cardioversión sincronizada electiva con sedación.",
+        "tratamiento": "Cardioversión sincronizada con 50-100 J + sedación consciente.",
+        "por_que_otras_no": {
+          "b": "Las vagales ya fallaron dos veces.",
+          "c": "La amiodarona puede usarse pero la cardioversión es más efectiva y rápida en TPSV refractaria.",
+          "d": "El diltiazem es opción pero ya falló metoprolol con mecanismo similar."
+        }
+      },
+      "cierre_acierto": "Muy bien. Saber cuándo pasar a cardioversión electiva es clave.",
+      "cierre_error": "Tranquila. Refractaria + estable = cardioversión electiva con sedación.",
+      "palabras_clave": [
+        {
+          "termino": "taquicardia supraventricular",
+          "wiki": "Taquicardia_supraventricular"
+        },
+        {
+          "termino": "cardioversión",
+          "wiki": "Cardioversión"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Algunos textos prefieren amiodarona antes de cardioversión electiva en estables."
+    },
+    {
+      "id": 25,
+      "especialidad": "cardiologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, paciente desfibrilado por fibrilación ventricular. ¿Siguiente paso?",
+      "narracion_caso": "Hombre de 50 años, dolor torácico de 2 horas. Llegó a triage, colapsó. FV en monitor, desfibrilado con 200J bifásicos. Compresiones torácicas en curso 30:2. Vía venosa canalizada.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 50 años",
+        "ritmo_inicial": "Fibrilación ventricular",
+        "intervencion": "Desfibrilación 200J bifásicos",
+        "rcp": "En curso 30:2"
+      },
+      "pregunta": "¿Cuál es el siguiente paso según AHA 2020?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Aplicar 1 ampolla de adrenalina y verificar ritmo a los 2 minutos"
+        },
+        {
+          "letra": "b",
+          "texto": "Aplicar adrenalina + intubación + verificar ritmo a los 2 minutos"
+        },
+        {
+          "letra": "c",
+          "texto": "Verificar ritmo de paro a los 2 minutos"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Adrenalina cada 3-5 min en cualquier paro.",
+      "reaccion_error": "Recordá el ciclo de RCP avanzada.",
+      "explicacion": {
+        "tldr": "Tras una desfibrilación, se reinician compresiones inmediatamente, se administra adrenalina 1 mg IV (cada 3-5 min) y se verifica ritmo a los 2 minutos.",
+        "tratamiento": "Continuar RCP de calidad, adrenalina 1 mg IV cada 3-5 min, verificar ritmo cada 2 min, considerar antiarrítmico (amiodarona 300 mg) si persiste FV.",
+        "por_que_otras_no": {
+          "b": "La intubación NO es prioridad inmediata, se puede ventilar con bolsa-mascarilla.",
+          "c": "Verificar ritmo sin dar adrenalina pierde la oportunidad de la droga vasopresora."
+        }
+      },
+      "cierre_acierto": "Bien. Adrenalina + RCP de calidad es la base del ALS.",
+      "cierre_error": "Tranquilo. Ciclo: RCP 2 min + adrenalina cada 3-5 min + chequeo de ritmo cada 2 min.",
+      "palabras_clave": [
+        {
+          "termino": "fibrilación ventricular",
+          "wiki": "Fibrilación_ventricular"
+        },
+        {
+          "termino": "reanimación cardiopulmonar avanzada",
+          "wiki": "Soporte_vital_cardíaco_avanzado"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 26,
+      "especialidad": "cardiologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, hombre de 60 años con palpitaciones, disnea y FC 184 irregular.",
+      "narracion_caso": "Hombre de 60 años, 2 horas de palpitaciones y disnea. FC 184 irregular, FR 28, SatO2 89% al ambiente, PA 108/70, T 36°C. Mal estado general, pálido, diaforético, somnoliento, crépitos bilaterales. EKG: taquicardia con ritmo irregular RR, QRS <120 ms, alternancia en voltaje.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 60 años",
+        "estado": "INESTABLE: hipoxia, hipotensión, alteración de conciencia",
+        "ritmo": "Taquicardia irregular QRS estrecho (probable FA)",
+        "complicacion": "Edema pulmonar agudo"
+      },
+      "pregunta": "¿Cuál es la conducta terapéutica más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Amiodarona 150 mg IV en bolo y luego infusión continua"
+        },
+        {
+          "letra": "b",
+          "texto": "Maniobra de Valsalva modificada con monitoreo EKG continuo"
+        },
+        {
+          "letra": "c",
+          "texto": "Metoprolol 5 mg IV en bolo y EKG de control"
+        },
+        {
+          "letra": "d",
+          "texto": "Sedación y cardioversión eléctrica sincrónica emergente"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Paciente inestable, no perder tiempo en fármacos.",
+      "reaccion_error": "Inestable = eléctrica, no farmacológica.",
+      "explicacion": {
+        "tldr": "Taquiarritmia con INESTABILIDAD hemodinámica (hipotensión, hipoxia, alteración de conciencia, edema pulmonar). Indicación de cardioversión eléctrica sincronizada emergente.",
+        "tratamiento": "Sedación + cardioversión sincronizada (120-200 J bifásico si FA, 100 J si flutter). No perder tiempo en fármacos.",
+        "por_que_otras_no": {
+          "a": "La amiodarona es para taquicardia estable.",
+          "b": "Las vagales son para TPSV estable, no FA con inestabilidad.",
+          "c": "El metoprolol IV en paciente con edema pulmonar e hipotensión puede precipitar shock cardiogénico."
+        }
+      },
+      "cierre_acierto": "Muy bien. La regla de oro: inestable = eléctrica YA.",
+      "cierre_error": "Recordá la regla: cualquier taquiarritmia con inestabilidad va a cardioversión eléctrica.",
+      "palabras_clave": [
+        {
+          "termino": "fibrilación auricular",
+          "wiki": "Fibrilación_auricular"
+        },
+        {
+          "termino": "cardioversión eléctrica",
+          "wiki": "Cardioversión"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 27,
+      "especialidad": "reumatologia",
+      "sala": "consultorio",
+      "dificultad": 3,
+      "llegada": "Doctora, hombre de 52 años con dolor articular y sinovitis bilateral. Factor reumatoide negativo.",
+      "narracion_caso": "Hombre de 52 años, 3 meses de dolor en metacarpofalángicas e interfalángicas proximales de ambas manos, predominio matutino con rigidez de 60 min. HTA con enalapril e hidroclorotiazida, obesidad. Madre con AR. Examen: IMC 32, squeeze test bilateral positivo, sinovitis en 4ta y 5ta IFP izquierda. Labs: hemograma normal, PCR 4, VSG 45, ácido úrico 8,5, FR y anti-CCP negativos.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 52 años",
+        "patron": "Poliartritis simétrica de pequeñas articulaciones",
+        "actividad": "Rigidez matutina 60 min, sinovitis activa",
+        "labs": "FR y anti-CCP negativos, PCR y VSG elevadas"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Iniciar prednisolona 60 mg/día, leflunomida 20 mg/día y suplementar calcio y vitamina D, asumiendo AR seronegativa"
+        },
+        {
+          "letra": "b",
+          "texto": "Radiografías de manos, caderas y rodillas para confirmar osteoartritis"
+        },
+        {
+          "letra": "c",
+          "texto": "Solicitar exámenes adicionales para evaluar otras causas de poliartritis crónica simétrica"
+        },
+        {
+          "letra": "d",
+          "texto": "Suspender la hidroclorotiazida e iniciar alopurinol 300 mg/día más colchicina por artritis gotosa crónica"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Antes de tratar como AR seronegativa, descartar otras causas.",
+      "reaccion_error": "FR y anti-CCP negativos te obligan a buscar diferenciales.",
+      "explicacion": {
+        "tldr": "Poliartritis simétrica de pequeñas articulaciones con FR y anti-CCP NEGATIVOS. Aunque puede ser AR seronegativa, hay que descartar otras causas (LES, psoriasis, virales como parvovirus B19, hepatitis C, sarcoidosis).",
+        "tratamiento": "Solicitar ANA, anti-ENA, complemento, serologías virales, ecografía articular para sinovitis. Si todo es negativo, considerar AR seronegativa con criterios ACR/EULAR.",
+        "por_que_otras_no": {
+          "a": "Iniciar tratamiento sin descartar otras causas es prematuro.",
+          "b": "Las radiografías son útiles pero no confirman osteoartritis ante poliartritis activa con reactantes elevados.",
+          "d": "El cuadro no es de gota: distribución y patrón no coinciden."
+        }
+      },
+      "cierre_acierto": "Excelente. Antes de un DMARD, siempre confirmar y descartar diferenciales.",
+      "cierre_error": "Tranquilo. Anti-CCP negativo no excluye AR pero obliga a estudiar más.",
+      "palabras_clave": [
+        {
+          "termino": "artritis reumatoide",
+          "wiki": "Artritis_reumatoide"
+        },
+        {
+          "termino": "anti-CCP",
+          "wiki": "Anticuerpos_anti-péptido_citrulinado_cíclico"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Algunos reumatólogos iniciarían tratamiento de AR seronegativa con criterios EULAR cumplidos."
+    },
+    {
+      "id": 28,
+      "especialidad": "cardiologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre de 65 años con angina estable y prueba de estrés positiva.",
+      "narracion_caso": "Hombre de 65 años, 6 meses de dolor torácico opresivo al caminar largas distancias que cede con reposo. HTA, dislipidemia, fumador activo. Ecocardiografía de estrés con dobutamina: isquemia inducida en pared lateral (territorio de circunfleja), FEVI normal.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 65 años",
+        "cuadro": "Angina estable clase II-III",
+        "estres": "Isquemia inducida en territorio circunfleja",
+        "fevi": "Normal"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Hospitalizar para coronariografía y revascularización según hallazgos"
+        },
+        {
+          "letra": "b",
+          "texto": "Optimizar el tratamiento médico antes de considerar revascularización"
+        },
+        {
+          "letra": "c",
+          "texto": "Realizar coronariografía ambulatoria y revascularizar según hallazgos"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar gammagrafía de perfusión miocárdica"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. ISCHEMIA trial cambió el paradigma.",
+      "reaccion_error": "Recordá los resultados del estudio ISCHEMIA.",
+      "explicacion": {
+        "tldr": "Cardiopatía isquémica estable. Según el estudio ISCHEMIA (2020), en pacientes con angina estable y FEVI conservada, el manejo médico óptimo inicial NO es inferior a la revascularización en outcomes duros.",
+        "tratamiento": "Optimizar tratamiento médico: antiagregación, estatina alta potencia, betabloqueador, inhibidor SRA, control factores de riesgo, suspender tabaco. Considerar revascularización si refractario.",
+        "por_que_otras_no": {
+          "a": "La hospitalización no se requiere para angina estable.",
+          "c": "La revascularización ambulatoria sin intentar manejo óptimo primero no se recomienda según evidencia actual.",
+          "d": "La gammagrafía ya tendría redundancia con la ecocardiografía de estrés."
+        }
+      },
+      "cierre_acierto": "Muy bien. ISCHEMIA cambió el manejo de la angina estable.",
+      "cierre_error": "Tranquilo. La regla actual: angina estable + FEVI normal = manejo médico primero.",
+      "palabras_clave": [
+        {
+          "termino": "cardiopatía isquémica",
+          "wiki": "Cardiopatía_isquémica"
+        },
+        {
+          "termino": "ensayo ISCHEMIA",
+          "wiki": "Revascularización_coronaria"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 29,
+      "especialidad": "neumologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctora, EPOC con exacerbación. pH 7.32, PaCO2 52, hipoxémico.",
+      "narracion_caso": "Hombre de 65 años, EPOC con falla cardíaca. 1 semana con aumento de disnea, tos productiva y sibilancias. FR 26, SatO2 88% con O2 a 3L, uso de músculos accesorios. Gases: pH 7.32, PaCO2 52, PaO2 58. Creatinina normal.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 65 años, EPOC",
+        "exacerbacion": "Aumento de disnea, tos productiva",
+        "gases": "Acidosis respiratoria + hipoxemia",
+        "examen": "FR 26, uso de accesorios"
+      },
+      "pregunta": "¿Qué estrategia reduce más el riesgo de muerte?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Broncodilatadores de corta acción a dosis alta y frecuente"
+        },
+        {
+          "letra": "b",
+          "texto": "Corticosteroides sistémicos"
+        },
+        {
+          "letra": "c",
+          "texto": "Aumentar el flujo de oxígeno hasta lograr saturación del 95%"
+        },
+        {
+          "letra": "d",
+          "texto": "Iniciar ventilación mecánica no invasiva con presión positiva"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. VMNI es la intervención que más reduce mortalidad en EPOC exacerbado con acidosis.",
+      "reaccion_error": "Pensá qué intervención cambia mortalidad, no solo síntomas.",
+      "explicacion": {
+        "tldr": "EPOC exacerbado con falla respiratoria hipercápnica aguda (pH 7.32, PaCO2 52). La VMNI con BiPAP es la intervención con mayor evidencia para reducir mortalidad, intubación y estancia hospitalaria.",
+        "tratamiento": "BiPAP + broncodilatadores + corticoides + antibióticos. Pero la PREGUNTA es qué reduce más muerte: VMNI.",
+        "por_que_otras_no": {
+          "a": "Los broncodilatadores son parte del manejo pero no impactan mortalidad de la misma forma.",
+          "b": "Los corticoides reducen recaídas y estancia pero menos impacto en mortalidad inmediata.",
+          "c": "Aumentar O2 al 95% en EPOC retenedor puede empeorar hipercapnia y la muerte."
+        }
+      },
+      "cierre_acierto": "Excelente. VMNI es de las intervenciones que más cambia desenlaces.",
+      "cierre_error": "Tranquila. En EPOC retenedor con acidosis respiratoria, VMNI antes que oxígeno agresivo.",
+      "palabras_clave": [
+        {
+          "termino": "EPOC",
+          "wiki": "Enfermedad_pulmonar_obstructiva_crónica"
+        },
+        {
+          "termino": "ventilación no invasiva",
+          "wiki": "Ventilación_mecánica_no_invasiva"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 30,
+      "especialidad": "neumologia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, joven con asma intermitente leve por ejercicio y aire frío.",
+      "narracion_caso": "Hombre de 20 años, 3 meses con disnea y tos al ejercicio y al aire frío, en promedio 2 días/semana, sin síntomas nocturnos. Asma diagnosticada a los 15. Examen: FR 18, SatO2 95%, escasas sibilancias sin trabajo respiratorio.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 20 años, asma",
+        "patron": "Síntomas 2 días/semana, sin nocturnos",
+        "desencadenantes": "Ejercicio y frío"
+      },
+      "pregunta": "¿Cuál es la mejor opción farmacológica?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Formoterol y budesonida en dosis diaria fija"
+        },
+        {
+          "letra": "b",
+          "texto": "Formoterol y budesonida solo en caso de síntomas"
+        },
+        {
+          "letra": "c",
+          "texto": "Salbutamol solo en síntomas y beclometasona diaria fija"
+        },
+        {
+          "letra": "d",
+          "texto": "Salbutamol y beclometasona solo en caso de síntomas"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. GINA actual: rescate con LABA-ICS, no solo salbutamol.",
+      "reaccion_error": "Las guías GINA cambiaron, ya no recomiendan salbutamol solo.",
+      "explicacion": {
+        "tldr": "Asma leve. Según GINA desde 2019, el rescate de elección es formoterol + budesonida (LABA-ICS) según necesidad, NO salbutamol solo. Esto reduce exacerbaciones graves vs salbutamol monoterapia.",
+        "tratamiento": "Formoterol + budesonida (Symbicort, DuoResp) según necesidad.",
+        "por_que_otras_no": {
+          "a": "Dosis fija sería sobre-tratamiento en asma intermitente leve.",
+          "c": "Salbutamol solo de rescate ya no es la recomendación GINA.",
+          "d": "Beclometasona ocasional no cumple la nueva recomendación."
+        }
+      },
+      "cierre_acierto": "Excelente. Estás al día con GINA.",
+      "cierre_error": "Tranquilo. GINA cambió: el rescate ahora siempre incluye corticoide.",
+      "palabras_clave": [
+        {
+          "termino": "asma",
+          "wiki": "Asma"
+        },
+        {
+          "termino": "GINA",
+          "wiki": "Iniciativa_Global_para_el_Asma"
+        },
+        {
+          "termino": "formoterol",
+          "wiki": "Formoterol"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 31,
+      "especialidad": "cardiologia",
+      "sala": "consultorio",
+      "dificultad": 3,
+      "llegada": "Doctora, hombre con falla cardíaca FEVI 35%. ¿Optimizamos la terapia médica?",
+      "narracion_caso": "Hombre de 61 años, disnea y bendopnea de meses. Toma enalapril, espironolactona, empagliflozina 25 mg, metoprolol tartrato y furosemida intermitente. Antecedente: IAM hace 3 años. FC 109, pulso 89, hepatomegalia, edema bilateral. Labs: K 3.3, Cr 0.7, BNP 1100, Hb glicada 5%. EKG: RR variable, QRS 100 mseg. Eco: FEVI 35%.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 61 años",
+        "diagnostico": "ICFEr (FEVI 35%) post-IAM",
+        "actual": "Síntomas a pesar de IECA + ARM + iSGLT2 + BB de corta acción",
+        "labs": "Hipokalemia leve, BNP elevado, función renal preservada"
+      },
+      "pregunta": "¿Qué modificación reduce más eventos CV según AHA/ESC?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Digoxina + cambiar metoprolol a bisoprolol + suspender espironolactona"
+        },
+        {
+          "letra": "b",
+          "texto": "Aumentar furosemida, continuar metoprolol tartrato y enalapril"
+        },
+        {
+          "letra": "c",
+          "texto": "Cambiar a metoprolol succinato, enalapril por sacubitril-valsartán y bajar empagliflozina a 10 mg"
+        },
+        {
+          "letra": "d",
+          "texto": "Cambiar a nebivolol, IECA por ARA-II y suspender empagliflozina y remitir para resincronización"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Los cuatro pilares actualizados.",
+      "reaccion_error": "Pensá en los pilares modernos de la ICFEr.",
+      "explicacion": {
+        "tldr": "ICFEr sintomática. Los cuatro pilares actuales (AHA/ESC) son: ARNI (sacubitril-valsartán) > IECA, BB cardioselectivo de liberación prolongada, ARM (espironolactona) e iSGLT2 (empagliflozina). PARADIGM-HF mostró superioridad de ARNI sobre IECA.",
+        "tratamiento": "Cambiar enalapril → sacubitril-valsartán; metoprolol tartrato → succinato (LP); mantener espironolactona; mantener empagliflozina (la dosis estándar es 10 mg).",
+        "por_que_otras_no": {
+          "a": "Suspender espironolactona elimina un pilar comprobado.",
+          "b": "Solo aumentar diurético no cambia mortalidad.",
+          "d": "Suspender empagliflozina elimina un pilar y no se ha demostrado beneficio del nebivolol sobre succinato en ICFEr."
+        }
+      },
+      "cierre_acierto": "Excelente. Los 4 pilares modernos los dominás.",
+      "cierre_error": "Tranquila. Los 4 pilares: ARNI/IECA + BB succinato + ARM + iSGLT2.",
+      "palabras_clave": [
+        {
+          "termino": "insuficiencia cardíaca",
+          "wiki": "Insuficiencia_cardíaca"
+        },
+        {
+          "termino": "sacubitrilo/valsartán",
+          "wiki": "Sacubitrilo/valsartán"
+        },
+        {
+          "termino": "empagliflozina",
+          "wiki": "Empagliflozina"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 32,
+      "especialidad": "endocrinologia",
+      "sala": "consultorio",
+      "dificultad": 3,
+      "llegada": "Doctor, mujer con hipercolesterolemia familiar y mialgias con estatinas.",
+      "narracion_caso": "Mujer de 55 años, dislipidemia temprana, en ezetimibe 25 mg/día. Atorvastatina y rosuvastatina causaron mialgias intensas. Score Holandés con alta probabilidad de HF. Sin xantomas. Labs: colesterol total 250, triglicéridos 100, HDL 30, CPK 566, ALT 76.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 55 años",
+        "diagnostico": "Hipercolesterolemia familiar (Score Holandés alto)",
+        "problema": "Intolerancia a estatinas (mialgias + CPK elevada)",
+        "actual": "Ezetimibe solo, LDL no en meta"
+      },
+      "pregunta": "¿Cuál es el esquema recomendado?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Alirocumab"
+        },
+        {
+          "letra": "b",
+          "texto": "Inclisirán y ácido bempedoico"
+        },
+        {
+          "letra": "c",
+          "texto": "Orlistat y aumentar dosis de ezetimibe"
+        },
+        {
+          "letra": "d",
+          "texto": "Simvastatina"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. iPCSK9 es la opción para HF con intolerancia a estatinas.",
+      "reaccion_error": "Pensá en los nuevos hipolipemiantes biológicos.",
+      "explicacion": {
+        "tldr": "Hipercolesterolemia familiar con intolerancia a estatinas. Los inhibidores de PCSK9 (alirocumab, evolocumab) son la opción de elección, con evidencia de reducción de eventos CV.",
+        "tratamiento": "Alirocumab o evolocumab subcutáneo cada 2-4 semanas.",
+        "por_que_otras_no": {
+          "b": "Inclisirán y bempedoico son opciones pero el alirocumab tiene más evidencia y aprobaciones.",
+          "c": "Orlistat es para obesidad, no para HF.",
+          "d": "Simvastatina es estatina, ya tuvo intolerancia a estatinas."
+        }
+      },
+      "cierre_acierto": "Muy bien. Los iPCSK9 cambiaron el manejo de HF.",
+      "cierre_error": "Tranquilo. La regla: HF + intolerancia a estatinas = iPCSK9.",
+      "palabras_clave": [
+        {
+          "termino": "hipercolesterolemia familiar",
+          "wiki": "Hipercolesterolemia_familiar"
+        },
+        {
+          "termino": "alirocumab",
+          "wiki": "Alirocumab"
+        },
+        {
+          "termino": "inhibidor PCSK9",
+          "wiki": "PCSK9"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Acceso limitado en Colombia, validar opciones reales por POS."
+    },
+    {
+      "id": 33,
+      "especialidad": "cirugia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer mayor con varices, dolor de pantorrillas que mejora con reposo.",
+      "narracion_caso": "Mujer de 77 años, dolor en pantorrillas al caminar que mejora con el reposo. Multípara, dislipidemia, IAM hace 10 años. Examen: dilatación varicosa tortuosa cara interna de ambas piernas, edema bilateral y pigmentación en tercio distal, pulsos tibiales posteriores y pedios DISMINUIDOS.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 77 años",
+        "antecedentes": "Cardiovascular significativo",
+        "examen": "Insuficiencia venosa + pulsos disminuidos",
+        "sintoma_clave": "Claudicación intermitente"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Iniciar daflón oral y escleroterapia venosa"
+        },
+        {
+          "letra": "b",
+          "texto": "Iniciar medias de gradiente de presión"
+        },
+        {
+          "letra": "c",
+          "texto": "Realizar doppler arterial de miembros inferiores"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar pletismografía de miembros inferiores"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Pulsos disminuidos obligan a estudiar el componente arterial.",
+      "reaccion_error": "Pulsos disminuidos = enfermedad arterial, no solo venosa.",
+      "explicacion": {
+        "tldr": "Cuadro mixto: insuficiencia venosa crónica (varices, edema, pigmentación) + claudicación intermitente con pulsos disminuidos sugieren enfermedad arterial periférica concomitante. Hay que estudiar arteria antes de tratar.",
+        "tratamiento": "Doppler arterial de miembros inferiores + ITB. Si hay EAP, el manejo cambia (las medias de compresión pueden estar contraindicadas si ITB <0.7).",
+        "por_que_otras_no": {
+          "a": "Tratar como venoso sin descartar arterial puede empeorar isquemia.",
+          "b": "Las medias compresivas pueden empeorar isquemia si hay EAP.",
+          "d": "La pletismografía evalúa función venosa, no el componente arterial."
+        }
+      },
+      "cierre_acierto": "Bien. Siempre descartar EAP antes de tratar venoso.",
+      "cierre_error": "Tranquila. La regla: pulsos disminuidos = doppler arterial antes que cualquier compresión.",
+      "palabras_clave": [
+        {
+          "termino": "enfermedad arterial periférica",
+          "wiki": "Enfermedad_arterial_periférica"
+        },
+        {
+          "termino": "insuficiencia venosa crónica",
+          "wiki": "Insuficiencia_venosa"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 34,
+      "especialidad": "cardiologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre con palpitaciones y reporte de FA en smartwatch.",
+      "narracion_caso": "Hombre de 68 años, palpitaciones intermitentes y cansancio. Smartwatch detectó episodio de ritmo irregular: FC 125, duración 3 min, alta variabilidad RR. HTA y DM controladas. Sin antecedentes cardiovasculares.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 68 años",
+        "sintomas": "Palpitaciones intermitentes",
+        "smartwatch": "Episodio sugestivo de FA (3 min)",
+        "antecedentes": "HTA, DM2"
+      },
+      "pregunta": "¿Cuál es la conducta inicial para confirmar el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Aceptar el diagnóstico de FA sugerido por el smartwatch"
+        },
+        {
+          "letra": "b",
+          "texto": "Indicar un ecocardiograma transtorácico"
+        },
+        {
+          "letra": "c",
+          "texto": "Realizar un electrocardiograma durante un episodio sospechoso"
+        },
+        {
+          "letra": "d",
+          "texto": "Solicitar una prueba de esfuerzo con ejercicio"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. El smartwatch es una pista, no un diagnóstico.",
+      "reaccion_error": "Recordá que el smartwatch sugiere pero no confirma.",
+      "explicacion": {
+        "tldr": "Los smartwatch tienen alta sensibilidad pero también falsos positivos. El diagnóstico de FA requiere confirmación por EKG estándar (12 derivaciones) o Holter durante un episodio sintomático.",
+        "tratamiento": "EKG durante episodio o Holter de 24h-7 días o registrador implantable según frecuencia.",
+        "por_que_otras_no": {
+          "a": "Aceptar diagnóstico solo por smartwatch puede llevar a anticoagulación innecesaria.",
+          "b": "El ecocardiograma evalúa estructura, no diagnostica el ritmo.",
+          "d": "La prueba de esfuerzo no es de elección para arritmias paroxísticas."
+        }
+      },
+      "cierre_acierto": "Excelente. La tecnología ayuda pero no reemplaza el EKG.",
+      "cierre_error": "Tranquilo. Smartwatch = sospecha. EKG = confirmación.",
+      "palabras_clave": [
+        {
+          "termino": "fibrilación auricular",
+          "wiki": "Fibrilación_auricular"
+        },
+        {
+          "termino": "electrocardiograma",
+          "wiki": "Electrocardiograma"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 35,
+      "especialidad": "gastroenterologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, hombre con ictericia intermitente que empeora con ayuno. Bilirrubina indirecta.",
+      "narracion_caso": "Hombre de 25 años, episodios intermitentes de ictericia escleral con resfriados. Recientemente con ayuno intermitente los episodios son más frecuentes. Sin dolor abdominal, acolia, hepatomegalia. Toma migrañoso con acetaminofén ocasional. Labs: bilirrubina total 4.5, directa 0.6, FA 90, GGT 20, AST 23, ALT 28, Hb 15, LDH 120, haptoglobina 124. Ecografía normal.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 25 años",
+        "patron": "Hiperbilirrubinemia INDIRECTA (BT 4.5, BD 0.6)",
+        "trigger": "Ayuno, infecciones",
+        "examen": "Sin hemólisis, sin enfermedad hepática"
+      },
+      "pregunta": "¿Cuál condición explica mejor los síntomas?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Hemólisis"
+        },
+        {
+          "letra": "b",
+          "texto": "Hepatitis B crónica"
+        },
+        {
+          "letra": "c",
+          "texto": "Hepatotoxicidad por acetaminofén"
+        },
+        {
+          "letra": "d",
+          "texto": "Síndrome de Gilbert"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Cuadro clásico de Gilbert.",
+      "reaccion_error": "Mirá el patrón: indirecta, asintomático, con ayuno.",
+      "explicacion": {
+        "tldr": "Síndrome de Gilbert: hiperbilirrubinemia indirecta intermitente leve, exacerbada por ayuno, estrés, infecciones. Función hepática y eritrocitaria normales. Benigno, no requiere tratamiento.",
+        "tratamiento": "Educación al paciente, ningún tratamiento específico. Pronóstico excelente.",
+        "por_que_otras_no": {
+          "a": "Hemólisis: la LDH y haptoglobina son normales y la Hb está conservada.",
+          "b": "Hepatitis B crónica: las transaminasas serían anormales y la bilirrubina directa estaría más elevada.",
+          "c": "Hepatotoxicidad por acetaminofén: las transaminasas estarían muy elevadas."
+        }
+      },
+      "cierre_acierto": "Muy bien. Gilbert es benigno y reconocerlo evita estudios innecesarios.",
+      "cierre_error": "Tranquila. La regla de Gilbert: bilirrubina indirecta + ayuno + todo lo demás normal.",
+      "palabras_clave": [
+        {
+          "termino": "síndrome de Gilbert",
+          "wiki": "Síndrome_de_Gilbert"
+        },
+        {
+          "termino": "hiperbilirrubinemia",
+          "wiki": "Hiperbilirrubinemia"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 36,
+      "especialidad": "nefrologia",
+      "sala": "consultorio",
+      "dificultad": 3,
+      "llegada": "Doctor, mujer hipertensa difícil con hipercalcemia e hiperparatiroidismo.",
+      "narracion_caso": "Mujer de 58 años, HTA con 4 antihipertensivos (irbesartán, amlodipino, espironolactona, carvedilol). Solo refiere constipación reciente. Examen: PA 160/90, resto normal. Labs: Ca 12, K 4.0, Na 138, Cr 1.5, Hb 13.5, 25-OH-vitD 36, PTH 176 (alta).",
+      "ficha_clinica": {
+        "paciente": "Mujer, 58 años",
+        "hallazgos": "HTA resistente + hipercalcemia + PTH elevada + Cr 1.5",
+        "vit_d": "Normal",
+        "sospecha": "Trastorno paratiroideo"
+      },
+      "pregunta": "¿Cuál es el diagnóstico?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Enfermedad renal crónica con hiperparatiroidismo secundario"
+        },
+        {
+          "letra": "b",
+          "texto": "Hipercalcemia por diuréticos"
+        },
+        {
+          "letra": "c",
+          "texto": "Hiperparatiroidismo primario"
+        },
+        {
+          "letra": "d",
+          "texto": "Neoplasia oculta con hipercalcemia maligna"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Calcio alto + PTH alta = primario.",
+      "reaccion_error": "Mirá la relación calcio-PTH.",
+      "explicacion": {
+        "tldr": "Hiperparatiroidismo primario: hipercalcemia + PTH inapropiadamente elevada (debería estar suprimida con calcio alto) + vitamina D normal + Cr levemente alterada (puede ser por hipercalcemia crónica).",
+        "tratamiento": "Confirmar con calcio iónico, calcio urinario en 24h, gammagrafía con sestamibi, ecografía cervical. Tratamiento: paratiroidectomía si cumple criterios quirúrgicos.",
+        "por_que_otras_no": {
+          "a": "El hiperparatiroidismo secundario por ERC cursa con calcio BAJO o normal, no elevado.",
+          "b": "Los tiazídicos suben calcio pero la espironolactona no es tiazida.",
+          "d": "Hipercalcemia maligna cursa con PTH SUPRIMIDA, no elevada."
+        }
+      },
+      "cierre_acierto": "Excelente. La relación Ca-PTH es la clave del diagnóstico.",
+      "cierre_error": "Tranquilo. Regla: Ca alto + PTH alta = primario; Ca alto + PTH baja = maligno.",
+      "palabras_clave": [
+        {
+          "termino": "hiperparatiroidismo primario",
+          "wiki": "Hiperparatiroidismo_primario"
+        },
+        {
+          "termino": "hipercalcemia",
+          "wiki": "Hipercalcemia"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 37,
+      "especialidad": "neurologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, trauma de cráneo con Glasgow 13 y amnesia, fractura lineal temporal.",
+      "narracion_caso": "Hombre de 30 años, bajo efectos del alcohol, accidente de moto. Examen: Glasgow 13, lateropulsión, amnesia del evento. Herida de 5 cm en región temporal con fractura lineal.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 30 años",
+        "glasgow": "13 (TEC moderado)",
+        "fractura": "Lineal temporal",
+        "examen": "Lateropulsión + amnesia"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Contusión temporal"
+        },
+        {
+          "letra": "b",
+          "texto": "Daño axonal difuso"
+        },
+        {
+          "letra": "c",
+          "texto": "Hematoma epidural agudo"
+        },
+        {
+          "letra": "d",
+          "texto": "Hematoma subdural"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Fractura temporal + deterioro = epidural hasta demostrar lo contrario.",
+      "reaccion_error": "Pensá qué hay debajo del hueso temporal.",
+      "explicacion": {
+        "tldr": "Fractura lineal temporal con deterioro neurológico (Glasgow 13, lateropulsión) sugiere hematoma epidural por laceración de la arteria meníngea media, que corre justo debajo del hueso temporal.",
+        "tratamiento": "TC simple URGENTE para confirmar, evacuación neuroquirúrgica si confirma.",
+        "por_que_otras_no": {
+          "a": "La contusión temporal es posible pero no explica la fractura específica como mecanismo.",
+          "b": "El daño axonal difuso es por desaceleración severa, generalmente con coma profundo.",
+          "d": "El hematoma subdural es por rotura de venas puente, más en ancianos y alcohólicos crónicos (relevante pero el patrón fractura temporal-deterioro orienta más a epidural)."
+        }
+      },
+      "cierre_acierto": "Muy bien. Recordá: arteria meníngea media bajo hueso temporal.",
+      "cierre_error": "Tranquilo. La regla: fractura temporal + deterioro = epidural urgente.",
+      "palabras_clave": [
+        {
+          "termino": "hematoma epidural",
+          "wiki": "Hematoma_epidural"
+        },
+        {
+          "termino": "arteria meníngea media",
+          "wiki": "Arteria_meníngea_media"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 38,
+      "especialidad": "neurologia",
+      "sala": "hospitalizacion",
+      "dificultad": 3,
+      "llegada": "Doctora, absceso cerebral con edema vasogénico marcado. ¿Qué le damos para el edema?",
+      "narracion_caso": "Hombre de 18 años con sinusitis tratada parcialmente. Síndrome de HEC. TC: absceso intracerebral frontal con edema vasogénico marcado.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 18 años",
+        "diagnostico": "Absceso cerebral con edema vasogénico",
+        "manejo_planificado": "Cirugía + tratamiento del edema",
+        "tipo_edema": "VASOGÉNICO"
+      },
+      "pregunta": "Además de la cirugía, ¿cuál es la mejor opción para tratar el edema?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Acetazolamida"
+        },
+        {
+          "letra": "b",
+          "texto": "Dexametasona"
+        },
+        {
+          "letra": "c",
+          "texto": "Manitol"
+        },
+        {
+          "letra": "d",
+          "texto": "Solución salina hipertónica"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Edema vasogénico responde a esteroides.",
+      "reaccion_error": "Distinguí qué tipo de edema responde a qué.",
+      "explicacion": {
+        "tldr": "Edema vasogénico (rotura de barrera hematoencefálica por procesos tumorales, infecciosos como abscesos) responde a dexametasona. Reduce la permeabilidad vascular.",
+        "tratamiento": "Dexametasona 4-8 mg cada 6 horas. Adicionalmente: antibiótico de amplio espectro + evaluación neuroquirúrgica.",
+        "por_que_otras_no": {
+          "a": "La acetazolamida es para hipertensión intracraneal idiopática.",
+          "c": "El manitol y la solución salina son para edema citotóxico agudo o hipertensión intracraneal de emergencia, no son la elección de primera línea para edema vasogénico crónico tumoral/inflamatorio.",
+          "d": "Igual que el manitol, son agentes osmóticos para emergencias agudas."
+        }
+      },
+      "cierre_acierto": "Excelente. Vasogénico = esteroides. Citotóxico = osmóticos.",
+      "cierre_error": "Tranquila. La regla: edema vasogénico (absceso, tumor) responde a dexametasona.",
+      "palabras_clave": [
+        {
+          "termino": "absceso cerebral",
+          "wiki": "Absceso_cerebral"
+        },
+        {
+          "termino": "edema cerebral",
+          "wiki": "Edema_cerebral"
+        },
+        {
+          "termino": "dexametasona",
+          "wiki": "Dexametasona"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 39,
+      "especialidad": "neurologia",
+      "sala": "hospitalizacion",
+      "dificultad": 3,
+      "llegada": "Doctor, TEC grave con TC normal pero sin recuperación neurológica.",
+      "narracion_caso": "Hombre de 32 años, caída desde tercer piso. Glasgow 4/15, anisocoria con midriasis derecha. 2 días en UCI sin recuperación. TC de control: normal.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 32 años",
+        "glasgow_inicial": "4/15",
+        "examen": "Midriasis derecha, sin recuperación",
+        "tc": "NORMAL al segundo día"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Contusión del mesencéfalo"
+        },
+        {
+          "letra": "b",
+          "texto": "Daño axonal difuso"
+        },
+        {
+          "letra": "c",
+          "texto": "Disección de la arteria carótida"
+        },
+        {
+          "letra": "d",
+          "texto": "Edema hidrostático"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. DAI: clínica severa con TC inicial normal.",
+      "reaccion_error": "TC normal con clínica grave debe sugerir algo específico.",
+      "explicacion": {
+        "tldr": "Daño Axonal Difuso (DAI): lesión por desaceleración rotacional con cizallamiento axonal microscópico. Glasgow muy bajo con TC inicial relativamente normal. Diagnóstico definitivo por RM (DWI, SWI).",
+        "tratamiento": "Manejo de soporte, control PIC, RM para confirmar.",
+        "por_que_otras_no": {
+          "a": "La contusión del mesencéfalo se vería en TC.",
+          "c": "La disección carotídea puede dar ACV pero no explica el Glasgow tan bajo.",
+          "d": "El edema hidrostático no es un diagnóstico estándar para este cuadro."
+        }
+      },
+      "cierre_acierto": "Excelente. DAI es el clásico: clínica grave + TC normal.",
+      "cierre_error": "Tranquilo. La regla: discordancia clínica-TC en TEC severo = pensá DAI.",
+      "palabras_clave": [
+        {
+          "termino": "daño axonal difuso",
+          "wiki": "Lesión_axonal_difusa"
+        },
+        {
+          "termino": "traumatismo craneoencefálico",
+          "wiki": "Traumatismo_craneoencefálico"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 40,
+      "especialidad": "neurologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctora, mujer con vértigo, ataxia, cefalea occipital y PA 176/108.",
+      "narracion_caso": "Mujer de 40 años, al despertar inició vértigo, lateropulsión, vómito, dificultad para vestirse por imprecisión. Una hora después cefalea occipital 6/10, intensa. Antecedente: migraña sin aura. PA 176/108, examen: ataxia, disdiadococinesia, sin déficit motor ni sensitivo ni alteración visual. Minimental 30.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 40 años",
+        "sintomas": "Vértigo + ataxia + disdiadococinesia + cefalea occipital",
+        "pa": "176/108",
+        "sospecha": "Síndrome cerebeloso agudo"
+      },
+      "pregunta": "¿Cuál es el tratamiento recomendado?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Reducir la presión arterial 15%"
+        },
+        {
+          "letra": "b",
+          "texto": "Hemodilución con solución salina"
+        },
+        {
+          "letra": "c",
+          "texto": "Ácido acetilsalicílico 300 mg"
+        },
+        {
+          "letra": "d",
+          "texto": "Iniciar alteplase 0.9 mg/kg"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. ACV cerebeloso dentro de la ventana, trombólisis.",
+      "reaccion_error": "Pensá en la ventana terapéutica del ACV.",
+      "explicacion": {
+        "tldr": "ACV isquémico cerebeloso agudo (síntomas vestíbulo-cerebelosos) dentro de ventana de 4.5h, sin contraindicaciones. La PA debe controlarse antes (<185/110) pero el tratamiento clave es la trombólisis.",
+        "tratamiento": "Alteplase 0.9 mg/kg IV (10% bolo, resto en 1h). Antes: control de PA <185/110.",
+        "por_que_otras_no": {
+          "a": "Reducir PA 15% es para ACV hemorrágico o cuando no es candidato a trombólisis.",
+          "b": "La hemodilución no se recomienda en ACV.",
+          "c": "ASA se inicia 24h post-trombólisis, no en aguda."
+        }
+      },
+      "cierre_acierto": "Muy bien. Tiempo es cerebro, alteplase dentro de ventana.",
+      "cierre_error": "Tranquila. Ventana de 4.5h + sin contraindicaciones = trombólisis.",
+      "palabras_clave": [
+        {
+          "termino": "accidente cerebrovascular",
+          "wiki": "Accidente_cerebrovascular"
+        },
+        {
+          "termino": "alteplasa",
+          "wiki": "Activador_tisular_del_plasminógeno"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Verificar si se considera tiempo desde 'al despertar' o desde último visto normal."
+    },
+    {
+      "id": 41,
+      "especialidad": "neurologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre joven en estatus epiléptico tras consumir licor.",
+      "narracion_caso": "Hombre de 24 años, inconsciente, crisis motora tónico-clónica generalizada iniciada hace 10 minutos. Sigue convulsionando. Estaba ingiriendo licor sin efecto. Sin otras sustancias. Sin antecedentes.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 24 años",
+        "estado": "Estatus epiléptico (>5 min)",
+        "contexto": "Posible intoxicación etílica"
+      },
+      "pregunta": "¿Cuál es el medicamento de elección?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Ácido valproico venoso"
+        },
+        {
+          "letra": "b",
+          "texto": "Fenitoína venosa"
+        },
+        {
+          "letra": "c",
+          "texto": "Fosfenitoína nasal"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. ESETT validó valproato como equivalente.",
+      "reaccion_error": "Recordá los resultados del estudio ESETT.",
+      "explicacion": {
+        "tldr": "Estatus epiléptico refractario a benzodiacepinas (asumido como ya administradas). El estudio ESETT (2019) mostró equivalencia entre valproato, fosfenitoína y levetiracetam como segunda línea.",
+        "tratamiento": "Valproato IV 40 mg/kg en bolo. Las benzodiacepinas habrían sido la primera línea.",
+        "por_que_otras_no": {
+          "b": "La fenitoína IV tiene más efectos adversos cardiovasculares y de infusión.",
+          "c": "La fosfenitoína no se da por vía nasal, es IV o IM."
+        }
+      },
+      "cierre_acierto": "Excelente. ESETT cambió el manejo de la segunda línea.",
+      "cierre_error": "Tranquilo. ESETT: valproato, fosfenitoína y levetiracetam son equivalentes.",
+      "palabras_clave": [
+        {
+          "termino": "estatus epiléptico",
+          "wiki": "Estado_epiléptico"
+        },
+        {
+          "termino": "ácido valproico",
+          "wiki": "Ácido_valproico"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "La pregunta del PDF está incompleta, falta una opción. Validar."
+    },
+    {
+      "id": 42,
+      "especialidad": "obstetricia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctora, embarazada con preeclampsia severa, no hay nifedipino ni hidralazina.",
+      "narracion_caso": "Mujer de 40 años, 5 hijos, gestación 35 semanas. Desde semana 14 con HTA tratada con alfametildopa. Semana 34: cefalea de novo y dolor epigástrico. Ingreso: PA 162/110, hemoglobina 17, hematocrito 52, plaquetas 145.000, AST 72, ALT 70, LDH 400, proteínas urina 290 mg. Se le dieron 3 bolos labetalol (20, 40, 80) y persiste con PA 180/100. No hay nifedipino ni hidralazina disponible.",
+      "ficha_clinica": {
+        "paciente": "Embarazada 40 años, 35 semanas",
+        "diagnostico": "Preeclampsia severa con signos de gravedad",
+        "tratamiento_fallido": "Labetalol IV bolos x3 + alfametildopa",
+        "limitacion": "No hay nifedipino ni hidralazina"
+      },
+      "pregunta": "¿Cuál es el siguiente antihipertensivo?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Alfametildopa"
+        },
+        {
+          "letra": "b",
+          "texto": "Clonidina"
+        },
+        {
+          "letra": "c",
+          "texto": "Metoprolol"
+        },
+        {
+          "letra": "d",
+          "texto": "Nitroprusiato"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Clonidina es opción válida en este contexto.",
+      "reaccion_error": "Pensá qué fármacos son seguros en embarazo y disponibles.",
+      "explicacion": {
+        "tldr": "Crisis hipertensiva en preeclampsia severa con labetalol fallido y sin acceso a primera línea (nifedipino, hidralazina). La clonidina es opción de tercera línea aceptable en este contexto.",
+        "tratamiento": "Clonidina + manejo de preeclampsia con sulfato de magnesio + terminación del embarazo.",
+        "por_que_otras_no": {
+          "a": "La alfametildopa es de inicio lento, no para crisis.",
+          "c": "El metoprolol IV en bolos no se recomienda en preeclampsia.",
+          "d": "El nitroprusiato genera cianuro fetal, contraindicado."
+        }
+      },
+      "cierre_acierto": "Muy bien. Adaptarse a recursos sin sacrificar seguridad fetal es clave.",
+      "cierre_error": "Tranquila. La regla: en preeclampsia, el orden es nifedipino → labetalol → hidralazina → clonidina.",
+      "palabras_clave": [
+        {
+          "termino": "preeclampsia",
+          "wiki": "Preeclampsia"
+        },
+        {
+          "termino": "clonidina",
+          "wiki": "Clonidina"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Manejo de crisis en preeclampsia sin acceso a primera línea tiene variaciones."
+    },
+    {
+      "id": 43,
+      "especialidad": "obstetricia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctora, puérpera con fiebre, loquios fétidos y dolor uterino tras parto instrumentado.",
+      "narracion_caso": "Mujer de 23 años, 8 días post-parto instrumentado por expulsivo prolongado. Dolor pélvico, sangrado vaginal de mal olor. PA 100/60, FC 120, T 39°C, útero doloroso palpable a nivel umbilical, sangrado fétido, tacto: cérvix abierto.",
+      "ficha_clinica": {
+        "paciente": "Puérpera, 23 años",
+        "diagnostico": "Endometritis puerperal con signos de sepsis",
+        "factor_riesgo": "Parto instrumentado",
+        "examen": "Útero doloroso elevado, loquios fétidos"
+      },
+      "pregunta": "¿Cuál es la combinación antibiótica adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Clindamicina + gentamicina"
+        },
+        {
+          "letra": "b",
+          "texto": "Meropenem + metronidazol"
+        },
+        {
+          "letra": "c",
+          "texto": "Penicilina cristalina + metronidazol"
+        },
+        {
+          "letra": "d",
+          "texto": "Vancomicina + clindamicina"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Clinda + genta es el esquema clásico.",
+      "reaccion_error": "Recordá el esquema clásico de endometritis puerperal.",
+      "explicacion": {
+        "tldr": "Endometritis puerperal severa. El esquema gold-standard sigue siendo clindamicina (anaerobios + Gram positivos) + gentamicina (Gram negativos). Cobertura amplia para flora polimicrobiana.",
+        "tratamiento": "Clindamicina 900 mg IV cada 8h + gentamicina 5 mg/kg IV cada 24h hasta 48h afebril.",
+        "por_que_otras_no": {
+          "b": "El meropenem es para infecciones nosocomiales o multirresistentes, no de primera línea.",
+          "c": "La penicilina no cubre Bacteroides ni enterobacterias resistentes.",
+          "d": "La vancomicina + clindamicina cubre Gram positivos pero no Gram negativos."
+        }
+      },
+      "cierre_acierto": "Excelente. Clinda + genta es el clásico que no olvidás.",
+      "cierre_error": "Tranquila. Mnemotécnica: Clinda + Genta = Cobertura Genital completa.",
+      "palabras_clave": [
+        {
+          "termino": "endometritis puerperal",
+          "wiki": "Endometritis"
+        },
+        {
+          "termino": "clindamicina",
+          "wiki": "Clindamicina"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 44,
+      "especialidad": "obstetricia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctora, embarazada de 29 semanas con ruptura prematura de membranas. Líquido claro.",
+      "narracion_caso": "Mujer de 27 años, gestación 29 semanas 3 días. Acude a primer nivel por salida de líquido por vagina, claro, que aumenta al ponerse de pie. Sin contracciones. PA 110/60, FC 72, abdomen útero grávido, fetocardia 160, sin contracciones. Especuloscopia: franca salida de líquido claro por orificio cervical externo.",
+      "ficha_clinica": {
+        "paciente": "Embarazada 27 años, 29+3 semanas",
+        "diagnostico": "Ruptura prematura de membranas pretérmino (RPMP)",
+        "edad_gestacional": "Pretérmino temprano",
+        "estado_fetal": "Estable"
+      },
+      "pregunta": "¿Cuál conducta es correcta?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Administrar bolo de 4 gr de sulfato de magnesio para uteroinhibición y neuroprotección"
+        },
+        {
+          "letra": "b",
+          "texto": "Aplicar protocolo de tratamiento expectante para intentar llegar a semana 37"
+        },
+        {
+          "letra": "c",
+          "texto": "Iniciar protocolo de tratamiento expectante que intente llegar hasta la semana 34"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar tacto vaginal para determinar dilatación y borramiento"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. RPMP entre 24-34 sem se maneja expectante hasta 34.",
+      "reaccion_error": "Recordá hasta qué semana se prolonga el embarazo con RPMP.",
+      "explicacion": {
+        "tldr": "Ruptura prematura de membranas pretérmino entre 24-34 semanas: manejo expectante hasta semana 34 con corticoides, antibióticos profilácticos (azitromicina + ampicilina/amoxicilina), monitoreo de infección.",
+        "tratamiento": "Hospitalización + corticoides para maduración pulmonar + antibióticos + vigilancia. Terminar a las 34 semanas o antes si corioamnionitis/sufrimiento fetal.",
+        "por_que_otras_no": {
+          "a": "El sulfato es solo si hay parto inminente <32 sem para neuroprotección, no uteroinhibición prolongada.",
+          "b": "Llevar hasta semana 37 aumenta riesgo de corioamnionitis sin beneficio neonatal claro.",
+          "d": "El tacto vaginal está CONTRAINDICADO en RPM por aumentar riesgo de infección."
+        }
+      },
+      "cierre_acierto": "Excelente. Semana 34 es el límite estándar de RPMP.",
+      "cierre_error": "Tranquila. RPMP: corticoides + antibióticos + expectante hasta 34 sem.",
+      "palabras_clave": [
+        {
+          "termino": "ruptura prematura de membranas",
+          "wiki": "Rotura_prematura_de_membranas"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 45,
+      "especialidad": "obstetricia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, embarazada de 33 semanas con feto pequeño para edad gestacional.",
+      "narracion_caso": "Mujer de 25 años, gestación 33 semanas, control prenatal normal. Trae ecografía: crecimiento percentil 4, Doppler fetal y arterias uterinas normales.",
+      "ficha_clinica": {
+        "paciente": "Embarazada 25 años, 33 semanas",
+        "hallazgo": "RCIU tipo I (PFE p4 con Dopplers normales)",
+        "estado_fetal": "Sin signos de sufrimiento"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Continuar vigilancia con Doppler y terminar el embarazo en la semana 39"
+        },
+        {
+          "letra": "b",
+          "texto": "Continuar vigilancia con Doppler y terminar el embarazo en la semana 37"
+        },
+        {
+          "letra": "c",
+          "texto": "Programar terminación en la semana 34 con maduración"
+        },
+        {
+          "letra": "d",
+          "texto": "Realizar maduración pulmonar y terminar en semana 34"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. RCIU tipo I se termina a las 37 sem.",
+      "reaccion_error": "Recordá las semanas de terminación según tipo de RCIU.",
+      "explicacion": {
+        "tldr": "RCIU tipo I (percentil <10 con Dopplers normales): manejo expectante con vigilancia Doppler semanal/quincenal, terminación electiva a las 37 semanas para evitar mortinato sin riesgo de prematuridad innecesaria.",
+        "tratamiento": "Vigilancia Doppler + crecimiento + monitoreo fetal + terminación a las 37 semanas.",
+        "por_que_otras_no": {
+          "a": "Llevar a 39 aumenta riesgo de muerte fetal en RCIU.",
+          "c": "Terminar a 34 es para RCIU con alteraciones Doppler graves.",
+          "d": "Igual que la c, prematuridad innecesaria en tipo I."
+        }
+      },
+      "cierre_acierto": "Bien. RCIU tipo I = 37 semanas.",
+      "cierre_error": "Tranquila. Tabla de RCIU: tipo I→37, II→34-37, III→30-34, IV→26-30.",
+      "palabras_clave": [
+        {
+          "termino": "restricción del crecimiento intrauterino",
+          "wiki": "Restricción_del_crecimiento_intrauterino"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 46,
+      "especialidad": "oftalmologia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, hombre con erosión corneal pequeña por lente de contacto.",
+      "narracion_caso": "Hombre de 30 años, día anterior al quitarse el lente de contacto sintió cuerpo extraño y dolor. Ha mejorado pero queda molestia. Sin secreción, sin pérdida visual. Examen: ojo rojo, sin disminución de visión, defecto epitelial corneal 1x1 mm que tiñe con fluoresceína.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 30 años",
+        "diagnostico": "Erosión corneal por lente de contacto",
+        "tamano": "1x1 mm",
+        "vision": "Conservada"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Antibiótico en gotas"
+        },
+        {
+          "letra": "b",
+          "texto": "Antibiótico en gotas + lente de contacto blando terapéutico"
+        },
+        {
+          "letra": "c",
+          "texto": "Antibiótico en gotas + parche compresivo"
+        },
+        {
+          "letra": "d",
+          "texto": "Antibiótico en gotas + parche sin compresión"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Erosión por lente: no parchar, mayor riesgo de infección.",
+      "reaccion_error": "Recordá que las erosiones por lentes NO se parchan.",
+      "explicacion": {
+        "tldr": "Erosión corneal por lente de contacto: tratamiento con antibiótico en gotas (cubrir Pseudomonas, ej. quinolona) sin parche. El parche en estos casos aumenta el riesgo de infección bacteriana grave (queratitis).",
+        "tratamiento": "Moxifloxacino o ciprofloxacino en gotas cada 4-6h, suspender uso de lentes, control en 24-48h.",
+        "por_que_otras_no": {
+          "b": "El lente terapéutico blando no es estándar en erosión simple.",
+          "c": "El parche compresivo en erosión por lente aumenta riesgo infeccioso.",
+          "d": "Igualmente parchar está contraindicado."
+        }
+      },
+      "cierre_acierto": "Muy bien. La regla: erosión por lente = nunca parchar.",
+      "cierre_error": "Tranquilo. Erosión simple sin lente puede parcharse, con lente de contacto JAMÁS.",
+      "palabras_clave": [
+        {
+          "termino": "erosión corneal",
+          "wiki": "Abrasión_corneal"
+        },
+        {
+          "termino": "queratitis",
+          "wiki": "Queratitis"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 47,
+      "especialidad": "oftalmologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, niño de 2 años con reflejo extraño en las fotos. ¿Será grave?",
+      "narracion_caso": "Niño de 2 años, hace 2 meses los padres notan 'reflejo como de gato' en el ojo derecho, principalmente en fotos. Sin antecedentes. Examen: agudeza visual normal para edad, sin ojo rojo, oftalmoscopia directa aparentemente normal.",
+      "ficha_clinica": {
+        "paciente": "Niño, 2 años",
+        "hallazgo": "Leucocoria intermitente",
+        "alarma": "Posible retinoblastoma o catarata congénita"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Valoración por oftalmología prioritaria"
+        },
+        {
+          "letra": "b",
+          "texto": "Valoración por optometría prioritaria"
+        },
+        {
+          "letra": "c",
+          "texto": "Control en 3 meses para evaluar evolución"
+        },
+        {
+          "letra": "d",
+          "texto": "Parchar el ojo afectado 2 horas al día y control en 3 meses"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Leucocoria es emergencia oftalmológica.",
+      "reaccion_error": "El reflejo blanco en niños siempre se estudia urgente.",
+      "explicacion": {
+        "tldr": "Leucocoria (reflejo blanco pupilar) en niño <5 años es una EMERGENCIA oftalmológica. Diferenciales graves: retinoblastoma (tumor maligno), catarata congénita, persistencia de vasculatura fetal, toxocariasis, retinopatía del prematuro.",
+        "tratamiento": "Remisión URGENTE a oftalmología pediátrica para examen bajo midriasis y eventual exploración bajo anestesia.",
+        "por_que_otras_no": {
+          "b": "La optometría no maneja patología ocular grave.",
+          "c": "Esperar 3 meses puede significar pérdida del ojo o vida en retinoblastoma.",
+          "d": "El parche es para ambliopía, no para leucocoria de etiología desconocida."
+        }
+      },
+      "cierre_acierto": "Excelente. Reconocer leucocoria salva vidas.",
+      "cierre_error": "Tranquila. La regla: leucocoria en niño = oftalmología pediátrica YA.",
+      "palabras_clave": [
+        {
+          "termino": "leucocoria",
+          "wiki": "Leucocoria"
+        },
+        {
+          "termino": "retinoblastoma",
+          "wiki": "Retinoblastoma"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 48,
+      "especialidad": "oftalmologia",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, niña con endotropia y diferencia de visión entre ojos. ¿Cómo es la oclusión?",
+      "narracion_caso": "Niña de 4 años, hace 8 meses notan desviación ocular. Examen: visión 20/50 ojo derecho, 20/20 ojo izquierdo. Endotropia en ojo derecho. Resto normal.",
+      "ficha_clinica": {
+        "paciente": "Niña, 4 años",
+        "diagnostico": "Ambliopía + estrabismo (endotropia OD)",
+        "agudeza": "OD 20/50, OI 20/20"
+      },
+      "pregunta": "¿Cuál es la indicación correcta de oclusión?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Ocluir el ojo derecho 12 horas al día"
+        },
+        {
+          "letra": "b",
+          "texto": "Ocluir el ojo derecho 2 horas al día"
+        },
+        {
+          "letra": "c",
+          "texto": "Ocluir el ojo izquierdo 12 horas al día"
+        },
+        {
+          "letra": "d",
+          "texto": "Ocluir el ojo izquierdo 2 horas al día"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Se ocluye el sano para estimular el ambliope.",
+      "reaccion_error": "Recordá la lógica de la oclusión: tapar el bueno.",
+      "explicacion": {
+        "tldr": "Ambliopía: se ocluye el ojo SANO para forzar el uso del ojo ambliope. La dosis estándar en ambliopía moderada según el PEDIG es 2 horas/día, equivalente a oclusión 6 horas pero con mejor adherencia.",
+        "tratamiento": "Parche en ojo izquierdo (sano) 2h/día + corrección refractiva. Control cada 2-3 meses.",
+        "por_que_otras_no": {
+          "a": "Ocluir el ambliope empeora.",
+          "b": "Ocluir el ambliope, además dosis baja.",
+          "c": "Demasiada oclusión puede causar ambliopía iatrogénica en el ojo sano."
+        }
+      },
+      "cierre_acierto": "Muy bien. La regla: ocluir el sano para estimular el malo.",
+      "cierre_error": "Tranquilo. La paradoja: tapar el bueno hace trabajar al ambliope.",
+      "palabras_clave": [
+        {
+          "termino": "ambliopía",
+          "wiki": "Ambliopía"
+        },
+        {
+          "termino": "estrabismo",
+          "wiki": "Estrabismo"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 49,
+      "especialidad": "ortopedia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, niño con deformidad progresiva de pies y reflejos hiperactivos.",
+      "narracion_caso": "Niño de 10 años, 6 meses de deformidad progresiva en ambos pies. Examen: marcha en progresión negativa, sin discrepancia de longitud. Pie izquierdo: neutral. Pie derecho: talón varo, dedos pasan por 4to espacio, arco aumentado con zona de presión en primer metatarsiano. Neuro: dorsiflexores 4/5, evertores 4/5 bilateral, ROT +/++++ bilateral.",
+      "ficha_clinica": {
+        "paciente": "Niño, 10 años",
+        "deformidad": "Pie cavo progresivo derecho",
+        "neurologico": "Debilidad + hiperreflexia",
+        "sospecha": "Patología neurológica subyacente"
+      },
+      "pregunta": "¿Cuál examen se debe solicitar?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Electromiografía y velocidad de conducción nerviosa 4 extremidades"
+        },
+        {
+          "letra": "b",
+          "texto": "Rayos X AP y lateral columna lumbar + AP y lateral de ambos pies con apoyo"
+        },
+        {
+          "letra": "c",
+          "texto": "Resonancia magnética nuclear de columna lumbar sin contraste"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Pie cavo progresivo unilateral + hiperreflexia = pensá médula.",
+      "reaccion_error": "Hiperreflexia con deformidad progresiva apunta a la médula.",
+      "explicacion": {
+        "tldr": "Pie cavo progresivo unilateral con signos de motoneurona superior (hiperreflexia) sugiere patología medular: médula anclada, lipoma intradural, diastematomielia, tumor. La RM de columna lumbar es el estudio de elección.",
+        "tratamiento": "RM lumbar con contraste según indicación específica. Manejo según hallazgo.",
+        "por_que_otras_no": {
+          "a": "La EMG es útil pero no identifica las causas medulares principales.",
+          "b": "Las radiografías son útiles para estructura ósea pero no identifican patología medular."
+        }
+      },
+      "cierre_acierto": "Excelente. Conexión clave: pie cavo progresivo = sospecha médula.",
+      "cierre_error": "Tranquila. La regla: hiperreflexia + deformidad progresiva = pensá médula anclada.",
+      "palabras_clave": [
+        {
+          "termino": "pie cavo",
+          "wiki": "Pie_cavo"
+        },
+        {
+          "termino": "médula anclada",
+          "wiki": "Médula_anclada"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 50,
+      "especialidad": "ortopedia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre con trauma de tobillo en inversión, sin fractura en radiografía.",
+      "narracion_caso": "Hombre de 32 años, trauma en inversión del tobillo derecho. Edema perimaleolar moderado, equimosis medial y lateral hasta cara plantar. Dolor a la palpación, sin dolor en base del 5to metatarsiano. Marcha cojeando. Radiografías AP, lateral y oblicua (mortaja): sin fracturas.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 32 años",
+        "diagnostico": "Esguince de tobillo (Ottawa negativo para fractura)",
+        "examen": "Edema, equimosis, dolor"
+      },
+      "pregunta": "Además de analgesia, ¿cuál es la conducta adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Recomendar apoyo precoz e iniciar fisioterapia de inmediato"
+        },
+        {
+          "letra": "b",
+          "texto": "Inmovilizar con férula, utilizar muletas y fisioterapia al terminar inmovilización"
+        },
+        {
+          "letra": "c",
+          "texto": "Aplicar una férula y remitir para cirugía"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Esguince actual se maneja con movilización temprana.",
+      "reaccion_error": "Las guías de esguince cambiaron: ya no se inmoviliza prolongadamente.",
+      "explicacion": {
+        "tldr": "Esguince de tobillo grado I-II: el manejo moderno favorece la movilización temprana, apoyo precoz y fisioterapia funcional. La inmovilización prolongada empeora resultados a largo plazo.",
+        "tratamiento": "PRICE/PEACE&LOVE: protección, elevación, analgesia, carga temprana, ejercicios. Soporte con vendaje funcional o tobillera, no férula rígida prolongada.",
+        "por_que_otras_no": {
+          "b": "Inmovilización prolongada con férula empeora resultados funcionales.",
+          "c": "La cirugía es solo para roturas completas inestables o fracturas, no para esguinces."
+        }
+      },
+      "cierre_acierto": "Bien. Las guías evolucionaron hacia movilización temprana.",
+      "cierre_error": "Tranquilo. La regla nueva: esguince leve-moderado = mover, no inmovilizar.",
+      "palabras_clave": [
+        {
+          "termino": "esguince de tobillo",
+          "wiki": "Esguince"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 51,
+      "especialidad": "ortopedia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctora, joven con luxación acromioclavicular tras caída de bicicleta.",
+      "narracion_caso": "Hombre de 19 años, caída de bicicleta con trauma directo del hombro derecho. Dolor, deformidad y escoriación superficial. Dolor en zona de deformidad. Radiografías: pérdida de relación articular entre clavícula y acromion, con desplazamiento. Sin fracturas.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 19 años",
+        "diagnostico": "Luxación acromioclavicular con desplazamiento",
+        "estado": "Sin fracturas asociadas"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Inmovilización con cabestrillo durante 2 semanas e iniciar rehabilitación precoz"
+        },
+        {
+          "letra": "b",
+          "texto": "Inmovilización con cabestrillo y remisión urgente a ortopedia"
+        },
+        {
+          "letra": "c",
+          "texto": "Reducción e inmovilización con férula hasta la zona acromioclavicular y remisión a ortopedia"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Luxación con desplazamiento merece valoración ortopédica.",
+      "reaccion_error": "El desplazamiento cambia el manejo de la luxación AC.",
+      "explicacion": {
+        "tldr": "Luxación acromioclavicular con desplazamiento (Rockwood III-VI) requiere valoración ortopédica para decidir entre manejo conservador (la mayoría de tipo III) o quirúrgico (tipos IV-VI o atletas de alta demanda).",
+        "tratamiento": "Cabestrillo + remisión urgente a ortopedia para clasificación Rockwood y decisión definitiva.",
+        "por_que_otras_no": {
+          "a": "Decidir 2 semanas de cabestrillo sin clasificar primero es prematuro.",
+          "c": "La reducción cerrada no es definitiva en AC tipo III-VI y la férula a esa altura no agrega beneficio."
+        }
+      },
+      "cierre_acierto": "Bien. La clasificación Rockwood guía el tratamiento.",
+      "cierre_error": "Tranquila. La regla: luxación AC con desplazamiento = ortopedia evalúa.",
+      "palabras_clave": [
+        {
+          "termino": "luxación acromioclavicular",
+          "wiki": "Luxación_acromioclavicular"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Manejo de AC III es controvertido. Validar."
+    },
+    {
+      "id": 52,
+      "especialidad": "otorrinolaringologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, joven con rinosinusitis crónica que empeoró tras dejar tratamiento.",
+      "narracion_caso": "Hombre de 23 años, 6 meses con rinorrea hialina bilateral ocasionalmente mucopurulenta, escurrimiento posterior, cefalea frontofacial, obstrucción intermitente e hiposmia. Antecedente: otitis recurrente con adenoidectomía a los 5 años, rinitis alérgica desde los 8 años en tratamiento. Mejoró en adolescencia, suspendió tratamiento. TC: ocupación de senos maxilares, etmoidales y esfenoidales bilaterales con engrosamiento de senos frontales.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 23 años",
+        "duracion": "6 meses",
+        "sintomas": "Rinorrea + escurrimiento + cefalea + obstrucción + hiposmia",
+        "imagen": "Pansinusitis"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Disquinecia ciliar primaria"
+        },
+        {
+          "letra": "b",
+          "texto": "Mucormicosis nasosinusal"
+        },
+        {
+          "letra": "c",
+          "texto": "Papiloma invertido nasosinusal"
+        },
+        {
+          "letra": "d",
+          "texto": "Rinosinusitis crónica"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. >12 semanas de síntomas = rinosinusitis crónica.",
+      "reaccion_error": "Mirá el tiempo de evolución y la causa más común.",
+      "explicacion": {
+        "tldr": "Rinosinusitis crónica (RSC): síntomas nasosinusales >12 semanas + hallazgos imagenológicos compatibles. La rinitis alérgica de base es factor predisponente común.",
+        "tratamiento": "Reiniciar lavados nasales + corticoide intranasal + antihistamínico. Si no mejora, considerar TC de senos, endoscopia y eventual cirugía endoscópica.",
+        "por_que_otras_no": {
+          "a": "Disquinecia ciliar primaria tiene clínica desde infancia con infecciones respiratorias frecuentes.",
+          "b": "Mucormicosis es agresiva, rápida, en inmunocomprometidos.",
+          "c": "Papiloma invertido suele ser unilateral, no bilateral."
+        }
+      },
+      "cierre_acierto": "Muy bien. Tiempo es el primer criterio: aguda <4 sem, crónica >12.",
+      "cierre_error": "Tranquilo. La regla: rinosinusitis >12 semanas = crónica.",
+      "palabras_clave": [
+        {
+          "termino": "rinosinusitis crónica",
+          "wiki": "Sinusitis"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 53,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, niño de 6 años con problemas de motricidad fina y tropezones frecuentes.",
+      "narracion_caso": "Niño de 6 años, dificultad para escritura, choques frecuentes, mal manejo del lápiz, dificultad en algunos trazos, no salta lazo, dificultad para amarrarse zapatos. Buen rendimiento escolar. Antecedentes negativos. Examen: sobrepeso y ligera disminución del tono muscular.",
+      "ficha_clinica": {
+        "paciente": "Niño, 6 años",
+        "patron": "Torpeza motora fina y gruesa",
+        "intelecto": "Normal",
+        "examen": "Sobrepeso, leve hipotonía"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Parálisis cerebral infantil hipotónica leve"
+        },
+        {
+          "letra": "b",
+          "texto": "Retardo simple del área motora fina"
+        },
+        {
+          "letra": "c",
+          "texto": "Trastorno del aprendizaje especialmente en escritura"
+        },
+        {
+          "letra": "d",
+          "texto": "Trastorno del desarrollo de la coordinación"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. TDC: torpeza con intelecto normal.",
+      "reaccion_error": "Recordá el diagnóstico de torpeza motora con cognición normal.",
+      "explicacion": {
+        "tldr": "Trastorno del Desarrollo de la Coordinación (TDC, antes 'dispraxia'): torpeza motora significativa, dificultad en habilidades motoras finas y gruesas, NO explicable por discapacidad intelectual ni condición neurológica identificable.",
+        "tratamiento": "Terapia ocupacional + terapia física + apoyo escolar. Pronóstico bueno con intervención temprana.",
+        "por_que_otras_no": {
+          "a": "La parálisis cerebral tiene signos neurológicos focales (espasticidad, reflejos anormales).",
+          "b": "No es solo motora fina, también gruesa (saltar lazo, amarrarse).",
+          "c": "El trastorno del aprendizaje no explica la torpeza motora gruesa."
+        }
+      },
+      "cierre_acierto": "Excelente. TDC es subdiagnosticado y muy responde a TO.",
+      "cierre_error": "Tranquila. Anotá TDC: torpeza fina + gruesa + cognición normal.",
+      "palabras_clave": [
+        {
+          "termino": "trastorno del desarrollo de la coordinación",
+          "wiki": "Dispraxia"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 54,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 1,
+      "llegada": "Doctor, niña de 3 años para suplementación con micronutrientes en polvo.",
+      "narracion_caso": "Niña de 3 años, consulta de valoración integral. Se decide suplementación con micronutrientes en polvo (chispitas/MNP). Madre pregunta cómo darlos.",
+      "ficha_clinica": {
+        "paciente": "Niña, 3 años",
+        "intervencion": "Micronutrientes en polvo",
+        "indicacion": "Prevención de anemia y deficiencias"
+      },
+      "pregunta": "¿Cómo se deben dar los micronutrientes?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Agregarlos a alimentos líquidos o bebidas"
+        },
+        {
+          "letra": "b",
+          "texto": "Agregarlos a un puré, sopa espesa, papillas o frutas maceradas"
+        },
+        {
+          "letra": "c",
+          "texto": "Agregarlos durante la preparación de las comidas"
+        },
+        {
+          "letra": "d",
+          "texto": "Suspenderlos si la niña presenta diarrea"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Alimentos espesos para mejor absorción y aceptación.",
+      "reaccion_error": "Recordá las recomendaciones de la OPS.",
+      "explicacion": {
+        "tldr": "Los micronutrientes en polvo (MNP/'chispitas') se mezclan en alimentos espesos (puré, papilla) ya servidos en el plato. No en líquidos (se pierden), no durante la cocción (calor destruye), no se suspenden con diarrea (a menos que sea severa).",
+        "tratamiento": "Mezclar en porción pequeña de alimento espeso del plato, sin pasar al líquido. Frecuencia según protocolo nacional.",
+        "por_que_otras_no": {
+          "a": "Los líquidos disuelven mal y se pierden.",
+          "c": "El calor de cocción destruye vitaminas y reduce eficacia.",
+          "d": "Solo se suspenden si hay efectos adversos significativos."
+        }
+      },
+      "cierre_acierto": "Muy bien. Educación correcta a la madre maximiza el beneficio.",
+      "cierre_error": "Tranquilo. La regla: agregar a alimento sólido espeso después de cocinar.",
+      "palabras_clave": [
+        {
+          "termino": "micronutrientes",
+          "wiki": "Micronutriente"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 55,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, niño de 3 años de Medellín con dengue NS1 positivo y plaquetas 109.000.",
+      "narracion_caso": "Niño de 3 años, residente en Medellín, 4 días de fiebre, malestar, exantema macular eritematoso, vómito y dolor abdominal intermitente. Recibiendo vía oral. Examen: sin signos de alarma, T 38.7, FC 146. Labs: leucocitos 3200 linfo, Hb 12.5, plaquetas 109.000, NS1 positivo, IgM e IgG negativos.",
+      "ficha_clinica": {
+        "paciente": "Niño, 3 años, dengue confirmado NS1+",
+        "fase": "Sin signos de alarma",
+        "plaquetas": "109.000 (descenso)",
+        "estado": "Tolera vía oral"
+      },
+      "pregunta": "¿Cuál es la conducta según OPS/OMS/Minsalud?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Alta con signos de peligro, reposo, LO abundantes, acetaminofén y control hemograma 24-48h"
+        },
+        {
+          "letra": "b",
+          "texto": "Hospitalizar segundo nivel, líquidos IV 3-5 mL/Kg/hora, acetaminofén, hemograma cada 6h"
+        },
+        {
+          "letra": "c",
+          "texto": "Hospitalizar tercer nivel, líquidos IV 10 mL/Kg/hora, hemograma"
+        },
+        {
+          "letra": "d",
+          "texto": "Hospitalizar, líquidos orales abundantes, cristaloides IV 2 mL/Kg/hora, acetaminofén"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Dengue sin signos de alarma = manejo ambulatorio.",
+      "reaccion_error": "Clasificá el dengue: sin signos de alarma se puede ambulatorio.",
+      "explicacion": {
+        "tldr": "Dengue SIN signos de alarma + tolera vía oral + sin comorbilidades = manejo ambulatorio con educación de signos de peligro y control clínico. La trombocitopenia leve por sí sola no obliga a hospitalizar.",
+        "tratamiento": "Alta con educación clara de signos de alarma (vómito persistente, dolor abdominal intenso, sangrado, letargia, frialdad), líquidos orales abundantes, acetaminofén (NO AINEs ni ASA), control en 24-48h con hemograma.",
+        "por_que_otras_no": {
+          "b": "Hospitalizar sin signos de alarma es sobre-tratamiento.",
+          "c": "Tercer nivel solo es para dengue grave con shock.",
+          "d": "No se requieren líquidos IV si tolera vía oral."
+        }
+      },
+      "cierre_acierto": "Excelente. Clasificar bien el dengue evita saturar hospitales.",
+      "cierre_error": "Tranquila. Regla OPS: dengue clasifica como A (sin alarma), B (con alarma), C (grave).",
+      "palabras_clave": [
+        {
+          "termino": "dengue",
+          "wiki": "Dengue"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 56,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, niña del Chocó con malaria por Plasmodium vivax.",
+      "narracion_caso": "Niña de 6 años del Chocó, 1 semana de fiebre 39.5°C, malestar, mialgias, sudoración, vómito. Examen: FR 23, FC 118, PA 102/50, SatO2 97%, T 39.7, Glasgow 15. No deshidratada. Sin signos de alarma. Labs: leucocitos 14600, neutrófilos 65%, Hb 11, PCR 3.2, VSG 35. Gota gruesa: 1500 formas Plasmodium vivax.",
+      "ficha_clinica": {
+        "paciente": "Niña, 6 años, Chocó",
+        "diagnostico": "Malaria por P. vivax no complicada",
+        "parasitemia": "1500 formas/µL",
+        "estado": "Sin signos de gravedad"
+      },
+      "pregunta": "¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Artemether-lumefantrina 3 días + primaquina dosis única"
+        },
+        {
+          "letra": "b",
+          "texto": "Artesunato endovenoso 24h + cloroquina 3 días"
+        },
+        {
+          "letra": "c",
+          "texto": "Artesunato 24h + artemether-lumefantrina 3 días"
+        },
+        {
+          "letra": "d",
+          "texto": "Cloroquina 3 días + primaquina 14 días"
+        }
+      ],
+      "correcta": "d",
+      "reaccion_acierto": "Sí. Vivax = cloroquina + primaquina 14 días.",
+      "reaccion_error": "Recordá el esquema específico para vivax en Colombia.",
+      "explicacion": {
+        "tldr": "Malaria por P. vivax no complicada en Colombia: cloroquina 3 días para la fase eritrocitaria + primaquina 14 días para erradicar hipnozoítos hepáticos (evitar recaídas). Antes de primaquina: descartar deficiencia G6PD.",
+        "tratamiento": "Cloroquina (10-25 mg/kg) + primaquina (0.5 mg/kg) según protocolo Minsalud.",
+        "por_que_otras_no": {
+          "a": "Artemether-lumefantrina es para falciparum, no es de primera línea para vivax en Colombia.",
+          "b": "Artesunato IV es para malaria GRAVE, no esta paciente.",
+          "c": "Igualmente artesunato IV no aplica."
+        }
+      },
+      "cierre_acierto": "Excelente. Vivax = primaquina porque hipnozoítos.",
+      "cierre_error": "Tranquilo. La regla: vivax en Colombia = cloroquina + primaquina 14 días (descartar G6PD).",
+      "palabras_clave": [
+        {
+          "termino": "malaria",
+          "wiki": "Malaria"
+        },
+        {
+          "termino": "Plasmodium vivax",
+          "wiki": "Plasmodium_vivax"
+        },
+        {
+          "termino": "primaquina",
+          "wiki": "Primaquina"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 57,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, lactante de 6 meses con ELISA VIH positiva. Madre adolescente sin controles.",
+      "narracion_caso": "Lactante de 6 meses, hija de madre adolescente sin pareja, sin controles prenatales, parto en casa. En valoración integral: ELISA VIH positivo.",
+      "ficha_clinica": {
+        "paciente": "Lactante, 6 meses",
+        "antecedentes": "Madre sin control prenatal, parto en casa",
+        "resultado": "ELISA VIH positivo (anticuerpos)"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Considerar un diagnóstico confirmado"
+        },
+        {
+          "letra": "b",
+          "texto": "Ordenar inmediatamente Western blot confirmatorio"
+        },
+        {
+          "letra": "c",
+          "texto": "Ordenar una carga viral para el VIH"
+        },
+        {
+          "letra": "d",
+          "texto": "Repetir la prueba de anticuerpos por otra técnica diferente a ELISA"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. <18 meses se diagnostica con carga viral, no anticuerpos.",
+      "reaccion_error": "Los anticuerpos maternos pasan al lactante, hay que mirar el virus directo.",
+      "explicacion": {
+        "tldr": "En menores de 18 meses los anticuerpos maternos cruzan la placenta y pueden dar ELISA falsamente positivo. El diagnóstico se hace por DETECCIÓN VIRAL DIRECTA: carga viral por PCR o antígeno p24.",
+        "tratamiento": "Carga viral inmediata. Mientras, iniciar profilaxis con antirretrovirales si no se ha hecho. Manejo por equipo especializado.",
+        "por_que_otras_no": {
+          "a": "No se puede confirmar con anticuerpos a esta edad.",
+          "b": "Western blot también es por anticuerpos, mismo problema.",
+          "d": "Repetir anticuerpos no resuelve el problema de los anticuerpos maternos."
+        }
+      },
+      "cierre_acierto": "Excelente. La regla: <18 meses = PCR/carga viral, no anticuerpos.",
+      "cierre_error": "Tranquila. Anotá: lactante con VIH se diagnostica por virus directo (PCR).",
+      "palabras_clave": [
+        {
+          "termino": "VIH pediátrico",
+          "wiki": "VIH/sida"
+        },
+        {
+          "termino": "transmisión vertical VIH",
+          "wiki": "Transmisión_vertical"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 58,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, recién nacido con desaturación de oxígeno en tamizaje cardiopatía congénita.",
+      "narracion_caso": "Recién nacido de 24 horas, gestación 37 semanas, sin complicaciones. Tamizaje de cardiopatía neonatal con pulso-oxímetro correcto: SatO2 preductal 94%, posductal 90%. Repetido 1 hora después: preductal 92%, posductal 97%. Resolución 207 de 2024.",
+      "ficha_clinica": {
+        "paciente": "Recién nacido, 24h",
+        "tamizaje": "Pulso-oximetría: diferencia preductal/posductal y SatO2 <95%",
+        "resultado": "POSITIVO según criterios"
+      },
+      "pregunta": "Según la resolución 207 de 2024, ¿cuál es la conducta correcta?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Hospitalizar e iniciar proceso de remisión urgente para realización de ecocardiograma y valoración por cardiología pediátrica"
+        },
+        {
+          "letra": "b",
+          "texto": "Realizar electrocardiograma y radiografía de tórax previa a la remisión a cardiología pediátrica y la realización de ecocardiograma"
+        },
+        {
+          "letra": "c",
+          "texto": "Repetir nuevamente el tamizaje en 1 hora"
+        },
+        {
+          "letra": "d",
+          "texto": "Solicitar un electrocardiograma y una radiografía de tórax y según el resultado definir remisión a cardiología pediátrica"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. Tamizaje positivo = remisión inmediata.",
+      "reaccion_error": "Tamizaje positivo no se repite más, se actúa.",
+      "explicacion": {
+        "tldr": "Tamizaje POSITIVO de cardiopatía neonatal (SatO2 <95% en cualquier toma o diferencia preductal-posductal >3%). Según Resolución 207 de 2024 en Colombia, requiere hospitalización inmediata y ecocardiograma urgente por cardiología pediátrica.",
+        "tratamiento": "Hospitalización, ecocardiograma urgente, monitoreo, valoración por cardiología pediátrica.",
+        "por_que_otras_no": {
+          "b": "El EKG y rayos X no son los exámenes de elección, retrasan el ECO.",
+          "c": "El tamizaje ya fue positivo dos veces, no se repite más.",
+          "d": "Igual que la b, retrasa el diagnóstico definitivo."
+        }
+      },
+      "cierre_acierto": "Excelente. Conocer la Resolución 207 es clave para neonatos en Colombia.",
+      "cierre_error": "Tranquilo. La regla: tamizaje positivo de cardiopatía = ECO urgente.",
+      "palabras_clave": [
+        {
+          "termino": "cardiopatía congénita",
+          "wiki": "Cardiopatía_congénita"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Verificar contenido específico de Resolución 207 de 2024."
+    },
+    {
+      "id": 59,
+      "especialidad": "urologia",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, adolescente de 16 años con criptorquidia derecha. Tanner 4.",
+      "narracion_caso": "Adolescente de 16 años, ausencia de testículo derecho desde nacimiento. Sin síntomas. Examen: pene normal, testículo izquierdo normal, hemiescroto derecho vacío, no se palpa testículo en canal inguinal. Tanner 4.",
+      "ficha_clinica": {
+        "paciente": "Adolescente, 16 años",
+        "diagnostico": "Criptorquidia derecha no descendida",
+        "tanner": "4 (puberal avanzado)",
+        "edad_tardia": "16 años"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Laparoscopia y si es intraabdominal, orquidopexia"
+        },
+        {
+          "letra": "b",
+          "texto": "Laparoscopia y si es intraabdominal, orquidectomía"
+        },
+        {
+          "letra": "c",
+          "texto": "Ecografía Doppler testicular"
+        },
+        {
+          "letra": "d",
+          "texto": "Seguimiento ambulatorio con Doppler y niveles de testosterona"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Post-puberal, riesgo de malignización supera beneficios.",
+      "reaccion_error": "La edad cambia el manejo: ya no se puede preservar.",
+      "explicacion": {
+        "tldr": "Criptorquidia diagnosticada post-puberalmente (>12 años, especialmente con Tanner avanzado): la orquidopexia ya no es útil para preservar fertilidad y el testículo tiene mayor riesgo de malignización (seminoma). Indicación: orquidectomía.",
+        "tratamiento": "Laparoscopia diagnóstica: si testículo intraabdominal viable → orquidectomía. Si es atrófico o ausente → no se requiere más intervención.",
+        "por_que_otras_no": {
+          "a": "La orquidopexia tardía no rescata fertilidad y mantiene riesgo oncológico.",
+          "c": "La ecografía no es confiable para testículos no descendidos intraabdominales.",
+          "d": "El seguimiento perpetúa el riesgo oncológico."
+        }
+      },
+      "cierre_acierto": "Excelente. La edad es el factor crítico en criptorquidia.",
+      "cierre_error": "Tranquilo. La regla: criptorquidia post-puberal = orquidectomía por riesgo oncológico.",
+      "palabras_clave": [
+        {
+          "termino": "criptorquidia",
+          "wiki": "Criptorquidia"
+        },
+        {
+          "termino": "seminoma",
+          "wiki": "Seminoma"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Decisión orquidopexia vs orquidectomía post-puberal puede variar según escuela y disponibilidad de seguimiento."
+    },
+    {
+      "id": 60,
+      "especialidad": "pediatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, lactante de 12 meses en brigada extramural. ¿Cómo lo clasificamos nutricionalmente?",
+      "narracion_caso": "Lactante de 12 meses evaluado en brigada extramural en una vereda. Madre refiere buena salud, sin antecedentes patológicos. Esquema de vacunación al día. Examen físico: peso 7,8 kg, sin signos de edema, perímetro braquial 11,4 cm, sin otras alteraciones.",
+      "ficha_clinica": {
+        "paciente": "Lactante, 12 meses",
+        "contexto": "Brigada extramural, zona rural",
+        "antropometria": "Peso 7,8 kg, PB 11,4 cm",
+        "examen": "Sin edemas, sin otras alteraciones"
+      },
+      "pregunta": "¿Cuál es la clasificación nutricional de este niño?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Desnutrición aguda grave"
+        },
+        {
+          "letra": "b",
+          "texto": "Desnutrición aguda moderada"
+        },
+        {
+          "letra": "c",
+          "texto": "Riesgo de desnutrición aguda"
+        },
+        {
+          "letra": "d",
+          "texto": "Estado nutricional normal"
+        }
+      ],
+      "correcta": "a",
+      "reaccion_acierto": "Sí. El perímetro braquial menor a 11,5 cm define desnutrición aguda grave.",
+      "reaccion_error": "Mire el perímetro braquial: es el punto de corte clave.",
+      "explicacion": {
+        "tldr": "Perímetro braquial (PB) menor de 11,5 cm en niño de 6 a 59 meses define desnutrición aguda grave según OMS, independiente del peso o edemas.",
+        "tratamiento": "Manejo según protocolo de desnutrición aguda grave: evaluación de complicaciones, alimentación terapéutica (F-75/F-100 o ATLC), monitoreo cercano.",
+        "por_que_otras_no": {
+          "b": "Desnutrición aguda moderada corresponde a PB entre 11,5 y 12,5 cm.",
+          "c": "Riesgo de desnutrición es PB mayor a 12,5 cm con tendencia descendente.",
+          "d": "El PB de 11,4 cm está claramente por debajo del rango normal."
+        }
+      },
+      "cierre_acierto": "Excelente. El PB es la herramienta más simple y potente en terreno: salva vidas.",
+      "cierre_error": "Tranquila, doctora. La regla rápida: PB menor a 11,5 cm es grave, urge intervenir.",
+      "palabras_clave": [
+        {
+          "termino": "desnutrición aguda grave",
+          "wiki": "Desnutrición_infantil"
+        },
+        {
+          "termino": "perímetro braquial",
+          "wiki": "Antropometría"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 61,
+      "especialidad": "pediatria",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, lactante de 4 meses febril con uroanálisis sugestivo de infección urinaria.",
+      "narracion_caso": "Lactante femenina de 4 meses con fiebre de 39 grados desde hace 48 horas, irritabilidad y rechazo al alimento. Sin síntomas respiratorios ni digestivos. Examen físico: febril, buen estado general, sin signos de foco. Uroanálisis con nitritos positivos y leucocituria. Gram de orina con bacilos gramnegativos abundantes.",
+      "ficha_clinica": {
+        "paciente": "Lactante femenina, 4 meses",
+        "tiempo_evolucion": "48 horas",
+        "sintomas": "Fiebre 39°C, irritabilidad, rechazo al alimento",
+        "uroanalisis": "Nitritos positivos, leucocituria, bacilos gramnegativos"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Iniciar antibiótico oral empírico y dar de alta sin más estudios"
+        },
+        {
+          "letra": "b",
+          "texto": "Iniciar antibióticos endovenosos y solicitar una ecografía renal y de vías urinarias"
+        },
+        {
+          "letra": "c",
+          "texto": "Realizar cistouretrografía miccional inmediatamente para descartar reflujo vesicoureteral"
+        },
+        {
+          "letra": "d",
+          "texto": "Observar sin tratamiento y repetir el uroanálisis en 48 horas"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Lactante febril menor de 6 meses con ITU: hospitalización con antibiótico IV y estudio de vías.",
+      "reaccion_error": "En lactantes pequeños con ITU febril el manejo siempre es hospitalario.",
+      "explicacion": {
+        "tldr": "Primera ITU febril en lactante menor de 6 meses: hospitalización con antibiótico endovenoso (cefalosporina de tercera generación o ampicilina más aminoglucósido) y ecografía renal/vías urinarias para descartar anomalías estructurales.",
+        "tratamiento": "Antibiótico IV ajustado al urocultivo, mínimo 7-14 días, transición a vía oral según evolución. Ecografía en las primeras 48 horas si hay mala evolución; de rutina al egreso.",
+        "por_que_otras_no": {
+          "a": "El manejo ambulatorio en lactantes menores de 6 meses con ITU febril no es seguro: riesgo alto de bacteriemia y daño renal.",
+          "c": "La cistouretrografía no es de primera línea ni urgente; se reserva para casos seleccionados tras imagen inicial.",
+          "d": "No tratar una ITU confirmada en lactante febril es negligente; cada hora aumenta el riesgo de cicatriz renal."
+        }
+      },
+      "cierre_acierto": "Excelente. La ITU en lactantes pequeños se trata como bacteriemia hasta probar lo contrario.",
+      "cierre_error": "Tranquilo. Lactante pequeño con ITU febril siempre se hospitaliza, antibiótico IV y ecografía. Es regla.",
+      "palabras_clave": [
+        {
+          "termino": "infección urinaria pediátrica",
+          "wiki": "Infección_urinaria"
+        },
+        {
+          "termino": "pielonefritis",
+          "wiki": "Pielonefritis"
+        },
+        {
+          "termino": "reflujo vesicoureteral",
+          "wiki": "Reflujo_vesicoureteral"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 62,
+      "especialidad": "psiquiatria",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, hombre de 25 años traído por la familia. Lleva 10 días sin dormir y dice que encontró la cura del cáncer.",
+      "narracion_caso": "Hombre de 25 años. Hace 10 días anda eufórico: dice que encontró la cura del cáncer, no para de caminar, no duerme más de dos horas, habla sin parar, dice que su mente va a mil kilómetros por hora. Sin antecedentes psiquiátricos previos. Examen físico y laboratorios sin alteraciones.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 25 años",
+        "tiempo_evolucion": "10 días",
+        "sintomas": "Euforia, grandiosidad, hiperactividad, insomnio, presión del habla, fuga de ideas",
+        "antecedentes": "Sin episodios previos, sin consumo de sustancias"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Trastorno bipolar tipo I, episodio actual hipomanía"
+        },
+        {
+          "letra": "b",
+          "texto": "Trastorno bipolar tipo I, episodio actual manía"
+        },
+        {
+          "letra": "c",
+          "texto": "Trastorno bipolar tipo II, episodio actual hipomanía"
+        },
+        {
+          "letra": "d",
+          "texto": "Trastorno bipolar tipo II, episodio actual manía"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Cuadro maníaco completo de más de 7 días con grandiosidad y disfunción: bipolar tipo I.",
+      "reaccion_error": "Mire la duración y la intensidad: no es hipomanía.",
+      "explicacion": {
+        "tldr": "Episodio maníaco (más de 7 días, síntomas marcados, deterioro funcional, grandiosidad y disminución del sueño) define el Trastorno Bipolar tipo I.",
+        "tratamiento": "Hospitalización si compromiso funcional o riesgo, estabilizador del ánimo (litio o valproato) más antipsicótico atípico para control agudo.",
+        "por_que_otras_no": {
+          "a": "Hipomanía dura 4-6 días y no causa deterioro funcional marcado.",
+          "c": "Bipolar tipo II requiere historia de episodios depresivos mayores con solo hipomanía, nunca manía completa.",
+          "d": "Bipolar tipo II no incluye episodios de manía completa por definición."
+        }
+      },
+      "cierre_acierto": "Excelente. La duración y la intensidad son el filtro entre manía e hipomanía.",
+      "cierre_error": "Tranquilo. Regla: 7 días o más y con disfunción o psicosis es manía, no hipomanía.",
+      "palabras_clave": [
+        {
+          "termino": "trastorno bipolar",
+          "wiki": "Trastorno_bipolar"
+        },
+        {
+          "termino": "manía",
+          "wiki": "Manía"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 63,
+      "especialidad": "psiquiatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctor, mujer de 24 años con delirio de persecución y aislamiento de 7 meses.",
+      "narracion_caso": "Mujer de 24 años. Hace 7 meses cree que el servicio de inteligencia ruso le hackeó el celular, tapa el cuarto con cajas de huevos para que no le escuchen el pensamiento, se aisla y habla sola como discutiendo con alguien. Examen físico: IMC de 32. Tóxicos en orina negativos. Laboratorios sin hallazgos.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 24 años",
+        "tiempo_evolucion": "7 meses",
+        "sintomas": "Delirio persecutorio, alucinaciones auditivas, aislamiento",
+        "antropometria": "IMC 32 (obesidad)",
+        "toxicos": "Negativos"
+      },
+      "pregunta": "¿Cuál es la mejor opción de tratamiento farmacológico inicial?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Clozapina"
+        },
+        {
+          "letra": "b",
+          "texto": "Olanzapina"
+        },
+        {
+          "letra": "c",
+          "texto": "Risperidona"
+        },
+        {
+          "letra": "d",
+          "texto": "Haloperidol"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Antipsicótico atípico de primera línea con menor riesgo metabólico para una paciente con obesidad.",
+      "reaccion_error": "Considere el perfil metabólico: la paciente ya tiene obesidad.",
+      "explicacion": {
+        "tldr": "Esquizofrenia paranoide en primer episodio: antipsicótico atípico de primera línea. En paciente con IMC 32 se debe minimizar el riesgo metabólico, por lo que la risperidona es preferible a olanzapina.",
+        "tratamiento": "Risperidona 2-4 mg/día, titulación gradual, monitoreo de prolactina, signos extrapiramidales y peso. Acompañamiento psicosocial y familiar.",
+        "por_que_otras_no": {
+          "a": "Clozapina se reserva para esquizofrenia refractaria (tras fallar 2 antipsicóticos) por riesgo de agranulocitosis y monitoreo hematológico.",
+          "b": "Olanzapina causa mayor ganancia de peso y dislipidemia: contraindicada relativa en obesidad.",
+          "d": "Haloperidol es antipsicótico típico con alto riesgo de síntomas extrapiramidales; no es primera línea en primer episodio."
+        }
+      },
+      "cierre_acierto": "Excelente. La elección del antipsicótico siempre considera el perfil de efectos del paciente.",
+      "cierre_error": "Tranquilo. Regla: primer episodio + obesidad = preferir risperidona sobre olanzapina.",
+      "palabras_clave": [
+        {
+          "termino": "esquizofrenia",
+          "wiki": "Esquizofrenia"
+        },
+        {
+          "termino": "risperidona",
+          "wiki": "Risperidona"
+        },
+        {
+          "termino": "antipsicóticos atípicos",
+          "wiki": "Antipsicótico_atípico"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "La opción d (haloperidol) se asume como cuarta opción ya que el PDF mostraba solo 3 visibles; verificar contra el documento original."
+    },
+    {
+      "id": 64,
+      "especialidad": "psiquiatria",
+      "sala": "consultorio",
+      "dificultad": 2,
+      "llegada": "Doctora, mujer de 33 años con pensamientos intrusivos de contaminación y rituales mentales.",
+      "narracion_caso": "Mujer de 33 años, auxiliar de servicio hospitalario. Hace 2 meses con insomnio de conciliación y pensamientos intrusivos sobre contaminarse en el trabajo. Hace esfuerzos mentales para neutralizarlos repitiendo una palabra, sin éxito. Descuida sus tareas laborales.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 33 años",
+        "tiempo_evolucion": "2 meses",
+        "sintomas": "Pensamientos intrusivos, compulsiones mentales, insomnio",
+        "funcional": "Descuido laboral"
+      },
+      "pregunta": "¿Cuál es el tratamiento farmacológico inicial más apropiado?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Pregabalina 75 miligramos cada 12 horas"
+        },
+        {
+          "letra": "b",
+          "texto": "Risperidona 2 miligramos cada noche"
+        },
+        {
+          "letra": "c",
+          "texto": "Sertralina 50 miligramos en la mañana"
+        },
+        {
+          "letra": "d",
+          "texto": "Clonazepam 0,5 miligramos cada noche"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. ISRS es primera línea en trastorno obsesivo-compulsivo.",
+      "reaccion_error": "Es un cuadro de TOC: pensamientos intrusivos egodistónicos más compulsiones.",
+      "explicacion": {
+        "tldr": "Trastorno obsesivo-compulsivo (TOC): obsesiones de contaminación más compulsiones mentales neutralizantes. Tratamiento de primera línea: ISRS a dosis altas, frecuentemente mayores que en depresión.",
+        "tratamiento": "Sertralina iniciando en 50 mg y titulando hasta 100-200 mg/día. Acompañar con terapia cognitivo-conductual con exposición y prevención de respuesta. Respuesta puede tardar 8-12 semanas.",
+        "por_que_otras_no": {
+          "a": "Pregabalina es para trastorno de ansiedad generalizada, no para TOC.",
+          "b": "Risperidona se usa como potenciador en TOC refractario, no como primera línea.",
+          "d": "Benzodiacepinas alivian ansiedad asociada pero no tratan las obsesiones; riesgo de dependencia."
+        }
+      },
+      "cierre_acierto": "Excelente. ISRS para TOC, dosis más altas y por tiempo más largo que en depresión.",
+      "cierre_error": "Tranquila. Regla: TOC se trata con ISRS, no con benzodiacepinas ni antipsicóticos como primera línea.",
+      "palabras_clave": [
+        {
+          "termino": "trastorno obsesivo-compulsivo",
+          "wiki": "Trastorno_obsesivo-compulsivo"
+        },
+        {
+          "termino": "sertralina",
+          "wiki": "Sertralina"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "La opción d (clonazepam) se asume como cuarta opción ya que el PDF mostraba solo 3 visibles; verificar contra el documento original."
+    },
+    {
+      "id": 65,
+      "especialidad": "psiquiatria",
+      "sala": "consultorio",
+      "dificultad": 3,
+      "llegada": "Doctora, mujer de 47 años con sintomatología grave 7 meses después de la muerte de un familiar.",
+      "narracion_caso": "Mujer de 47 años, sobreviviente de accidente de tránsito donde murió un familiar cercano hace 7 meses. Consulta por hiporexia, insomnio, pesadillas con el evento, anhedonia, fatiga, tristeza, deterioro laboral y conflictos familiares. Refiere ideación de muerte: piensa que su familia estaría mejor sin ella.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 47 años",
+        "antecedente": "Pérdida de familiar en accidente, 7 meses",
+        "sintomas": "Anhedonia, insomnio, pesadillas, fatiga, ideación suicida pasiva",
+        "funcional": "Deterioro laboral y familiar"
+      },
+      "pregunta": "¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Duelo prolongado"
+        },
+        {
+          "letra": "b",
+          "texto": "Trastorno de estrés postraumático"
+        },
+        {
+          "letra": "c",
+          "texto": "Trastorno depresivo mayor"
+        },
+        {
+          "letra": "d",
+          "texto": "Trastorno adaptativo"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. La ideación suicida y los síntomas neurovegetativos hacen el diagnóstico.",
+      "reaccion_error": "Mire la ideación suicida: ese es el dato que decide.",
+      "explicacion": {
+        "tldr": "Aunque hay un evento traumático con pesadillas, los síntomas centrales son depresivos: anhedonia, hiporexia, insomnio, fatiga, deterioro funcional global y, sobre todo, ideación suicida pasiva (creer que su familia estaría mejor sin ella). Cumple criterios de Trastorno Depresivo Mayor.",
+        "tratamiento": "ISRS más psicoterapia. Evaluación de riesgo suicida; considerar derivación a psiquiatría. Si hay TEPT comórbido, abordar también con terapia específica.",
+        "por_que_otras_no": {
+          "a": "El duelo prolongado se centra en el añoramiento del fallecido y no incluye ideación suicida generalizada como criterio nuclear.",
+          "b": "El TEPT puede estar presente pero no explica la ideación suicida ni la anhedonia global.",
+          "d": "El trastorno adaptativo no incluye ideación suicida ni síntomas vegetativos completos por más de 6 meses tras estresor agudo."
+        }
+      },
+      "cierre_acierto": "Excelente. La ideación suicida activa o pasiva siempre obliga a buscar depresión mayor.",
+      "cierre_error": "Tranquila. La ideación suicida es bandera roja para depresión mayor, sin importar el contexto traumático.",
+      "palabras_clave": [
+        {
+          "termino": "trastorno depresivo mayor",
+          "wiki": "Trastorno_depresivo_mayor"
+        },
+        {
+          "termino": "trastorno por estrés postraumático",
+          "wiki": "Trastorno_por_estrés_postraumático"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Diagnóstico diferencial entre depresión mayor y duelo prolongado puede ser objeto de debate; la ideación suicida favorece depresión mayor."
+    },
+    {
+      "id": 66,
+      "especialidad": "toxicologia",
+      "sala": "urgencias",
+      "dificultad": 2,
+      "llegada": "Doctor, mujer de 21 años con intoxicación por acetaminofén. Tomó 30 tabletas hace 6 horas.",
+      "narracion_caso": "Mujer de 21 años. Ingirió 30 tabletas de acetaminofén de 500 mg hace 6 horas. Refiere 2 episodios eméticos. Sin otros síntomas. Signos vitales normales. Laboratorios: AST 80, ALT 68, bilirrubinas normales, INR 1,1.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 21 años",
+        "ingesta": "15 g de acetaminofén hace 6 horas",
+        "examen": "Estable, sin alteraciones",
+        "laboratorio": "AST 80, ALT 68, INR 1,1"
+      },
+      "pregunta": "¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Medir niveles de acetaminofén y esperar resultado para decidir si se inicia N-acetilcisteína"
+        },
+        {
+          "letra": "b",
+          "texto": "Iniciar N-acetilcisteína oral, un sobre de 300 mg cada 8 horas por 72 horas"
+        },
+        {
+          "letra": "c",
+          "texto": "Administrar N-acetilcisteína 150 mg/Kg en 60 minutos y continuar protocolo IV de 20 horas"
+        },
+        {
+          "letra": "d",
+          "texto": "Repetir transaminasas en 12 horas y según resultado definir el inicio del antídoto"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Dosis tóxica con transaminasas ya elevadas: N-acetilcisteína IV de inmediato.",
+      "reaccion_error": "No espere niveles cuando ya hay daño hepático en marcha.",
+      "explicacion": {
+        "tldr": "15 g de acetaminofén es claramente dosis tóxica (más de 150 mg/kg). Ya hay elevación de transaminasas a las 6 horas: hay hepatotoxicidad iniciada. La indicación es iniciar N-acetilcisteína IV sin esperar niveles.",
+        "tratamiento": "Protocolo IV: 150 mg/kg en 60 min, luego 50 mg/kg en 4 horas, luego 100 mg/kg en 16 horas. Monitoreo de función hepática y coagulación; valoración por toxicología.",
+        "por_que_otras_no": {
+          "a": "Esperar niveles retrasa el antídoto, que es más eficaz en las primeras 8-10 horas.",
+          "b": "Esa dosis oral es subóptima; el protocolo oral estándar es distinto y la vía IV es preferible con elevación de transaminasas.",
+          "d": "Repetir transaminasas sin iniciar antídoto perpetúa el daño hepático."
+        }
+      },
+      "cierre_acierto": "Excelente. En intoxicación por acetaminofén el tiempo es hígado: más rápido el antídoto, mejor pronóstico.",
+      "cierre_error": "Tranquilo. Dosis tóxica con AST/ALT ya elevadas: no se espera, se inicia N-acetilcisteína de inmediato.",
+      "palabras_clave": [
+        {
+          "termino": "intoxicación por acetaminofén",
+          "wiki": "Toxicidad_por_paracetamol"
+        },
+        {
+          "termino": "N-acetilcisteína",
+          "wiki": "Acetilcisteína"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 67,
+      "especialidad": "toxicologia",
+      "sala": "urgencias",
+      "dificultad": 3,
+      "llegada": "Doctor, agricultor de 32 años con alteración de la conciencia, miosis y secreciones por todos lados.",
+      "narracion_caso": "Hombre de 32 años, agricultor. La esposa lo encontró inconsciente. Antecedente: depresión sin tratamiento. Examen físico: TA 100/60, FC 64, FR 18, saturación 94%, Glasgow 10/15. Pupilas mióticas puntiformes, sialorrea, rinorrea, diaforesis, sibilancias, peristaltismo aumentado, deposiciones líquidas abundantes. EKG: ritmo sinusal, QTc 470 ms.",
+      "ficha_clinica": {
+        "paciente": "Hombre, 32 años, agricultor",
+        "antecedente": "Depresión sin tratamiento",
+        "examen": "Glasgow 10/15, miosis, sialorrea, diaforesis, sibilancias, diarrea",
+        "sindrome": "Colinérgico muscarínico"
+      },
+      "pregunta": "¿Cuál es el mejor enfoque terapéutico?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Administrar 1 g/Kg de carbón activado en dosis única vía sonda nasogástrica"
+        },
+        {
+          "letra": "b",
+          "texto": "Administrar 1 mg IV de atropina directo y sin diluir. Si no hay mejoría, duplicar la dosis"
+        },
+        {
+          "letra": "c",
+          "texto": "Administrar dosis única de 2 gramos de sulfato de magnesio IV y vigilar EKG"
+        },
+        {
+          "letra": "d",
+          "texto": "Administrar líquidos endovenosos, dar tratamiento de soporte y continuar vigilancia"
+        }
+      ],
+      "correcta": "b",
+      "reaccion_acierto": "Sí. Síndrome colinérgico por organofosforados: atropina ya, doblando dosis hasta secar secreciones.",
+      "reaccion_error": "Reconozca el síndrome colinérgico: atropina es el antídoto.",
+      "explicacion": {
+        "tldr": "Síndrome colinérgico muscarínico clásico (miosis, sialorrea, lagrimeo, broncorrea, diaforesis, diarrea, bradicardia) en agricultor con intento autolítico: intoxicación por organofosforados o carbamatos. El antídoto es atropina hasta atropinización (secado de secreciones bronquiales), idealmente con pralidoxima si está disponible.",
+        "tratamiento": "Atropina 1-2 mg IV en bolo, doblar cada 5-10 min hasta cesar broncorrea. Pralidoxima 30 mg/kg IV en bolo, luego infusión. Soporte ventilatorio si compromiso respiratorio. Descontaminación cutánea con protección del personal.",
+        "por_que_otras_no": {
+          "a": "Carbón activado vía oral no aplica con Glasgow 10 (riesgo de broncoaspiración) y no es la prioridad frente al antídoto.",
+          "c": "Sulfato de magnesio se usa en otras intoxicaciones (digital, antiarrítmicos) o en QT largo, no aquí.",
+          "d": "Solo soporte sin atropina permite la muerte por broncorrea masiva. Es manejo insuficiente."
+        }
+      },
+      "cierre_acierto": "Excelente. En síndrome colinérgico la atropina salva vidas: no se duda, no se mide, se administra.",
+      "cierre_error": "Tranquilo. Regla: síndrome colinérgico igual a atropina ya, doblando hasta secar secreciones.",
+      "palabras_clave": [
+        {
+          "termino": "intoxicación por organofosforados",
+          "wiki": "Intoxicación_por_organofosforados"
+        },
+        {
+          "termino": "atropina",
+          "wiki": "Atropina"
+        },
+        {
+          "termino": "síndrome colinérgico",
+          "wiki": "Síndrome_colinérgico"
+        }
+      ],
+      "revisar": false
+    },
+    {
+      "id": 68,
+      "especialidad": "urologia",
+      "sala": "hospitalizacion",
+      "dificultad": 2,
+      "llegada": "Doctor, mujer de 30 años con pielonefritis derecha y un absceso renal de 20 mm en la TAC.",
+      "narracion_caso": "Mujer de 30 años con diagnóstico de pielonefritis derecha. Sin antecedentes. Signos vitales estables, función renal conservada. TAC con contraste: imagen hipodensa en riñón derecho de 20 mm con realce periférico, sin hidronefrosis. Compatible con absceso renal pequeño.",
+      "ficha_clinica": {
+        "paciente": "Mujer, 30 años",
+        "diagnostico": "Pielonefritis derecha + absceso renal de 20 mm",
+        "examen": "Estable hemodinámicamente",
+        "funcion_renal": "Conservada"
+      },
+      "pregunta": "¿Cuál es la conducta correcta?",
+      "opciones": [
+        {
+          "letra": "a",
+          "texto": "Administrar antibiótico empírico según perfil de sensibilidad local por 10 días y control imagenológico"
+        },
+        {
+          "letra": "b",
+          "texto": "Administrar ciprofloxacina 400 mg IV cada 12 horas por 10 días"
+        },
+        {
+          "letra": "c",
+          "texto": "Iniciar antibiótico de tercera generación según perfil de sensibilidad local con plan de tratamiento extendido y control imagenológico"
+        },
+        {
+          "letra": "d",
+          "texto": "Remitir para realizar nefrostomía percutánea e iniciar antibiótico de amplio espectro"
+        }
+      ],
+      "correcta": "c",
+      "reaccion_acierto": "Sí. Absceso renal menor de 3 cm responde a antibiótico solo, prolongado y con control imagenológico.",
+      "reaccion_error": "Considere el tamaño: menos de 3 cm no requiere drenaje.",
+      "explicacion": {
+        "tldr": "Absceso renal menor de 3 cm en paciente estable: manejo médico con antibiótico parenteral según uropatógenos locales (típicamente cefalosporina de tercera generación) por 2 a 4 semanas con control imagenológico. El drenaje percutáneo se reserva para abscesos mayores a 3-5 cm o sin respuesta clínica.",
+        "tratamiento": "Cefalosporina de tercera generación (ceftriaxona) IV, ajuste según urocultivo, transición a oral cuando hay mejoría clínica, duración total 4-6 semanas. TAC de control a las 4-6 semanas.",
+        "por_que_otras_no": {
+          "a": "Antibiótico empírico genérico por solo 10 días es insuficiente para erradicar un absceso renal.",
+          "b": "Ciprofloxacina IV por 10 días es duración insuficiente y la quinolona depende del patrón de resistencia local; en Colombia hay alta resistencia a quinolonas.",
+          "d": "Nefrostomía percutánea no es el procedimiento de elección para drenar abscesos; el drenaje sería percutáneo guiado y solo si el absceso es mayor a 3-5 cm."
+        }
+      },
+      "cierre_acierto": "Excelente. Regla del 3: menos de 3 cm, solo antibiótico; más de 5 cm, drenaje.",
+      "cierre_error": "Tranquilo. Absceso renal pequeño igual a antibiótico prolongado con imagen de control, no a procedimiento.",
+      "palabras_clave": [
+        {
+          "termino": "absceso renal",
+          "wiki": "Absceso_renal"
+        },
+        {
+          "termino": "pielonefritis",
+          "wiki": "Pielonefritis"
+        }
+      ],
+      "revisar": true,
+      "nota_revisar": "Duración exacta del antibiótico y umbral de drenaje (3 vs 5 cm) pueden variar entre guías; verificar con guía Minsalud o EAU."
+    }
+  ]
+}
