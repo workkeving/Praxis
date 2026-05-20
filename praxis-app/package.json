@@ -1,0 +1,14 @@
+{
+  "name": "praxis-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @praxis/web",
+    "build": "npm run build -w @praxis/web",
+    "preview": "npm run preview -w @praxis/web"
+  }
+}

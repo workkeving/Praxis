@@ -1,0 +1,41 @@
+{
+  id 4,
+  especialidad toxicologia,
+  sala urgencias,
+  dificultad 3,
+  llegada Doctor, código en sala de sutura. Venga rápido.,
+  narracion_caso Hombre de 25 años. Le estaban suturando heridas en cuero cabelludo y muslo. Le infiltraron lidocaína y empezó a quejarse de sabor metálico y un pitido en los oídos. Después convulsionó. Lo intubamos pero acaba de perder el pulso. Monitor muestra actividad eléctrica sin pulso. ¿Qué hacemos,
+  ficha_clinica {
+    paciente Hombre, 25 años,
+    ubicacion Sala de sutura,
+    exposicion Lidocaína infiltrativa,
+    evolucion Sabor metálico → tinnitus → convulsión → AESP
+  },
+  pregunta ¿Cuál es la acción inmediata más indicada,
+  opciones [
+    { letra a, texto Administrar 1 mg de adrenalina intravenoso },
+    { letra b, texto Iniciar compresiones torácicas },
+    { letra c, texto Utilizar emulsión lipídica intravenosa },
+    { letra d, texto Verificar el ritmo de paro con el desfibrilador }
+  ],
+  correcta c,
+  reaccion_acierto Sí, exactamente. Vamos por el Intralipid.,
+  reaccion_error No era esa. Pero tranquilo, este caso es de los que aprendes para siempre.,
+  explicacion {
+    tldr Es LAST (Toxicidad Sistémica por Anestésicos Locales). El sabor metálico + tinnitus + convulsión tras infiltración con lidocaína es el cuadro clásico.,
+    tratamiento Antídoto específico emulsión lipídica al 20% (Intralipid). Bolo de 1.5 mLkg + infusión continua. La grasa secuestra el anestésico circulante.,
+    por_que_otras_no {
+      a En LAST la adrenalina en dosis altas (1 mg) empeora el pronóstico. ASRA recomienda menos de 1 mcgkg.,
+      b Las compresiones son estándar en cualquier paro, pero no rescatan la cardiotoxicidad específica del LAST.,
+      d AESP no se desfibrila, es ritmo no desfibrilable.
+    }
+  },
+  cierre_acierto Estos son los casos que separan a un buen médico. Lo hiciste perfecto, doctor.,
+  cierre_error Tranquilo, doctor. El LAST es uno de esos diagnósticos que duele aprender pero que nunca se olvida. La próxima vez lo identificas en segundos.,
+  palabras_clave [
+    { termino LAST, wiki Toxicidad_sistémica_por_anestésicos_locales },
+    { termino lidocaína, wiki Lidocaína },
+    { termino emulsión lipídica, wiki Emulsión_lipídica_intravenosa }
+  ],
+  revisar false
+}
