@@ -33,7 +33,7 @@
       "especialidad": "otorrinolaringologia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, vino una mamá preocupada con su hijo de 10 años. Lleva un año con la nariz tapada.",
+      "llegada": "Doc, vino una mamá preocupada con su hijo de 10 años. Lleva un año con la nariz tapada.",
       "narracion_caso": "Niño de 10 años. Desde hace un año tiene rinorrea, obstrucción nasal, picazón y estornudos en salvas todos los días. No duerme bien y no se concentra en el colegio. Al examen: hipertrofia bilateral de cornetes inferiores con obstrucción al flujo de aire.",
       "ficha_clinica": {
         "paciente": "Niño, 10 años",
@@ -61,7 +61,7 @@
         }
       ],
       "correcta": "a",
-      "reaccion_acierto": "Exacto, doctor. Ese era.",
+      "reaccion_acierto": "Exacto, Doc. Ese era.",
       "reaccion_error": "No, mire bien la severidad del cuadro.",
       "explicacion": {
         "tldr": "Es una rinitis alérgica persistente moderada-severa (síntomas diarios que afectan sueño y escolaridad) con hipertrofia de cornetes.",
@@ -96,7 +96,7 @@
       "especialidad": "dermatologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, adolescente con un cuadro raro. Empezó carbamazepina hace tres semanas y ahora tiene placas dolorosas y fiebre.",
+      "llegada": "Doc, adolescente con un cuadro raro. Empezó carbamazepina hace tres semanas y ahora tiene placas dolorosas y fiebre.",
       "narracion_caso": "Adolescente de 13 años con migraña, le iniciaron carbamazepina. Tres semanas después comenzó con malestar, fiebre, ardor ocular y mialgias. Después aparecieron disfagia y placas eritematosas-parduzcas pruriginosas y dolorosas.",
       "ficha_clinica": {
         "paciente": "Adolescente, 13 años",
@@ -159,7 +159,7 @@
       "especialidad": "neumologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, vuelve el niño asmático. Ya está con montelukast pero sigue tosiendo de noche.",
+      "llegada": "Doc, vuelve el niño asmático. Ya está con montelukast pero sigue tosiendo de noche.",
       "narracion_caso": "Niño de 10 años con asma, en tratamiento con montelukast 5 mg y salbutamol de rescate. Última crisis hace 6 meses requirió observación y esteroides orales. Ahora tiene 1-2 despertares nocturnos por semana por tos.",
       "ficha_clinica": {
         "paciente": "Niño, 10 años",
@@ -221,7 +221,7 @@
       "especialidad": "toxicologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, código en sala de sutura. Venga rápido.",
+      "llegada": "Doc, código en sala de sutura. Venga rápido.",
       "narracion_caso": "Hombre de 25 años. Le estaban suturando heridas en cuero cabelludo y muslo. Le infiltraron lidocaína y empezó a quejarse de sabor metálico y un pitido en los oídos. Después convulsionó. Lo intubamos pero acaba de perder el pulso. Monitor muestra actividad eléctrica sin pulso.",
       "ficha_clinica": {
         "paciente": "Hombre, 25 años",
@@ -260,8 +260,8 @@
           "d": "AESP no se desfibrila, es ritmo no desfibrilable."
         }
       },
-      "cierre_acierto": "Estos son los casos que separan a un buen médico. Lo hiciste perfecto, doctor.",
-      "cierre_error": "Tranquilo, doctor. El LAST es uno de esos diagnósticos que duele aprender pero que nunca se olvida.",
+      "cierre_acierto": "Estos son los casos que separan a un buen médico. Lo hiciste perfecto, Doc.",
+      "cierre_error": "Tranquilo, Doc. El LAST es uno de esos diagnósticos que duele aprender pero que nunca se olvida.",
       "palabras_clave": [
         {
           "termino": "LAST",
@@ -283,7 +283,7 @@
       "especialidad": "toxicologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, llegó un paro. Lo encontraron al lado de jeringas y ampollas de meperidina.",
+      "llegada": "Doc, llegó un paro. Lo encontraron al lado de jeringas y ampollas de meperidina.",
       "narracion_caso": "Hombre de 30 años, en paro cardiorrespiratorio. Al lado había jeringas y ampollas de meperidina. Viene con ventilación con bolsa-mascarilla y compresiones torácicas desde el traslado.",
       "ficha_clinica": {
         "paciente": "Hombre, 30 años",
@@ -345,7 +345,7 @@
       "especialidad": "cirugia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, herida por arma de fuego en cuello. Adolescente, estable pero con enfisema bilateral.",
+      "llegada": "Doc, herida por arma de fuego en cuello. Adolescente, estable pero con enfisema bilateral.",
       "narracion_caso": "Adolescente de 16 años, herida por proyectil hace 30 minutos. Orificio de entrada en zona II derecha, salida en zona III izquierda. Enfisema subcutáneo bilateral, leve disfonía y disfagia. PA 110/70, FC 95. Sin sangrado activo, sin soplos, pulsos distales conservados. No hay hematemesis, melenas, estridor ni heridas soplantes.",
       "ficha_clinica": {
         "paciente": "Adolescente, 16 años",
@@ -403,7 +403,7 @@
       "especialidad": "cirugia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, paciente con dolor inguinal raro. Ya lo han operado dos veces de hernia.",
+      "llegada": "Doc, paciente con dolor inguinal raro. Ya lo han operado dos veces de hernia.",
       "narracion_caso": "Hombre de 40 años. Dos meses con dolor inguinal derecho 'como una cortada', irradiado al testículo y al muslo. Tiene zonas con anestesia y otras con hiperestesia. Empeora con la actividad sexual y mejora con la flexión de la cadera. Antecedente: dos correcciones de hernia inguinal por vía anterior.",
       "ficha_clinica": {
         "paciente": "Hombre, 40 años",
@@ -465,7 +465,7 @@
       "especialidad": "gastroenterologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, hombre de 38 años con sangrado en heces y pérdida de peso desde hace 6 meses.",
+      "llegada": "Doc, hombre de 38 años con sangrado en heces y pérdida de peso desde hace 6 meses.",
       "narracion_caso": "Hombre de 38 años, lleva 6 meses con sangrado escaso en deposiciones, diarrea intermitente y dolor cólico que no mejora con flatos. Le han dado antiparasitarios sin mejoría. Bajó 3 kg en 6 meses. Examen abdominal normal, hemorroides externas, ampolla rectal sin masas, guante sin sangre.",
       "ficha_clinica": {
         "paciente": "Hombre, 38 años",
@@ -527,7 +527,7 @@
       "especialidad": "cirugia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, paciente con apendicitis quiere manejo conservador en vez de cirugía.",
+      "llegada": "Doc, paciente con apendicitis quiere manejo conservador en vez de cirugía.",
       "narracion_caso": "Hombre de 68 años, 24 horas con apendicitis. TC: apendicitis aguda inicial, apendicolito en la luz, estriación de la grasa pericólica, sin absceso ni plastrón. Ya estaba programado para cirugía pero pide tratamiento solo con antibióticos.",
       "ficha_clinica": {
         "paciente": "Hombre, 68 años",
@@ -585,7 +585,7 @@
       "especialidad": "ortopedia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, joven con fractura de antebrazo recién reducida que empeoró el dolor.",
+      "llegada": "Doc, joven con fractura de antebrazo recién reducida que empeoró el dolor.",
       "narracion_caso": "Hombre de 25 años, accidente de moto, fractura cerrada diafisaria de cúbito y radio derecho. Tras la reducción, dolor intenso que no cede con analgésicos. Parestesias en los dedos. El estiramiento pasivo de los dedos le aumenta el dolor. Mano pálida y fría, pulsos radiales presentes.",
       "ficha_clinica": {
         "paciente": "Hombre, 25 años",
@@ -643,7 +643,7 @@
       "especialidad": "ortopedia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, paciente con dedo inflamado tras una herida punzante de hace dos días.",
+      "llegada": "Doc, paciente con dedo inflamado tras una herida punzante de hace dos días.",
       "narracion_caso": "Hombre de 45 años, lesión punzante en base del 4to dedo derecho hace 48 horas. Ahora dolor intenso a la extensión de la articulación interfalángica proximal, con edema y eritema en todo el dedo hasta la región medio palmar.",
       "ficha_clinica": {
         "paciente": "Hombre, 45 años",
@@ -701,7 +701,7 @@
       "especialidad": "cirugia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, recién nacido con labio fisurado. Los papás quieren saber cuándo operarlo.",
+      "llegada": "Doc, recién nacido con labio fisurado. Los papás quieren saber cuándo operarlo.",
       "narracion_caso": "Recién nacido en casa. Al examen: fisura labiopalatina unilateral completa. Los padres preguntan cuál es el mejor momento para la cirugía estética y funcional.",
       "ficha_clinica": {
         "paciente": "Recién nacido",
@@ -758,7 +758,7 @@
       "especialidad": "cirugia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, deportista con fractura de mandíbula tras golpe directo.",
+      "llegada": "Doc, deportista con fractura de mandíbula tras golpe directo.",
       "narracion_caso": "Hombre de 30 años, golpe directo en mandíbula jugando fútbol. Dolor y dificultad para abrir la boca, trismus, maloclusión y equimosis en piso de boca. Radiografías: fractura del ángulo mandibular derecho, favorable, sin desplazamiento significativo.",
       "ficha_clinica": {
         "paciente": "Hombre, 30 años",
@@ -813,7 +813,7 @@
       "especialidad": "ortopedia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, accidente de tránsito. Hombro caído sin fracturas en radiografía.",
+      "llegada": "Doc, accidente de tránsito. Hombro caído sin fracturas en radiografía.",
       "narracion_caso": "Hombre de 32 años, accidente de tránsito. Examen: hombro derecho caído, no puede abducir el brazo ni flexionar el codo, pérdida de sensibilidad táctil en cara lateral del brazo. Radiografía sin fracturas.",
       "ficha_clinica": {
         "paciente": "Hombre, 32 años",
@@ -871,7 +871,7 @@
       "especialidad": "obstetricia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, embarazada del tercer trimestre con picazón intensa pero sin lesiones.",
+      "llegada": "Doc, embarazada del tercer trimestre con picazón intensa pero sin lesiones.",
       "narracion_caso": "Mujer de 25 años, primigestante en tercer trimestre. Empezó con prurito intenso en palmas y plantas que luego se generalizó. Sin lesiones primarias en la piel.",
       "ficha_clinica": {
         "paciente": "Embarazada 25 años, primigestante",
@@ -925,7 +925,7 @@
       "especialidad": "medicina_interna",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, esta es de bioestadística. Vamos a interpretar un ensayo clínico.",
+      "llegada": "Doc, esta es de bioestadística. Vamos a interpretar un ensayo clínico.",
       "narracion_caso": "Ensayo clínico doble ciego aleatorizado, 1:1, evalúa tirzepatida vs placebo sobre muerte cardiovascular en pacientes con insuficiencia cardíaca. Encontró disminución de mortalidad CV con p=0.03.",
       "ficha_clinica": {
         "tipo_estudio": "ECA doble ciego placebo controlado",
@@ -983,7 +983,7 @@
       "especialidad": "ginecologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer joven con dolor pélvico y quiste de 8 cm.",
+      "llegada": "Doc, mujer joven con dolor pélvico y quiste de 8 cm.",
       "narracion_caso": "Mujer de 32 años, dolor pélvico leve intermitente. Ecografía: quiste simple de 8 cm en ovario derecho, resto normal. Marcadores tumorales todos normales (CA125, CEA, AFP, LDH, βHCG).",
       "ficha_clinica": {
         "paciente": "Mujer, 32 años",
@@ -1042,7 +1042,7 @@
       "especialidad": "ginecologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer de 48 años, asintomática, masa pélvica de 7 cm.",
+      "llegada": "Doc, mujer de 48 años, asintomática, masa pélvica de 7 cm.",
       "narracion_caso": "Mujer de 48 años, asintomática, en control cardiovascular. Examen: masa de 7 cm en hipogastrio. Ecografía: imagen sugestiva de endometrioma. CA125: 40 (normal <35), CEA normal.",
       "ficha_clinica": {
         "paciente": "Mujer, 48 años, perimenopáusica",
@@ -1101,7 +1101,7 @@
       "especialidad": "ginecologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer hipertensa y fumadora quiere anticoncepción de emergencia, fue hace 4 días.",
+      "llegada": "Doc, mujer hipertensa y fumadora quiere anticoncepción de emergencia, fue hace 4 días.",
       "narracion_caso": "Mujer de 38 años, separada, 2 hijos. Tuvo relación sin protección hace 4 días, no quiere embarazarse. Ciclos regulares, última menstruación 10 días antes. Antecedentes: HTA con losartán, fumadora 10 cig/día x 20 años. Examen: PA 150/95, peso 76 kg, talla 154 cm.",
       "ficha_clinica": {
         "paciente": "Mujer, 38 años",
@@ -1159,7 +1159,7 @@
       "especialidad": "ginecologia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctora, mujer joven con sangrados abundantes y dolor pélvico hace 8 meses.",
+      "llegada": "Doc, mujer joven con sangrados abundantes y dolor pélvico hace 8 meses.",
       "narracion_caso": "Mujer de 30 años, soltera, sin vida sexual el último año. Hace 8 meses con menstruaciones más frecuentes y abundantes, y aparición de dolor pélvico. Sin tratamiento.",
       "ficha_clinica": {
         "paciente": "Mujer, 30 años",
@@ -1218,7 +1218,7 @@
       "especialidad": "medicina_interna",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer con dolor pélvico crónico de 2 años que afecta su calidad de vida.",
+      "llegada": "Doc, mujer con dolor pélvico crónico de 2 años que afecta su calidad de vida.",
       "narracion_caso": "Mujer de 39 años, 2 años con dolor pélvico crónico intermitente 6/10, parcialmente aliviado con analgésicos. Insomnio, cansancio persistente, llanto fácil, pensamientos negativos. Calidad de vida muy afectada.",
       "ficha_clinica": {
         "paciente": "Mujer, 39 años",
@@ -1281,7 +1281,7 @@
       "especialidad": "medicina_preventiva",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, paciente cardiovascular en prescripción de ejercicio. ¿Está bien dosificado?",
+      "llegada": "Doc, paciente cardiovascular en prescripción de ejercicio. ¿Está bien dosificado?",
       "narracion_caso": "Hombre de 44 años, sobrepeso, HTA y dislipidemia. Toma losartán y atorvastatina. Pesa 82 kg, talla 175 cm. Prescripción: caminata 40 min, 4 veces/semana a intensidad moderada (5 METs) entre 125-135 lpm. Además fortalecimiento muscular 2 veces/semana.",
       "ficha_clinica": {
         "paciente": "Hombre, 44 años",
@@ -1339,7 +1339,7 @@
       "especialidad": "neurologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, hombre de 58 años con hemiplejía y afasia hace 4 horas. Toma apixabán.",
+      "llegada": "Doc, hombre de 58 años con hemiplejía y afasia hace 4 horas. Toma apixabán.",
       "narracion_caso": "Hombre de 58 años, hace 4 horas inició hemiplejía derecha, afasia y asimetría facial. HTA y FA, anticoagulado con apixabán (última dosis hace 12 horas). PA 182/104, FC 78, NIHSS 15. TC simple sin hemorragia ni cambios isquémicos agudos.",
       "ficha_clinica": {
         "paciente": "Hombre, 58 años",
@@ -1403,7 +1403,7 @@
       "especialidad": "cardiologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctora, taquicardia supraventricular que no responde a adenosina ni metoprolol.",
+      "llegada": "Doc, taquicardia supraventricular que no responde a adenosina ni metoprolol.",
       "narracion_caso": "Mujer de 46 años, palpitaciones y taquicardia persistente sin dolor torácico ni disnea. PA 122/80, FC 160, FR 23, SatO2 94%. EKG: taquicardia por reentrada nodal AV. Maniobras vagales x2 sin éxito, adenosina + metoprolol IV sin respuesta.",
       "ficha_clinica": {
         "paciente": "Mujer, 46 años, estable",
@@ -1462,7 +1462,7 @@
       "especialidad": "cardiologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, paciente desfibrilado por fibrilación ventricular. ¿Siguiente paso?",
+      "llegada": "Doc, paciente desfibrilado por fibrilación ventricular. ¿Siguiente paso?",
       "narracion_caso": "Hombre de 50 años, dolor torácico de 2 horas. Llegó a triage, colapsó. FV en monitor, desfibrilado con 200J bifásicos. Compresiones torácicas en curso 30:2. Vía venosa canalizada.",
       "ficha_clinica": {
         "paciente": "Hombre, 50 años",
@@ -1515,7 +1515,7 @@
       "especialidad": "cardiologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, hombre de 60 años con palpitaciones, disnea y FC 184 irregular.",
+      "llegada": "Doc, hombre de 60 años con palpitaciones, disnea y FC 184 irregular.",
       "narracion_caso": "Hombre de 60 años, 2 horas de palpitaciones y disnea. FC 184 irregular, FR 28, SatO2 89% al ambiente, PA 108/70, T 36°C. Mal estado general, pálido, diaforético, somnoliento, crépitos bilaterales. EKG: taquicardia con ritmo irregular RR, QRS <120 ms, alternancia en voltaje.",
       "ficha_clinica": {
         "paciente": "Hombre, 60 años",
@@ -1573,7 +1573,7 @@
       "especialidad": "reumatologia",
       "sala": "consultorio",
       "dificultad": 3,
-      "llegada": "Doctora, hombre de 52 años con dolor articular y sinovitis bilateral. Factor reumatoide negativo.",
+      "llegada": "Doc, hombre de 52 años con dolor articular y sinovitis bilateral. Factor reumatoide negativo.",
       "narracion_caso": "Hombre de 52 años, 3 meses de dolor en metacarpofalángicas e interfalángicas proximales de ambas manos, predominio matutino con rigidez de 60 min. HTA con enalapril e hidroclorotiazida, obesidad. Madre con AR. Examen: IMC 32, squeeze test bilateral positivo, sinovitis en 4ta y 5ta IFP izquierda. Labs: hemograma normal, PCR 4, VSG 45, ácido úrico 8,5, FR y anti-CCP negativos.",
       "ficha_clinica": {
         "paciente": "Hombre, 52 años",
@@ -1632,7 +1632,7 @@
       "especialidad": "cardiologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, hombre de 65 años con angina estable y prueba de estrés positiva.",
+      "llegada": "Doc, hombre de 65 años con angina estable y prueba de estrés positiva.",
       "narracion_caso": "Hombre de 65 años, 6 meses de dolor torácico opresivo al caminar largas distancias que cede con reposo. HTA, dislipidemia, fumador activo. Ecocardiografía de estrés con dobutamina: isquemia inducida en pared lateral (territorio de circunfleja), FEVI normal.",
       "ficha_clinica": {
         "paciente": "Hombre, 65 años",
@@ -1690,7 +1690,7 @@
       "especialidad": "neumologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctora, EPOC con exacerbación. pH 7.32, PaCO2 52, hipoxémico.",
+      "llegada": "Doc, EPOC con exacerbación. pH 7.32, PaCO2 52, hipoxémico.",
       "narracion_caso": "Hombre de 65 años, EPOC con falla cardíaca. 1 semana con aumento de disnea, tos productiva y sibilancias. FR 26, SatO2 88% con O2 a 3L, uso de músculos accesorios. Gases: pH 7.32, PaCO2 52, PaO2 58. Creatinina normal.",
       "ficha_clinica": {
         "paciente": "Hombre, 65 años, EPOC",
@@ -1748,7 +1748,7 @@
       "especialidad": "neumologia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, joven con asma intermitente leve por ejercicio y aire frío.",
+      "llegada": "Doc, joven con asma intermitente leve por ejercicio y aire frío.",
       "narracion_caso": "Hombre de 20 años, 3 meses con disnea y tos al ejercicio y al aire frío, en promedio 2 días/semana, sin síntomas nocturnos. Asma diagnosticada a los 15. Examen: FR 18, SatO2 95%, escasas sibilancias sin trabajo respiratorio.",
       "ficha_clinica": {
         "paciente": "Hombre, 20 años, asma",
@@ -1809,7 +1809,7 @@
       "especialidad": "cardiologia",
       "sala": "consultorio",
       "dificultad": 3,
-      "llegada": "Doctora, hombre con falla cardíaca FEVI 35%. ¿Optimizamos la terapia médica?",
+      "llegada": "Doc, hombre con falla cardíaca FEVI 35%. ¿Optimizamos la terapia médica?",
       "narracion_caso": "Hombre de 61 años, disnea y bendopnea de meses. Toma enalapril, espironolactona, empagliflozina 25 mg, metoprolol tartrato y furosemida intermitente. Antecedente: IAM hace 3 años. FC 109, pulso 89, hepatomegalia, edema bilateral. Labs: K 3.3, Cr 0.7, BNP 1100, Hb glicada 5%. EKG: RR variable, QRS 100 mseg. Eco: FEVI 35%.",
       "ficha_clinica": {
         "paciente": "Hombre, 61 años",
@@ -1871,7 +1871,7 @@
       "especialidad": "endocrinologia",
       "sala": "consultorio",
       "dificultad": 3,
-      "llegada": "Doctor, mujer con hipercolesterolemia familiar y mialgias con estatinas.",
+      "llegada": "Doc, mujer con hipercolesterolemia familiar y mialgias con estatinas.",
       "narracion_caso": "Mujer de 55 años, dislipidemia temprana, en ezetimibe 25 mg/día. Atorvastatina y rosuvastatina causaron mialgias intensas. Score Holandés con alta probabilidad de HF. Sin xantomas. Labs: colesterol total 250, triglicéridos 100, HDL 30, CPK 566, ALT 76.",
       "ficha_clinica": {
         "paciente": "Mujer, 55 años",
@@ -1934,7 +1934,7 @@
       "especialidad": "cirugia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer mayor con varices, dolor de pantorrillas que mejora con reposo.",
+      "llegada": "Doc, mujer mayor con varices, dolor de pantorrillas que mejora con reposo.",
       "narracion_caso": "Mujer de 77 años, dolor en pantorrillas al caminar que mejora con el reposo. Multípara, dislipidemia, IAM hace 10 años. Examen: dilatación varicosa tortuosa cara interna de ambas piernas, edema bilateral y pigmentación en tercio distal, pulsos tibiales posteriores y pedios DISMINUIDOS.",
       "ficha_clinica": {
         "paciente": "Mujer, 77 años",
@@ -1992,7 +1992,7 @@
       "especialidad": "cardiologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, hombre con palpitaciones y reporte de FA en smartwatch.",
+      "llegada": "Doc, hombre con palpitaciones y reporte de FA en smartwatch.",
       "narracion_caso": "Hombre de 68 años, palpitaciones intermitentes y cansancio. Smartwatch detectó episodio de ritmo irregular: FC 125, duración 3 min, alta variabilidad RR. HTA y DM controladas. Sin antecedentes cardiovasculares.",
       "ficha_clinica": {
         "paciente": "Hombre, 68 años",
@@ -2050,7 +2050,7 @@
       "especialidad": "gastroenterologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, hombre con ictericia intermitente que empeora con ayuno. Bilirrubina indirecta.",
+      "llegada": "Doc, hombre con ictericia intermitente que empeora con ayuno. Bilirrubina indirecta.",
       "narracion_caso": "Hombre de 25 años, episodios intermitentes de ictericia escleral con resfriados. Recientemente con ayuno intermitente los episodios son más frecuentes. Sin dolor abdominal, acolia, hepatomegalia. Toma migrañoso con acetaminofén ocasional. Labs: bilirrubina total 4.5, directa 0.6, FA 90, GGT 20, AST 23, ALT 28, Hb 15, LDH 120, haptoglobina 124. Ecografía normal.",
       "ficha_clinica": {
         "paciente": "Hombre, 25 años",
@@ -2108,7 +2108,7 @@
       "especialidad": "nefrologia",
       "sala": "consultorio",
       "dificultad": 3,
-      "llegada": "Doctor, mujer hipertensa difícil con hipercalcemia e hiperparatiroidismo.",
+      "llegada": "Doc, mujer hipertensa difícil con hipercalcemia e hiperparatiroidismo.",
       "narracion_caso": "Mujer de 58 años, HTA con 4 antihipertensivos (irbesartán, amlodipino, espironolactona, carvedilol). Solo refiere constipación reciente. Examen: PA 160/90, resto normal. Labs: Ca 12, K 4.0, Na 138, Cr 1.5, Hb 13.5, 25-OH-vitD 36, PTH 176 (alta).",
       "ficha_clinica": {
         "paciente": "Mujer, 58 años",
@@ -2166,7 +2166,7 @@
       "especialidad": "neurologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, trauma de cráneo con Glasgow 13 y amnesia, fractura lineal temporal.",
+      "llegada": "Doc, trauma de cráneo con Glasgow 13 y amnesia, fractura lineal temporal.",
       "narracion_caso": "Hombre de 30 años, bajo efectos del alcohol, accidente de moto. Examen: Glasgow 13, lateropulsión, amnesia del evento. Herida de 5 cm en región temporal con fractura lineal.",
       "ficha_clinica": {
         "paciente": "Hombre, 30 años",
@@ -2224,7 +2224,7 @@
       "especialidad": "neurologia",
       "sala": "hospitalizacion",
       "dificultad": 3,
-      "llegada": "Doctora, absceso cerebral con edema vasogénico marcado. ¿Qué le damos para el edema?",
+      "llegada": "Doc, absceso cerebral con edema vasogénico marcado. ¿Qué le damos para el edema?",
       "narracion_caso": "Hombre de 18 años con sinusitis tratada parcialmente. Síndrome de HEC. TC: absceso intracerebral frontal con edema vasogénico marcado.",
       "ficha_clinica": {
         "paciente": "Hombre, 18 años",
@@ -2286,7 +2286,7 @@
       "especialidad": "neurologia",
       "sala": "hospitalizacion",
       "dificultad": 3,
-      "llegada": "Doctor, TEC grave con TC normal pero sin recuperación neurológica.",
+      "llegada": "Doc, TEC grave con TC normal pero sin recuperación neurológica.",
       "narracion_caso": "Hombre de 32 años, caída desde tercer piso. Glasgow 4/15, anisocoria con midriasis derecha. 2 días en UCI sin recuperación. TC de control: normal.",
       "ficha_clinica": {
         "paciente": "Hombre, 32 años",
@@ -2344,7 +2344,7 @@
       "especialidad": "neurologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctora, mujer con vértigo, ataxia, cefalea occipital y PA 176/108.",
+      "llegada": "Doc, mujer con vértigo, ataxia, cefalea occipital y PA 176/108.",
       "narracion_caso": "Mujer de 40 años, al despertar inició vértigo, lateropulsión, vómito, dificultad para vestirse por imprecisión. Una hora después cefalea occipital 6/10, intensa. Antecedente: migraña sin aura. PA 176/108, examen: ataxia, disdiadococinesia, sin déficit motor ni sensitivo ni alteración visual. Minimental 30.",
       "ficha_clinica": {
         "paciente": "Mujer, 40 años",
@@ -2403,7 +2403,7 @@
       "especialidad": "neurologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, hombre joven en estatus epiléptico tras consumir licor.",
+      "llegada": "Doc, hombre joven en estatus epiléptico tras consumir licor.",
       "narracion_caso": "Hombre de 24 años, inconsciente, crisis motora tónico-clónica generalizada iniciada hace 10 minutos. Sigue convulsionando. Estaba ingiriendo licor sin efecto. Sin otras sustancias. Sin antecedentes.",
       "ficha_clinica": {
         "paciente": "Hombre, 24 años",
@@ -2456,7 +2456,7 @@
       "especialidad": "obstetricia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctora, embarazada con preeclampsia severa, no hay nifedipino ni hidralazina.",
+      "llegada": "Doc, embarazada con preeclampsia severa, no hay nifedipino ni hidralazina.",
       "narracion_caso": "Mujer de 40 años, 5 hijos, gestación 35 semanas. Desde semana 14 con HTA tratada con alfametildopa. Semana 34: cefalea de novo y dolor epigástrico. Ingreso: PA 162/110, hemoglobina 17, hematocrito 52, plaquetas 145.000, AST 72, ALT 70, LDH 400, proteínas urina 290 mg. Se le dieron 3 bolos labetalol (20, 40, 80) y persiste con PA 180/100. No hay nifedipino ni hidralazina disponible.",
       "ficha_clinica": {
         "paciente": "Embarazada 40 años, 35 semanas",
@@ -2515,7 +2515,7 @@
       "especialidad": "obstetricia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctora, puérpera con fiebre, loquios fétidos y dolor uterino tras parto instrumentado.",
+      "llegada": "Doc, puérpera con fiebre, loquios fétidos y dolor uterino tras parto instrumentado.",
       "narracion_caso": "Mujer de 23 años, 8 días post-parto instrumentado por expulsivo prolongado. Dolor pélvico, sangrado vaginal de mal olor. PA 100/60, FC 120, T 39°C, útero doloroso palpable a nivel umbilical, sangrado fétido, tacto: cérvix abierto.",
       "ficha_clinica": {
         "paciente": "Puérpera, 23 años",
@@ -2573,7 +2573,7 @@
       "especialidad": "obstetricia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctora, embarazada de 29 semanas con ruptura prematura de membranas. Líquido claro.",
+      "llegada": "Doc, embarazada de 29 semanas con ruptura prematura de membranas. Líquido claro.",
       "narracion_caso": "Mujer de 27 años, gestación 29 semanas 3 días. Acude a primer nivel por salida de líquido por vagina, claro, que aumenta al ponerse de pie. Sin contracciones. PA 110/60, FC 72, abdomen útero grávido, fetocardia 160, sin contracciones. Especuloscopia: franca salida de líquido claro por orificio cervical externo.",
       "ficha_clinica": {
         "paciente": "Embarazada 27 años, 29+3 semanas",
@@ -2627,7 +2627,7 @@
       "especialidad": "obstetricia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, embarazada de 33 semanas con feto pequeño para edad gestacional.",
+      "llegada": "Doc, embarazada de 33 semanas con feto pequeño para edad gestacional.",
       "narracion_caso": "Mujer de 25 años, gestación 33 semanas, control prenatal normal. Trae ecografía: crecimiento percentil 4, Doppler fetal y arterias uterinas normales.",
       "ficha_clinica": {
         "paciente": "Embarazada 25 años, 33 semanas",
@@ -2680,7 +2680,7 @@
       "especialidad": "oftalmologia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, hombre con erosión corneal pequeña por lente de contacto.",
+      "llegada": "Doc, hombre con erosión corneal pequeña por lente de contacto.",
       "narracion_caso": "Hombre de 30 años, día anterior al quitarse el lente de contacto sintió cuerpo extraño y dolor. Ha mejorado pero queda molestia. Sin secreción, sin pérdida visual. Examen: ojo rojo, sin disminución de visión, defecto epitelial corneal 1x1 mm que tiñe con fluoresceína.",
       "ficha_clinica": {
         "paciente": "Hombre, 30 años",
@@ -2738,7 +2738,7 @@
       "especialidad": "oftalmologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, niño de 2 años con reflejo extraño en las fotos. ¿Será grave?",
+      "llegada": "Doc, niño de 2 años con reflejo extraño en las fotos. ¿Será grave?",
       "narracion_caso": "Niño de 2 años, hace 2 meses los padres notan 'reflejo como de gato' en el ojo derecho, principalmente en fotos. Sin antecedentes. Examen: agudeza visual normal para edad, sin ojo rojo, oftalmoscopia directa aparentemente normal.",
       "ficha_clinica": {
         "paciente": "Niño, 2 años",
@@ -2795,7 +2795,7 @@
       "especialidad": "oftalmologia",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, niña con endotropia y diferencia de visión entre ojos. ¿Cómo es la oclusión?",
+      "llegada": "Doc, niña con endotropia y diferencia de visión entre ojos. ¿Cómo es la oclusión?",
       "narracion_caso": "Niña de 4 años, hace 8 meses notan desviación ocular. Examen: visión 20/50 ojo derecho, 20/20 ojo izquierdo. Endotropia en ojo derecho. Resto normal.",
       "ficha_clinica": {
         "paciente": "Niña, 4 años",
@@ -2852,7 +2852,7 @@
       "especialidad": "ortopedia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, niño con deformidad progresiva de pies y reflejos hiperactivos.",
+      "llegada": "Doc, niño con deformidad progresiva de pies y reflejos hiperactivos.",
       "narracion_caso": "Niño de 10 años, 6 meses de deformidad progresiva en ambos pies. Examen: marcha en progresión negativa, sin discrepancia de longitud. Pie izquierdo: neutral. Pie derecho: talón varo, dedos pasan por 4to espacio, arco aumentado con zona de presión en primer metatarsiano. Neuro: dorsiflexores 4/5, evertores 4/5 bilateral, ROT +/++++ bilateral.",
       "ficha_clinica": {
         "paciente": "Niño, 10 años",
@@ -2905,7 +2905,7 @@
       "especialidad": "ortopedia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, hombre con trauma de tobillo en inversión, sin fractura en radiografía.",
+      "llegada": "Doc, hombre con trauma de tobillo en inversión, sin fractura en radiografía.",
       "narracion_caso": "Hombre de 32 años, trauma en inversión del tobillo derecho. Edema perimaleolar moderado, equimosis medial y lateral hasta cara plantar. Dolor a la palpación, sin dolor en base del 5to metatarsiano. Marcha cojeando. Radiografías AP, lateral y oblicua (mortaja): sin fracturas.",
       "ficha_clinica": {
         "paciente": "Hombre, 32 años",
@@ -2953,7 +2953,7 @@
       "especialidad": "ortopedia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctora, joven con luxación acromioclavicular tras caída de bicicleta.",
+      "llegada": "Doc, joven con luxación acromioclavicular tras caída de bicicleta.",
       "narracion_caso": "Hombre de 19 años, caída de bicicleta con trauma directo del hombro derecho. Dolor, deformidad y escoriación superficial. Dolor en zona de deformidad. Radiografías: pérdida de relación articular entre clavícula y acromion, con desplazamiento. Sin fracturas.",
       "ficha_clinica": {
         "paciente": "Hombre, 19 años",
@@ -3002,7 +3002,7 @@
       "especialidad": "otorrinolaringologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, joven con rinosinusitis crónica que empeoró tras dejar tratamiento.",
+      "llegada": "Doc, joven con rinosinusitis crónica que empeoró tras dejar tratamiento.",
       "narracion_caso": "Hombre de 23 años, 6 meses con rinorrea hialina bilateral ocasionalmente mucopurulenta, escurrimiento posterior, cefalea frontofacial, obstrucción intermitente e hiposmia. Antecedente: otitis recurrente con adenoidectomía a los 5 años, rinitis alérgica desde los 8 años en tratamiento. Mejoró en adolescencia, suspendió tratamiento. TC: ocupación de senos maxilares, etmoidales y esfenoidales bilaterales con engrosamiento de senos frontales.",
       "ficha_clinica": {
         "paciente": "Hombre, 23 años",
@@ -3056,7 +3056,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, niño de 6 años con problemas de motricidad fina y tropezones frecuentes.",
+      "llegada": "Doc, niño de 6 años con problemas de motricidad fina y tropezones frecuentes.",
       "narracion_caso": "Niño de 6 años, dificultad para escritura, choques frecuentes, mal manejo del lápiz, dificultad en algunos trazos, no salta lazo, dificultad para amarrarse zapatos. Buen rendimiento escolar. Antecedentes negativos. Examen: sobrepeso y ligera disminución del tono muscular.",
       "ficha_clinica": {
         "paciente": "Niño, 6 años",
@@ -3110,7 +3110,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 1,
-      "llegada": "Doctor, niña de 3 años para suplementación con micronutrientes en polvo.",
+      "llegada": "Doc, niña de 3 años para suplementación con micronutrientes en polvo.",
       "narracion_caso": "Niña de 3 años, consulta de valoración integral. Se decide suplementación con micronutrientes en polvo (chispitas/MNP). Madre pregunta cómo darlos.",
       "ficha_clinica": {
         "paciente": "Niña, 3 años",
@@ -3163,7 +3163,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, niño de 3 años de Medellín con dengue NS1 positivo y plaquetas 109.000.",
+      "llegada": "Doc, niño de 3 años de Medellín con dengue NS1 positivo y plaquetas 109.000.",
       "narracion_caso": "Niño de 3 años, residente en Medellín, 4 días de fiebre, malestar, exantema macular eritematoso, vómito y dolor abdominal intermitente. Recibiendo vía oral. Examen: sin signos de alarma, T 38.7, FC 146. Labs: leucocitos 3200 linfo, Hb 12.5, plaquetas 109.000, NS1 positivo, IgM e IgG negativos.",
       "ficha_clinica": {
         "paciente": "Niño, 3 años, dengue confirmado NS1+",
@@ -3217,7 +3217,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, niña del Chocó con malaria por Plasmodium vivax.",
+      "llegada": "Doc, niña del Chocó con malaria por Plasmodium vivax.",
       "narracion_caso": "Niña de 6 años del Chocó, 1 semana de fiebre 39.5°C, malestar, mialgias, sudoración, vómito. Examen: FR 23, FC 118, PA 102/50, SatO2 97%, T 39.7, Glasgow 15. No deshidratada. Sin signos de alarma. Labs: leucocitos 14600, neutrófilos 65%, Hb 11, PCR 3.2, VSG 35. Gota gruesa: 1500 formas Plasmodium vivax.",
       "ficha_clinica": {
         "paciente": "Niña, 6 años, Chocó",
@@ -3279,7 +3279,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, lactante de 6 meses con ELISA VIH positiva. Madre adolescente sin controles.",
+      "llegada": "Doc, lactante de 6 meses con ELISA VIH positiva. Madre adolescente sin controles.",
       "narracion_caso": "Lactante de 6 meses, hija de madre adolescente sin pareja, sin controles prenatales, parto en casa. En valoración integral: ELISA VIH positivo.",
       "ficha_clinica": {
         "paciente": "Lactante, 6 meses",
@@ -3336,7 +3336,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, recién nacido con desaturación de oxígeno en tamizaje cardiopatía congénita.",
+      "llegada": "Doc, recién nacido con desaturación de oxígeno en tamizaje cardiopatía congénita.",
       "narracion_caso": "Recién nacido de 24 horas, gestación 37 semanas, sin complicaciones. Tamizaje de cardiopatía neonatal con pulso-oxímetro correcto: SatO2 preductal 94%, posductal 90%. Repetido 1 hora después: preductal 92%, posductal 97%. Resolución 207 de 2024.",
       "ficha_clinica": {
         "paciente": "Recién nacido, 24h",
@@ -3390,7 +3390,7 @@
       "especialidad": "urologia",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, adolescente de 16 años con criptorquidia derecha. Tanner 4.",
+      "llegada": "Doc, adolescente de 16 años con criptorquidia derecha. Tanner 4.",
       "narracion_caso": "Adolescente de 16 años, ausencia de testículo derecho desde nacimiento. Sin síntomas. Examen: pene normal, testículo izquierdo normal, hemiescroto derecho vacío, no se palpa testículo en canal inguinal. Tanner 4.",
       "ficha_clinica": {
         "paciente": "Adolescente, 16 años",
@@ -3449,7 +3449,7 @@
       "especialidad": "pediatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, lactante de 12 meses en brigada extramural. ¿Cómo lo clasificamos nutricionalmente?",
+      "llegada": "Doc, lactante de 12 meses en brigada extramural. ¿Cómo lo clasificamos nutricionalmente?",
       "narracion_caso": "Lactante de 12 meses evaluado en brigada extramural en una vereda. Madre refiere buena salud, sin antecedentes patológicos. Esquema de vacunación al día. Examen físico: peso 7,8 kg, sin signos de edema, perímetro braquial 11,4 cm, sin otras alteraciones.",
       "ficha_clinica": {
         "paciente": "Lactante, 12 meses",
@@ -3489,7 +3489,7 @@
         }
       },
       "cierre_acierto": "Excelente. El PB es la herramienta más simple y potente en terreno: salva vidas.",
-      "cierre_error": "Tranquila, doctora. La regla rápida: PB menor a 11,5 cm es grave, urge intervenir.",
+      "cierre_error": "Tranquila, Doc. La regla rápida: PB menor a 11,5 cm es grave, urge intervenir.",
       "palabras_clave": [
         {
           "termino": "desnutrición aguda grave",
@@ -3507,7 +3507,7 @@
       "especialidad": "pediatria",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, lactante de 4 meses febril con uroanálisis sugestivo de infección urinaria.",
+      "llegada": "Doc, lactante de 4 meses febril con uroanálisis sugestivo de infección urinaria.",
       "narracion_caso": "Lactante femenina de 4 meses con fiebre de 39 grados desde hace 48 horas, irritabilidad y rechazo al alimento. Sin síntomas respiratorios ni digestivos. Examen físico: febril, buen estado general, sin signos de foco. Uroanálisis con nitritos positivos y leucocituria. Gram de orina con bacilos gramnegativos abundantes.",
       "ficha_clinica": {
         "paciente": "Lactante femenina, 4 meses",
@@ -3569,7 +3569,7 @@
       "especialidad": "psiquiatria",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, hombre de 25 años traído por la familia. Lleva 10 días sin dormir y dice que encontró la cura del cáncer.",
+      "llegada": "Doc, hombre de 25 años traído por la familia. Lleva 10 días sin dormir y dice que encontró la cura del cáncer.",
       "narracion_caso": "Hombre de 25 años. Hace 10 días anda eufórico: dice que encontró la cura del cáncer, no para de caminar, no duerme más de dos horas, habla sin parar, dice que su mente va a mil kilómetros por hora. Sin antecedentes psiquiátricos previos. Examen físico y laboratorios sin alteraciones.",
       "ficha_clinica": {
         "paciente": "Hombre, 25 años",
@@ -3627,7 +3627,7 @@
       "especialidad": "psiquiatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, mujer de 24 años con delirio de persecución y aislamiento de 7 meses.",
+      "llegada": "Doc, mujer de 24 años con delirio de persecución y aislamiento de 7 meses.",
       "narracion_caso": "Mujer de 24 años. Hace 7 meses cree que el servicio de inteligencia ruso le hackeó el celular, tapa el cuarto con cajas de huevos para que no le escuchen el pensamiento, se aisla y habla sola como discutiendo con alguien. Examen físico: IMC de 32. Tóxicos en orina negativos. Laboratorios sin hallazgos.",
       "ficha_clinica": {
         "paciente": "Mujer, 24 años",
@@ -3691,7 +3691,7 @@
       "especialidad": "psiquiatria",
       "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctora, mujer de 33 años con pensamientos intrusivos de contaminación y rituales mentales.",
+      "llegada": "Doc, mujer de 33 años con pensamientos intrusivos de contaminación y rituales mentales.",
       "narracion_caso": "Mujer de 33 años, auxiliar de servicio hospitalario. Hace 2 meses con insomnio de conciliación y pensamientos intrusivos sobre contaminarse en el trabajo. Hace esfuerzos mentales para neutralizarlos repitiendo una palabra, sin éxito. Descuida sus tareas laborales.",
       "ficha_clinica": {
         "paciente": "Mujer, 33 años",
@@ -3750,7 +3750,7 @@
       "especialidad": "psiquiatria",
       "sala": "consultorio",
       "dificultad": 3,
-      "llegada": "Doctora, mujer de 47 años con sintomatología grave 7 meses después de la muerte de un familiar.",
+      "llegada": "Doc, mujer de 47 años con sintomatología grave 7 meses después de la muerte de un familiar.",
       "narracion_caso": "Mujer de 47 años, sobreviviente de accidente de tránsito donde murió un familiar cercano hace 7 meses. Consulta por hiporexia, insomnio, pesadillas con el evento, anhedonia, fatiga, tristeza, deterioro laboral y conflictos familiares. Refiere ideación de muerte: piensa que su familia estaría mejor sin ella.",
       "ficha_clinica": {
         "paciente": "Mujer, 47 años",
@@ -3809,7 +3809,7 @@
       "especialidad": "toxicologia",
       "sala": "urgencias",
       "dificultad": 2,
-      "llegada": "Doctor, mujer de 21 años con intoxicación por acetaminofén. Tomó 30 tabletas hace 6 horas.",
+      "llegada": "Doc, mujer de 21 años con intoxicación por acetaminofén. Tomó 30 tabletas hace 6 horas.",
       "narracion_caso": "Mujer de 21 años. Ingirió 30 tabletas de acetaminofén de 500 mg hace 6 horas. Refiere 2 episodios eméticos. Sin otros síntomas. Signos vitales normales. Laboratorios: AST 80, ALT 68, bilirrubinas normales, INR 1,1.",
       "ficha_clinica": {
         "paciente": "Mujer, 21 años",
@@ -3867,7 +3867,7 @@
       "especialidad": "toxicologia",
       "sala": "urgencias",
       "dificultad": 3,
-      "llegada": "Doctor, agricultor de 32 años con alteración de la conciencia, miosis y secreciones por todos lados.",
+      "llegada": "Doc, agricultor de 32 años con alteración de la conciencia, miosis y secreciones por todos lados.",
       "narracion_caso": "Hombre de 32 años, agricultor. La esposa lo encontró inconsciente. Antecedente: depresión sin tratamiento. Examen físico: TA 100/60, FC 64, FR 18, saturación 94%, Glasgow 10/15. Pupilas mióticas puntiformes, sialorrea, rinorrea, diaforesis, sibilancias, peristaltismo aumentado, deposiciones líquidas abundantes. EKG: ritmo sinusal, QTc 470 ms.",
       "ficha_clinica": {
         "paciente": "Hombre, 32 años, agricultor",
@@ -3929,7 +3929,7 @@
       "especialidad": "urologia",
       "sala": "hospitalizacion",
       "dificultad": 2,
-      "llegada": "Doctor, mujer de 30 años con pielonefritis derecha y un absceso renal de 20 mm en la TAC.",
+      "llegada": "Doc, mujer de 30 años con pielonefritis derecha y un absceso renal de 20 mm en la TAC.",
       "narracion_caso": "Mujer de 30 años con diagnóstico de pielonefritis derecha. Sin antecedentes. Signos vitales estables, función renal conservada. TAC con contraste: imagen hipodensa en riñón derecho de 20 mm con realce periférico, sin hidronefrosis. Compatible con absceso renal pequeño.",
       "ficha_clinica": {
         "paciente": "Mujer, 30 años",

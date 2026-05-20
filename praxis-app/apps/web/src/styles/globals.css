@@ -6,7 +6,9 @@
 
 @layer base {
   html, body, #root {
-    @apply h-full w-full;
+    @apply w-full;
+    height: 100vh;
+    height: 100dvh; /* viewport dinámico — se ajusta si aparece la URL bar */
   }
   html {
     -webkit-tap-highlight-color: transparent;

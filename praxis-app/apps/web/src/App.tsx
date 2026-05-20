@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
-import { todasLasPreguntas, preguntasPorSala, type Pregunta } from '@praxis/data';
+import { todasLasPreguntas, preguntasPorSala, type Pregunta, type Sala } from '@praxis/data';
 import { Hub } from './components/Hub';
 import { PreguntaScreen } from './components/PreguntaScreen';
 import { Expediente } from './components/Expediente';
@@ -8,16 +8,19 @@ import { Simulacro } from './components/Simulacro';
 import { useGameStore } from './stores/gameStore';
 
 type Vista = 'hub' | 'jugando' | 'simulacro';
-type Modo = 'urgencias' | 'consulta' | 'repaso' | 'simulacro';
+type Modo = Sala | 'repaso' | 'simulacro';
+
+// === DEBUG ===
+// Forzar caso inicial específico al entrar a Urgencias (para testear layout).
+// Poner en null para volver a comportamiento aleatorio normal.
+const CASO_DEBUG_URGENCIAS: number | null = 4; // Hombre 25 años, LAST por lidocaína
 
 function eligePool(modo: Modo, casosPendientes: number[]): Pregunta[] {
-  if (modo === 'urgencias') return preguntasPorSala('urgencias');
   if (modo === 'repaso') {
     return todasLasPreguntas.filter((p) => casosPendientes.includes(p.id));
   }
   if (modo === 'simulacro') return [...todasLasPreguntas];
-  // consulta libre = todas (excluyendo solo urgencias para mantener flavor)
-  return todasLasPreguntas;
+  return preguntasPorSala(modo);
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -58,7 +61,16 @@ export function App() {
       return;
     }
     setModo(m);
-    setCola(shuffle(pool));
+
+    // === DEBUG: forzar caso inicial fijo cuando se entra a Urgencias ===
+    if (m === 'urgencias' && CASO_DEBUG_URGENCIAS !== null) {
+      const fijo = pool.find((p) => p.id === CASO_DEBUG_URGENCIAS);
+      const resto = shuffle(pool.filter((p) => p.id !== CASO_DEBUG_URGENCIAS));
+      setCola(fijo ? [fijo, ...resto] : resto);
+    } else {
+      setCola(shuffle(pool));
+    }
+
     setIdx(0);
     setVista('jugando');
   }

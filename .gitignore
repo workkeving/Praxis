@@ -47,6 +47,12 @@ Documents/question ref.txt
 Documents/turno-app.tsx
 Documents/cirugia-estudio.jsx
 
+# Renders intermedios del personaje (los finales viven en praxis-app/apps/web/public/assets/personaje/)
+Documents/asistente_*.png
+Documents/char/
+Documents/nobg/
+Documents/Art References/generated/
+
 # Screenshots de desarrollo
 tools/screenshots/
 

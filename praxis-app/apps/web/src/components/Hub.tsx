@@ -1,17 +1,19 @@
 import { motion } from 'framer-motion';
 import { useGameStore, getNivelActual, getProgresoSiguienteNivel } from '../stores/gameStore';
 import { todasLasPreguntas } from '@praxis/data';
+import { Asistente } from './Asistente';
+
+type SalaId = 'urgencias' | 'consultorio' | 'hospitalizacion';
 
 interface Props {
-  onSelectModo: (modo: 'urgencias' | 'consulta' | 'repaso' | 'simulacro') => void;
+  onSelectModo: (modo: SalaId | 'repaso' | 'simulacro') => void;
   onOpenExpediente: () => void;
 }
 
 interface SalaInfo {
-  id: 'urgencias' | 'consultorio' | 'hospitalizacion';
+  id: SalaId;
   nombre: string;
   fondo: string;
-  modo: 'urgencias' | 'consulta';
   descripcion: string;
 }
 
@@ -22,21 +24,18 @@ const SALAS: SalaInfo[] = [
     id: 'urgencias',
     nombre: 'Urgencias',
     fondo: `${BASE}assets/fondos/fondo_urgencias.png`,
-    modo: 'urgencias',
     descripcion: 'Casos agudos, trauma, toxicología',
   },
   {
     id: 'consultorio',
     nombre: 'Consultorio',
     fondo: `${BASE}assets/fondos/fondo_consultorio.png`,
-    modo: 'consulta',
     descripcion: 'Ambulatorio, gineco, psiquiatría, derma',
   },
   {
     id: 'hospitalizacion',
     nombre: 'Hospitalización',
     fondo: `${BASE}assets/fondos/fondo_hospitalizacion.png`,
-    modo: 'consulta',
     descripcion: 'Casos hospitalizados, UCI, complejos',
   },
 ];
@@ -78,7 +77,30 @@ export function Hub({ onSelectModo, onOpenExpediente }: Props) {
           </button>
         </div>
 
-        {/* Barra de XP */}
+        {/* Asistente en círculo + su burbuja de diálogo */}
+        <div className="mb-5 flex items-start gap-3">
+          <div className="relative shrink-0">
+            <div className="h-20 w-20 overflow-hidden rounded-full border-2 border-praxis-300/50 bg-praxis-700 shadow-xl ring-2 ring-praxis-900/40">
+              <div
+                className="h-full w-full"
+                style={{ transform: 'scale(2.16) translateY(15%)', transformOrigin: 'center 30%' }}
+              >
+                <Asistente expresion="idle" className="h-full w-full" />
+              </div>
+            </div>
+            {/* Indicador de "online" */}
+            <span className="absolute bottom-1 right-1 h-3 w-3 rounded-full border-2 border-praxis-900 bg-green-400" />
+          </div>
+          <div className="relative flex-1 rounded-2xl rounded-tl-sm bg-warm-50/95 px-4 py-3 text-praxis-900 shadow-lg">
+            <p className="text-sm font-medium leading-snug">
+              ¿Qué hacemos hoy, Doc? Elige una sala para empezar.
+            </p>
+            {/* Cola de la burbuja apuntando al avatar */}
+            <span className="absolute -left-2 top-3 h-0 w-0 border-b-[8px] border-r-[10px] border-t-[8px] border-b-transparent border-r-warm-50/95 border-t-transparent" />
+          </div>
+        </div>
+
+        {/* Barra de XP + racha */}
         <div className="mb-6 rounded-2xl border border-warm-50/15 bg-warm-50/5 p-3">
           <div className="mb-1 flex items-baseline justify-between text-xs">
             <span className="text-praxis-200">XP</span>
@@ -98,13 +120,6 @@ export function Hub({ onSelectModo, onOpenExpediente }: Props) {
           </div>
         </div>
 
-        {/* Saludo de la asistente */}
-        <div className="mb-5 rounded-2xl bg-warm-50/95 px-4 py-3 text-praxis-900 shadow-lg">
-          <p className="font-medium leading-snug">
-            ¿Qué hacemos hoy, doctor? Elige una sala para empezar.
-          </p>
-        </div>
-
         {/* Salas (mapa del hospital, vertical mobile-first) */}
         <div className="space-y-3">
           {SALAS.map((sala) => {
@@ -113,7 +128,7 @@ export function Hub({ onSelectModo, onOpenExpediente }: Props) {
               <motion.button
                 key={sala.id}
                 whileTap={{ scale: 0.97 }}
-                onClick={() => onSelectModo(sala.modo)}
+                onClick={() => onSelectModo(sala.id)}
                 className="relative w-full overflow-hidden rounded-3xl border border-warm-50/20 shadow-xl active:shadow-md transition-shadow"
                 style={{
                   backgroundImage: `linear-gradient(to top, rgba(22,46,44,0.85), rgba(22,46,44,0.45)), url('${sala.fondo}')`,

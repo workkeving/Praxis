@@ -38,8 +38,8 @@ const exe = candidates.find(existsSync);
   console.log('Screenshots saved.');
 
   // click on Urgencias sala
-  await page.locator('button:has-text("Urgencias")').first().click();
-  await page.waitForTimeout(800);
+  await page.locator('button:has-text("Urgencias")').first().click({ timeout: 5000 });
+  await page.waitForTimeout(1000);
   await page.screenshot({
     path: 'K:/01. Personal Projects/07. Praxis/tools/screenshots/llegada.png',
   });
