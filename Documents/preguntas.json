@@ -1455,7 +1455,7 @@
         }
       ],
       "revisar": true,
-      "nota_revisar": "Algunos textos prefieren amiodarona antes de cardioversión electiva en estables."
+      "nota_revisar": "Diltiazem también es válido (AHA: bbloqueador o CCB tras adenosina). Cardioversión sincronizada es la opción más definitiva cuando ya fallaron 2 clases de drogas."
     },
     {
       "id": 25,
@@ -2396,7 +2396,7 @@
         }
       ],
       "revisar": true,
-      "nota_revisar": "Verificar si se considera tiempo desde 'al despertar' o desde último visto normal."
+      "nota_revisar": "Wake-up stroke clásicamente fuera de ventana (último visto bien = noche anterior). El PDF no menciona TC. Sin TC + síndrome cerebeloso + HTA severa también plantea hemorragia cerebelosa. La respuesta esperada en UdeA parece ser alteplase asumiendo ventana cumplida y TC normal."
     },
     {
       "id": 41,
@@ -2449,7 +2449,7 @@
         }
       ],
       "revisar": true,
-      "nota_revisar": "La pregunta del PDF está incompleta, falta una opción. Validar."
+      "nota_revisar": "PDF del examen original solo tiene 3 opciones (incluyendo el typo \"fosfenitoína nasal\"). Valproato IV es respuesta correcta por ESETT 2019 (equivalencia con fosfenitoína y levetiracetam)."
     },
     {
       "id": 42,
@@ -3649,10 +3649,6 @@
         {
           "letra": "c",
           "texto": "Risperidona"
-        },
-        {
-          "letra": "d",
-          "texto": "Haloperidol"
         }
       ],
       "correcta": "c",
@@ -3663,8 +3659,7 @@
         "tratamiento": "Risperidona 2-4 mg/día, titulación gradual, monitoreo de prolactina, signos extrapiramidales y peso. Acompañamiento psicosocial y familiar.",
         "por_que_otras_no": {
           "a": "Clozapina se reserva para esquizofrenia refractaria (tras fallar 2 antipsicóticos) por riesgo de agranulocitosis y monitoreo hematológico.",
-          "b": "Olanzapina causa mayor ganancia de peso y dislipidemia: contraindicada relativa en obesidad.",
-          "d": "Haloperidol es antipsicótico típico con alto riesgo de síntomas extrapiramidales; no es primera línea en primer episodio."
+          "b": "Olanzapina causa mayor ganancia de peso y dislipidemia: contraindicada relativa en obesidad."
         }
       },
       "cierre_acierto": "Excelente. La elección del antipsicótico siempre considera el perfil de efectos del paciente.",
@@ -3683,8 +3678,7 @@
           "wiki": "Antipsicótico_atípico"
         }
       ],
-      "revisar": true,
-      "nota_revisar": "La opción d (haloperidol) se asume como cuarta opción ya que el PDF mostraba solo 3 visibles; verificar contra el documento original."
+      "revisar": false
     },
     {
       "id": 64,
@@ -3712,10 +3706,6 @@
         {
           "letra": "c",
           "texto": "Sertralina 50 miligramos en la mañana"
-        },
-        {
-          "letra": "d",
-          "texto": "Clonazepam 0,5 miligramos cada noche"
         }
       ],
       "correcta": "c",
@@ -3726,8 +3716,7 @@
         "tratamiento": "Sertralina iniciando en 50 mg y titulando hasta 100-200 mg/día. Acompañar con terapia cognitivo-conductual con exposición y prevención de respuesta. Respuesta puede tardar 8-12 semanas.",
         "por_que_otras_no": {
           "a": "Pregabalina es para trastorno de ansiedad generalizada, no para TOC.",
-          "b": "Risperidona se usa como potenciador en TOC refractario, no como primera línea.",
-          "d": "Benzodiacepinas alivian ansiedad asociada pero no tratan las obsesiones; riesgo de dependencia."
+          "b": "Risperidona se usa como potenciador en TOC refractario, no como primera línea."
         }
       },
       "cierre_acierto": "Excelente. ISRS para TOC, dosis más altas y por tiempo más largo que en depresión.",
@@ -3742,8 +3731,7 @@
           "wiki": "Sertralina"
         }
       ],
-      "revisar": true,
-      "nota_revisar": "La opción d (clonazepam) se asume como cuarta opción ya que el PDF mostraba solo 3 visibles; verificar contra el documento original."
+      "revisar": false
     },
     {
       "id": 65,
@@ -3927,61 +3915,65 @@
     {
       "id": 68,
       "especialidad": "urologia",
-      "sala": "hospitalizacion",
+      "sala": "consultorio",
       "dificultad": 2,
-      "llegada": "Doctor, mujer de 30 años con pielonefritis derecha y un absceso renal de 20 mm en la TAC.",
-      "narracion_caso": "Mujer de 30 años con diagnóstico de pielonefritis derecha. Sin antecedentes. Signos vitales estables, función renal conservada. TAC con contraste: imagen hipodensa en riñón derecho de 20 mm con realce periférico, sin hidronefrosis. Compatible con absceso renal pequeño.",
+      "llegada": "Doctor, mujer de 30 años con dolor lumbar derecho y signos de ITU recurrente, con antecedente quirúrgico ureteral.",
+      "narracion_caso": "Mujer de 30 años, consulta por 30 días de dolor lumbar derecho con los movimientos, esfuerzos y cambios de posición. Refiere orina fétida y turbia, polaquiuria, tenesmo y fiebre. Antecedente: estrechez ureteral derecha corregida quirúrgicamente e infecciones urinarias a repetición en la niñez. PA 100/70, FC 65, T 36.8°C, dolor a la palpación lumbar derecha. Urocultivo: E. coli >100.000 UFC/mL sensible a ciprofloxacina, TMS, gentamicina y ceftriaxona. Creatinina 1.0 mg/dL.",
       "ficha_clinica": {
         "paciente": "Mujer, 30 años",
-        "diagnostico": "Pielonefritis derecha + absceso renal de 20 mm",
-        "examen": "Estable hemodinámicamente",
-        "funcion_renal": "Conservada"
+        "sintomas": "30 días de dolor lumbar derecho + ITU sintomática",
+        "antecedente": "Estrechez ureteral derecha corregida + ITU recurrentes en la niñez",
+        "urocultivo": "E. coli >100.000 UFC/mL, sensible a ciprofloxacina",
+        "funcion_renal": "Creatinina 1.0 mg/dL"
       },
-      "pregunta": "¿Cuál es la conducta correcta?",
+      "pregunta": "¿Cuál es la conducta más adecuada?",
       "opciones": [
         {
           "letra": "a",
-          "texto": "Administrar antibiótico empírico según perfil de sensibilidad local por 10 días y control imagenológico"
+          "texto": "Iniciar AINES, aumentar consumo de líquidos y ejercicio terapéutico"
         },
         {
           "letra": "b",
-          "texto": "Administrar ciprofloxacina 400 mg IV cada 12 horas por 10 días"
+          "texto": "Tratar como ITU sintomática con ciprofloxacina y ejercicio terapéutico"
         },
         {
           "letra": "c",
-          "texto": "Iniciar antibiótico de tercera generación según perfil de sensibilidad local con plan de tratamiento extendido y control imagenológico"
+          "texto": "Tratar como ITU sintomática con ciprofloxacina oral 500 mg cada 12 horas por 7 días y solicitar UROTAC"
         },
         {
           "letra": "d",
-          "texto": "Remitir para realizar nefrostomía percutánea e iniciar antibiótico de amplio espectro"
+          "texto": "Tratar como ITU sintomática con gentamicina 80 mg IM cada día por la alta tasa de resistencia a la ciprofloxacina en nuestro medio"
         }
       ],
       "correcta": "c",
-      "reaccion_acierto": "Sí. Absceso renal menor de 3 cm responde a antibiótico solo, prolongado y con control imagenológico.",
-      "reaccion_error": "Considere el tamaño: menos de 3 cm no requiere drenaje.",
+      "reaccion_acierto": "Exacto. Antibiótico dirigido + imagen para descartar obstrucción residual.",
+      "reaccion_error": "Pensá en el antecedente: estrechez ureteral previa + ITU recurrente.",
       "explicacion": {
-        "tldr": "Absceso renal menor de 3 cm en paciente estable: manejo médico con antibiótico parenteral según uropatógenos locales (típicamente cefalosporina de tercera generación) por 2 a 4 semanas con control imagenológico. El drenaje percutáneo se reserva para abscesos mayores a 3-5 cm o sin respuesta clínica.",
-        "tratamiento": "Cefalosporina de tercera generación (ceftriaxona) IV, ajuste según urocultivo, transición a oral cuando hay mejoría clínica, duración total 4-6 semanas. TAC de control a las 4-6 semanas.",
+        "tldr": "ITU sintomática en paciente con antecedente de uropatía obstructiva (estrechez ureteral corregida) e ITU a repetición. Hay que tratar la infección con antibiótico dirigido (cipro sensible por urocultivo) y solicitar imagen (UROTAC) para descartar recidiva de la obstrucción o complicación anatómica.",
+        "tratamiento": "Ciprofloxacina 500 mg VO cada 12 horas por 7 días + UROTAC para evaluar vía urinaria. Seguimiento clínico y con urocultivo de control.",
         "por_que_otras_no": {
-          "a": "Antibiótico empírico genérico por solo 10 días es insuficiente para erradicar un absceso renal.",
-          "b": "Ciprofloxacina IV por 10 días es duración insuficiente y la quinolona depende del patrón de resistencia local; en Colombia hay alta resistencia a quinolonas.",
-          "d": "Nefrostomía percutánea no es el procedimiento de elección para drenar abscesos; el drenaje sería percutáneo guiado y solo si el absceso es mayor a 3-5 cm."
+          "a": "AINES y líquidos no tratan la ITU bacteriana confirmada por urocultivo.",
+          "b": "Ciprofloxacina sin imagen pierde la oportunidad de evaluar el antecedente quirúrgico de estrechez ureteral; el ejercicio terapéutico no es parte del manejo de ITU.",
+          "d": "Gentamicina IM no es primera línea cuando el urocultivo muestra sensibilidad a ciprofloxacina; quinolona oral es más cómoda y eficaz."
         }
       },
-      "cierre_acierto": "Excelente. Regla del 3: menos de 3 cm, solo antibiótico; más de 5 cm, drenaje.",
-      "cierre_error": "Tranquilo. Absceso renal pequeño igual a antibiótico prolongado con imagen de control, no a procedimiento.",
+      "cierre_acierto": "Bien hecho. En ITU recurrente con antecedente obstructivo, siempre pensar en imagen además del antibiótico.",
+      "cierre_error": "Tranquilo. Regla: ITU + antecedente de cirugía urológica = pedir imagen para descartar causa estructural.",
       "palabras_clave": [
         {
-          "termino": "absceso renal",
-          "wiki": "Absceso_renal"
+          "termino": "infección urinaria recurrente",
+          "wiki": "Infección_urinaria"
         },
         {
-          "termino": "pielonefritis",
-          "wiki": "Pielonefritis"
+          "termino": "estrechez ureteral",
+          "wiki": "Estenosis_ureteral"
+        },
+        {
+          "termino": "urotac",
+          "wiki": "Urografía_por_tomografía"
         }
       ],
-      "revisar": true,
-      "nota_revisar": "Duración exacta del antibiótico y umbral de drenaje (3 vs 5 cm) pueden variar entre guías; verificar con guía Minsalud o EAU."
+      "revisar": false
     }
   ]
 }

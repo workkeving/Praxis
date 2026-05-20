@@ -91,7 +91,7 @@ export function Hub({ onSelectModo, onOpenExpediente }: Props) {
             {/* Indicador de "online" */}
             <span className="absolute bottom-1 right-1 h-3 w-3 rounded-full border-2 border-praxis-900 bg-green-400" />
           </div>
-          <div className="relative flex-1 rounded-2xl rounded-tl-sm bg-warm-50/95 px-4 py-3 text-praxis-900 shadow-lg">
+          <div className="relative flex-1 rounded-2xl bg-warm-50/95 px-4 py-3 text-praxis-900 shadow-lg">
             <p className="text-sm font-medium leading-snug">
               ¿Qué hacemos hoy, Doc? Elige una sala para empezar.
             </p>
